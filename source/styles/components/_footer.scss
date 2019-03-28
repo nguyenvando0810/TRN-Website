@@ -1,6 +1,6 @@
 .footer {
   padding: 40px 0;
-  background: black;
+  background: #252525;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
@@ -8,9 +8,37 @@
   left: 0;
   width: 100%;
 
+  &__contact {
+    border-bottom: 1px solid #363636;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+
+    &-title {
+      font-size: 30px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    &-subtitle {
+      color: #16beb9;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    &-detail {
+      color: #FFFFFF;
+      font-size: 14px;
+    }
+  }
+
+  &__item {
+    padding-left: 75px;
+  }
+
   &__copyright {
     display: block;
-    color: #fff;
+    color: #FFFFFF;
     font-size: 12px;
     margin-top: 5px;
   }
