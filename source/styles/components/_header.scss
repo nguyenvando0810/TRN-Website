@@ -1,3 +1,64 @@
 .header {
+  box-shadow: 0 0 5px 1px #a9a9a9;
+  background: #fff;
 
+  &__navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  &__logo {
+    padding: 14px 0;
+
+    img {
+      height: 57px;
+      width: 130px;
+    }
+  }
+
+  &__menu {
+    height: 85px;
+
+    .nav-item {
+      .nav-link {
+        padding: 30px 15px;
+        text-transform: uppercase;
+        color: #000000;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 15px;
+
+        &:hover {
+          border-bottom: 4px solid #1668b2;
+          color: #1668b2;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 991px) {
+    &__logo {
+      padding: 14px 0;
+
+      img {
+        height: 45px;
+        width: 100px;
+      }
+    }
+
+    &__menu {
+      height: auto;
+      padding-bottom: 15px;
+
+      .nav-item {
+        .nav-link {
+          padding: 15px 0;
+
+          &:hover {
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }
 }
