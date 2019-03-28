@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      {{#if title}}
+        {{title}}
+      {{else if sitemap.title}}
+        {{sitemap.title}}
+      {{else}}
+        NTQ Solution
+      {{/if}}
+    </title>
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+    <meta name="GENERATOR" content="MSHTML 11.00.9600.18838">
+
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="libs/slick/slick-theme.css" rel="stylesheet">
+    <link href="libs/slick/slick.css" rel="stylesheet">
+
+    {{#> additional-plugin-css}}
+    {{/additional-plugin-css}}
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','{{config.gtm_id}}');</script>
+    <!-- End Google Tag Manager -->
+
+    <script language="javascript" type="text/javascript">
+      var style = document.createElement("style");
+      style.type = "text/css";
+      style.id = "antiClickjack";
+
+      if ("cssText" in style) {
+        style.cssText = "body{display:none !important;}";
+      } else {
+        style.innerHTML = "body{display:none !important;}";
+      }
+
+      document.getElementsByTagName("head")[0].appendChild(style);
+
+      if (self === top) {
+        var antiClickjack = document.getElementById("antiClickjack");
+        antiClickjack.parentNode.removeChild(antiClickjack);
+      } else {
+        top.location = self.location;
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{config.gtm_id}}"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    {{#unless withoutHeader}}
+      {{> components/header}}
+    {{/unless}}
+
+    <main class="js-main">
+      {{#> content-body}}
+      {{/content-body}}
+    </main>
+
+    {{#unless withoutFooter}}
+      {{> components/footer useTransparent=useTransparent}}
+    {{/unless}}
+
+
+    <script type="text/javascript" src="libs/jquery.min.js"></script>
+    <script type="text/javascript" src="libs/bootstrap.min.js"></script>
+    <script type="text/javascript" src="libs/slick/slick.min.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+    {{#> additional-plugin-js}}
+    {{/additional-plugin-js}}
+  </body>
+
+</html>

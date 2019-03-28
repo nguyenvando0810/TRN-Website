@@ -1,0 +1,64 @@
+{
+  "textTitle": "NTQ Solution",
+  "textContact": "CONTACT US",
+  "link":"/",
+  "menuItems": [
+    {
+      "text": "サービス",
+      "id": "service",
+      "link": "service.html"
+    },
+    {
+      "text": "開発事例",
+      "id": "project",
+      "link": "project.html"
+    },
+    {
+      "text": "R&D",
+      "id": "R-D",
+      "link": "research-development.html"
+    },
+    {
+      "text": "ニュース",
+      "id": "news",
+      "link": "news.html"
+    },
+    {
+      "text": "recruitment",
+      "id": "recruitment",
+      "link": "recruitment.html"
+    },
+    {
+      "text": "会社概要",
+      "id": "about-us",
+      "link": "about-us.html"
+    },
+    {
+      "text": "お問い合わせ",
+      "id": "contact",
+      "link": "contact.html"
+    }
+  ],
+  "footerContact": [
+    {
+      "title": "ベトナム本社",
+      "address": "6th Floor, Sudico Building (HH3), Me Tri Street, Nam Tu Liem District, Hanoi City, Vietnam",
+      "contact": "電話番号: (+84) 243 200 8754"
+    },
+    {
+      "title": "ファム・タイ・ソン",
+      "address": "代表取締役社長",
+      "contact": "メール: son.pham@ntq-solution.com.vn"
+    },
+    {
+      "title": "株式会社NTQジャパン",
+      "address": "〒231-0001 神奈川県横浜市中区新港2-2-1 横浜ワールドポーターズ 6F",
+      "contact": "電話番号:（+81）45 228 9010"
+    },
+    {
+      "title": "小川 義輝",
+      "address": "代表者",
+      "contact": "メール: yoshi.ogawa@ntq-solution.com.vn"
+    }
+  ]
+}
