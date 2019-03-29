@@ -5,27 +5,27 @@
   "alt": "NTQ-Solution",
   "menuItems": [{
       "text": "Thông tin",
-      "id": "development",
+      "id": "infomation",
       "link": "#"
     },
     {
       "text": "Học viên",
-      "id": "R-D",
+      "id": "student",
       "link": "#"
     },
     {
       "text": "Khóa học",
-      "id": "news",
-      "link": "#"
+      "id": "course",
+      "link": "course-detail.html"
     },
     {
       "text": "Nhóm học tập",
-      "id": "recruitment",
+      "id": "group",
       "link": "#"
     },
     {
       "text": "Feedback",
-      "id": "profile",
+      "id": "Feedback",
       "link": "#"
     }
   ]

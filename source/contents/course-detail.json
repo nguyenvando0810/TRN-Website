@@ -1,0 +1,15 @@
+{
+  "layout": {
+    "template": "course-detail.hbs"
+  },
+  "sitemap": {
+    "loc": "/course-detail.html",
+    "lastModified": "Sat Jan 05 2019 14:50:11 GMT+0700 (Giờ Đông Dương)",
+    "changeFrequency": "daily",
+    "priority": "0.5",
+    "title": "NTQ Training"
+  },
+  "contents": {
+    "title": "お問い合わせ"
+  }
+}
