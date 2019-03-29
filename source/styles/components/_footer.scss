@@ -54,4 +54,29 @@
       margin-left: 40px;
     }
   }
+
+  @media (max-width: 767px) {
+
+    &__item {
+      padding-left: 15px;
+    }
+
+    &__bottom {
+      text-align: center;
+    }
+
+    &__copyright {
+      margin-top: 20px;
+      margin-bottom: 24px;
+      font-size: 16px;
+    }
+
+    &__icon {
+      justify-content: center;
+
+      .fa-facebook-square {
+        margin-left: 0;
+      }
+    }
+  }
 }

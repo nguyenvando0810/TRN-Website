@@ -4,12 +4,16 @@
       <a class="navbar-brand header__logo" href="#">
         <img src="{{data.img_url}}{{data.header.logo}}" alt="{{data.header.alt}}">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler header__hamburger" type="button" data-toggle="collapse" data-target="#toggleContent"
+        aria-controls="toggleContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="header__hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="toggleContent">
         <ul class="navbar-nav ml-auto header__menu">
           {{#each data.header.menuItems as |item indexItem|}}
           <li class="nav-item">

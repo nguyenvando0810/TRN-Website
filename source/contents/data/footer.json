@@ -1,9 +1,11 @@
 {
-  "textTitle": "NTQ Training",
   "textContact": "CONTACT US",
-  "link":"/",
-  "menuItems": [
-    {
+  "subtitleContact": "Training Office",
+  "address": "4th Floor, Sudico Building (HH3), Me Tri Street, Nam Tu Liem District, Hanoi City, Vietnam",
+  "detail": "Mọi thông tin đóng góp ý kiến vui lòng gửi về bộ phận Đào tạo và phát triển qua email: ntq.training@ntq-solution.com.vn !",
+  "copyRight": "Copyright © NTQ Solution 2018",
+
+  "menuItems": [{
       "text": "サービス",
       "id": "service",
       "link": "service.html"
@@ -37,28 +39,6 @@
       "text": "お問い合わせ",
       "id": "contact",
       "link": "contact.html"
-    }
-  ],
-  "footerContact": [
-    {
-      "title": "ベトナム本社",
-      "address": "6th Floor, Sudico Building (HH3), Me Tri Street, Nam Tu Liem District, Hanoi City, Vietnam",
-      "contact": "電話番号: (+84) 243 200 8754"
-    },
-    {
-      "title": "ファム・タイ・ソン",
-      "address": "代表取締役社長",
-      "contact": "メール: son.pham@ntq-solution.com.vn"
-    },
-    {
-      "title": "株式会社NTQジャパン",
-      "address": "〒231-0001 神奈川県横浜市中区新港2-2-1 横浜ワールドポーターズ 6F",
-      "contact": "電話番号:（+81）45 228 9010"
-    },
-    {
-      "title": "小川 義輝",
-      "address": "代表者",
-      "contact": "メール: yoshi.ogawa@ntq-solution.com.vn"
     }
   ]
 }
