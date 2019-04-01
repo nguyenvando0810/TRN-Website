@@ -13,4 +13,8 @@ $(document).ready(function(){
     arrow: false,
     dots: true
   });
+
+  $('.header__hamburger').on('click', function () {
+    $('.header__hamburger-icon').toggleClass('open');
+  });
 });

@@ -1,3 +1,130 @@
 .header {
+  box-shadow: 0 0 5px 1px #a9a9a9;
+  background: #fff;
 
+  &__navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  &__logo {
+    padding: 14px 0;
+
+    img {
+      height: 57px;
+      width: 130px;
+    }
+  }
+
+  &__menu {
+    height: 85px;
+
+    .nav-item {
+      .nav-link {
+        padding: 30px 15px;
+        text-transform: uppercase;
+        color: #000000;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 15px;
+
+        &:hover {
+          border-bottom: 4px solid #1668b2;
+          color: #1668b2;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 991px) {
+    &__logo {
+      padding: 14px 0;
+
+      img {
+        height: 45px;
+        width: 100px;
+      }
+    }
+
+    &__menu {
+      height: auto;
+      padding-bottom: 15px;
+
+      .nav-item {
+        .nav-link {
+          padding: 15px 0;
+
+          &:hover {
+            border-bottom: none;
+          }
+        }
+      }
+    }
+
+    &__hamburger {
+      border: none;
+      outline: none;
+
+      &:focus {
+        outline: none;
+      }
+
+      &-icon {
+        width: 30px;
+        height: 20px;
+        position: relative;
+        margin: 0px;
+        transform: rotate(0deg);
+        transition: .5s ease-in-out;
+        cursor: pointer;
+
+        & span {
+          display: block;
+          position: absolute;
+          height: 2px;
+          width: 100%;
+          border-radius: 9px;
+          opacity: 1;
+          left: 0;
+          transform: rotate(0deg);
+          transition: .25s ease-in-out;
+          background-color: rgb(22, 104, 178);
+
+          &:nth-child(1) {
+            top: 0px;
+            transform-origin: left center;
+          }
+
+          &:nth-child(2) {
+            top: 10px;
+            transform-origin: left center;
+          }
+
+          &:nth-child(3) {
+            top: 20px;
+            transform-origin: left center;
+          }
+        }
+
+        &.open span {
+          &:nth-child(1) {
+            transform: rotate(45deg);
+            top: 0px;
+            left: 8px;
+          }
+
+          &:nth-child(2) {
+            width: 0%;
+            opacity: 0;
+          }
+
+          &:nth-child(3) {
+            transform: rotate(-45deg);
+            top: 21px;
+            left: 8px;
+          }
+        }
+      }
+    }
+  }
 }

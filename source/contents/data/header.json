@@ -4,55 +4,29 @@
   "target": "_self",
   "alt": "NTQ-Solution",
   "menuItems": [{
-      "text": "サービス",
-      "id": "service",
-      "link": "service.html",
-      "subItems": [{
-          "text": "オフショ ア開発",
-          "id": "offshore-development",
-          "link": "service.html"
-        },
-        {
-          "text": "AIのビジネス活用",
-          "id": "business",
-          "link": "service-ai.html"
-        },
-        {
-          "text": "Shopify-partner",
-          "id": "shopify-partner",
-          "link": "shopify-partner.html"
-        }
-      ]
+      "text": "Thông tin",
+      "id": "infomation",
+      "link": "#"
     },
     {
-      "text": "開発事例",
-      "id": "development",
-      "link": "project.html"
+      "text": "Học viên",
+      "id": "student",
+      "link": "#"
     },
     {
-      "text": "R&D",
-      "id": "R-D",
-      "link": "research-development.html"
+      "text": "Khóa học",
+      "id": "course",
+      "link": "course-detail.html"
     },
     {
-      "text": "ニュース",
-      "id": "news",
-      "link": "new.html"
+      "text": "Nhóm học tập",
+      "id": "group",
+      "link": "#"
     },
     {
-      "text": "recruitment",
-      "id": "recruitment",
-      "link": "recruitment.html"
-    },
-    {
-      "text": "会社概要",
-      "id": "profile",
-      "link": "about-us.html"
-    },
-    {
-      "text": "お問い合わせ",
-      "id": "contact",
-      "link": "contact.html"
+      "text": "Feedback",
+      "id": "Feedback",
+      "link": "#"
     }
   ]
 }
