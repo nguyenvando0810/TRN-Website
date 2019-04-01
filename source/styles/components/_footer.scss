@@ -29,6 +29,11 @@
     &-detail {
       color: #FFFFFF;
       font-size: 14px;
+      margin-left: 25px;
+
+      i {
+        margin-left: -25px;
+      }
     }
   }
 

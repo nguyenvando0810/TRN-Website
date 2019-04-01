@@ -3,154 +3,134 @@
 <section class="section course-detail">
   <div class="course-detail__banner"></div>
 
-  <div class="course-detail__join">
+  <div class="course-detail__join box-spacing">
     <div class="container">
-      <h4 class="course-detail__title-blue"> Đối tượng tham gia</h4>
+      <h4 class="course-detail__title-blue">{{contents.join.title}}</h4>
       <div class="row justify-content-center">
-        <ul class="col-lg-8">
-          <li class="course-detail__item">Các thành viên là Developer có mong muốn mở rộng thêm kiến thức về mảng
-            Testing để đảm bảo
-            chất lượng công việc.</li>
-          <li class="course-detail__item">Lưu ý: Học viên cần cam kết dành được thời gian cho việc học tập (trên
-            lớp cũng như làm
-            bài tập về nhà)</li>
-        </ul>
+        <div class="col-lg-8">
+          <ul class="course-detail__list">
+            {{#each contents.join.items}}
+            <li class="course-detail__item">{{this}}</li>
+            {{/each}}
+          </ul>
+        </div>
+
       </div>
     </div>
   </div>
 
-  <div class="course-detail__target">
+  <div class="course-detail__target box-spacing bg-blue">
     <div class="container">
-      <h4 class="course-detail__title-white">Mục tiêu tổng quát</h4>
+      <h4 class="course-detail__title-white">{{contents.target.title}}</h4>
       <div class="row justify-content-center">
-        <ul class="col-lg-8 course-detail__target-description">
-          <li class="course-detail__target-item course-detail__item">Trang bị các kỹ năng testing cơ bản, dễ thực hiện
-            mà mang lại hiệu
-            quả cao.
-            <ul>
-              <li class="course-detail__target-subitem">Học viên nắm được các kiến thức cơ bản được truyền tải.</li>
-              <li class="course-detail__target-subitem">Có tư tưởng vận dụng vào công việc (tự self test đảm bảo chất
-                lượng output của cá nhân)</li>
-            </ul>
-          </li>
-          <li class="course-detail__target-item course-detail__item">Sau khóa học thì học viên có thể tự đảm bảo được cơ
-            bản chất lượng
-            đầu ra của mình, không để
-            phát sinh các lỗi normal.</li>
-        </ul>
+        <div class="col-lg-8">
+          <ul class="course-detail__list">
+            {{#each contents.target.items}}
+            <li class="course-detail__target-item course-detail__item">{{this.item.detail}}
+              <ul>
+                {{#if this.item.subItem}}
+                {{#each this.item.subItem}}
+                <li class="course-detail__target-subitem">{{this}}</li>
+                {{/each}}
+                {{/if}}
+              </ul>
+            </li>
+            {{/each}}
+          </ul>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="course-detail__time">
-    <h4 class="course-detail__title-blue">Thời lượng</h4>
+  <div class="course-detail__time box-spacing">
     <div class="container">
+      <h4 class="course-detail__title-blue">{{contents.time.title}}</h4>
       <div class="row align-items-center">
         <div class="col-lg-9">
-          <ul class="course-detail__time-list">
-            <li class="course-detail__time-item">
-              Trong chương trình tiêu chuẩn, người học sẽ tham gia 10 buổi học tập trung (mỗi buổi 2 giờ) và thời gian
-              tự học ở nhà (học online, làm bài tập về nhà và tự nghiên cứu thêm).</li>
-            <li class="course-detail__time-item">
-              Mỗi buổi học cách nhau 1 tuần để trống cho thời gian tự học, và áp dụng các nội dung học được từ chương
-              trình đào tạo vào công việc thực tiễn của học viên.</li>
-            <li class="course-detail__time-item">Thời gian học: (lịch dự kiến) 18h30 – 20h30, thứ 3 hàng tuần. Từ
-              02/04/2019 đến 11/06/2019.
-            </li>
-            <li class="course-detail__time-item">Địa điểm:( Dự kiến) Phòng họp Kaizen, tầng 4.</li>
+          <ul class="course-detail__list">
+            {{#each contents.time.items}}
+            <li class="course-detail__item">{{this}}</li>
+            {{/each}}
           </ul>
         </div>
         <div class="col-lg-3 text-right">
-          <a class="btn btn-register" target="_blank"
-            href="https://docs.google.com/forms/d/1i5QamlPjfid9pj4NCro7VVKhArKRmd3KuVyn57DTUcQ/viewform?edit_requested=true">
-            <span>Đăng kí ngay !</span>
+          <a class="btn btn-register" target="{{contents.time.register.target}}" href="{{contents.time.register.url}}">
+            <span>{{contents.time.register.text}}</span>
           </a>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid p-0">
-    <div class="row no-spacing course-detail__experience">
-      <div class="col-lg-6 order-lg-2 course-detail__experience-img">
-      </div>
-      <div class="col-lg-6 order-lg-1 my-auto course-detail__experience-text">
-        <h2>TRẢI NGHIỆM HỌC TẬP:</h2>
-        <ul>
-          <li class="course-detail__item">Các thành viên là Developer có mong muốn mở rộng thêm kiến thức về mảng
-            Testing để đảm bảo
-            chất lượng công việc.</li>
-          <li class="course-detail__item">Lưu ý: Học viên cần cam kết dành được thời gian cho việc học tập (trên lớp
-            cũng như làm bài tập về nhà)</li>
+  <div class="container-fluid p-0 course-detail__more">
+    {{#each contents.more}}
+    <div class="row no-spacing course-detail__more-wrapper">
+      <div class="col-lg-6 order-lg-2 course-detail__more-img" style="background-image:url('{{this.urlImg}}')"></div>
+      <div class="col-lg-6 order-lg-1 my-auto course-detail__more-content">
+        <h4 class="course-detail__more-title">{{this.title}}</h4>
+        <ul class="course-detail__list">
+          {{#each this.items}}
+          <li class="course-detail__item">{{this}}</li>
+          {{/each}}
         </ul>
       </div>
     </div>
-    <div class="row no-spacing course-detail__experience">
-      <div class="col-lg-6 course-detail__experience-img">
-      </div>
-      <div class="col-lg-6 my-auto course-detail__experience-text">
-        <h2>ĐẶC ĐIỂM CỦA CHƯƠNG TRÌNH:</h2>
-        <ul>
-          <li class="course-detail__item">Học trên lớp kết hợp với học online, thực hiện thảo luận/ làm bài tập thực tế.
-          </li>
-          <li class="course-detail__item">Áp dụng kiến thức vào thực tế ngay khi học</li>
-        </ul>
-      </div>
-    </div>
-    <div class="row no-spacing course-detail__experience">
-      <div class="col-lg-6 order-lg-2 course-detail__experience-img">
-      </div>
-      <div class="col-lg-6 order-lg-1 my-auto course-detail__experience-text">
-        <h2>ĐÁNH GIÁ:</h2>
-        <ul>
-          <li class="course-detail__item">Chuyên cần: Tham gia đầy đủ các buổi học.
-          </li>
-          <li class="course-detail__item">Assignment: áp dụng nội dung bài học để thực hành. Báo cáo kết quả và cách làm
-            sau mỗi buổi</li>
-        </ul>
-      </div>
-    </div>
+    {{/each}}
   </div>
 
-  <div class="course-detail__content">
+  <div class="course-detail__content box-spacing">
     <div class="container z-height">
-      <h4 class="course-detail__title-white">Nội dung khóa học</h4>
+      <h4 class="course-detail__title-white">{{contents.content.title}}</h4>
       <div class="row">
+        {{#each contents.content.items}}
         <div class="col-md-4">
           <div class="course-detail__content-item">
             <div class="text-center mb-3">
               <span class="course-detail__content-icon"><i class="fa fa-book" aria-hidden="true"></i></span>
             </div>
-            <h4 class="course-detail__content-subtitle">Lý thuyết</h4>
+            {{#if this.title}}
+            <h4 class="course-detail__content-subtitle">{{this.title}}</h4>
+            {{/if}}
             <ul>
-              <li>Giới thiệu về Testing, tổng quan về phân tích yêu cầu</li>
-              <li>Giới thiệu về test case, các kỹ thuật thường dùng để viết Test case</li>
+              {{#each this.list}}
+              <li>{{this}}</li>
+              {{/each}}
             </ul>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="course-detail__content-item">
-            <div class="text-center mb-3">
-              <span class="course-detail__content-icon"><i class="fa fa-cog" aria-hidden="true"></i></span>
-            </div>
-            <h4 class="course-detail__content-subtitle">Thực hành</h4>
-            <ul>
-              <li>Thực hành trên dự án mẫu</li>
-              <li>Thảo luận Case study điển hình</li>
-              <li>Áp dụng trong dự án thực tế</li>
-            </ul>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+
+  <div class="course-detail__speakers box-spacing">
+    <div class="container">
+      <h4 class="course-detail__title-blue">{{contents.speakers.title}}</h4>
+      <div class="row">
+        {{#each contents.speakers.items}}
+        <div class="col-lg-4 col-md-6 mb-3">
+          <div class="course-detail__speakers-avatar">
+            <img src="{{this.avatar}}" alt="{{this.alt}}">
           </div>
+          <h5 class="course-detail__speakers-name">{{this.name}}</h5>
+          <div class="course-detail__speakers-job">{{this.job}}</div>
         </div>
-        <div class="col-md-4">
-          <div class="course-detail__content-item">
-            <div class="text-center mb-3">
-              <span class="course-detail__content-icon"><i class="fa fa-superpowers" aria-hidden="true"></i></span>
-            </div>
-            <h4 class="course-detail__content-subtitle">Follow up sau đào tạo</h4>
-            <ul>
-              <li>Chia sẻ khó khăn và các bài học kinh nghiệm khi áp dụng</li>
-            </ul>
-          </div>
+        {{/each}}
+      </div>
+
+    </div>
+  </div>
+
+  <div class="course-detail__document box-spacing bg-blue">
+    <div class="container">
+      <h4 class="course-detail__title-white">{{contents.document.title}}</h4>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <ul class="course-detail__list">
+            {{#each contents.document.items}}
+            <li class="course-detail__target-item course-detail__item">{{this}}</li>
+            {{/each}}
+          </ul>
         </div>
       </div>
     </div>
