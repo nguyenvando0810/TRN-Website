@@ -1,6 +1,6 @@
 {{#> default}}
 {{#*inline "content-body"}}
-<section class="section home">
+<section class="section home js-home">
 
   <div class="home__masthead js-home-masthead">
     {{#each contents.masthead}}
@@ -8,7 +8,7 @@
     {{/each}}
   </div>
 
-  <div class="home__intro box">
+  <div class="home__intro box" id="intro">
     <div class="container">
       <div class="home__heading">
         {{contents.intro.heading}}
@@ -19,7 +19,7 @@
       <div class="row home__intro-block">
         {{#each contents.intro.statistics}}
           <div class="col-sm-4 home__intro-item">
-            <h3 class="home__intro-number">{{number}}</h3>
+            <h3 class="home__intro-number js-counter" data-count="{{number}}">0</h3>
             <p class="home__intro-desc">{{text}}</p>
           </div>
         {{/each}}
@@ -27,7 +27,7 @@
     </div>
   </div>
 
-  <div class="home__products box bg-light-grey">
+  <div class="home__products box bg-light-grey" id="products">
     <div class="container">
       <div class="home__heading">
         {{contents.products.heading}}
@@ -47,7 +47,7 @@
     </div>
   </div>
 
-  <div class="home__group box">
+  <div class="home__group box" id="group">
     <div class="container">
       <div class="home__heading">
         {{contents.group.heading}}
@@ -71,7 +71,7 @@
     </div>
   </div>
 
-  <div class="home__feedback box bg-light-grey">
+  <div class="home__feedback box" id="feedback">
     <div class="container">
       <div class="home__heading">
         {{contents.feedback.heading}}

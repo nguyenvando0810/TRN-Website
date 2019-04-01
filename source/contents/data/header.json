@@ -6,27 +6,27 @@
   "menuItems": [{
       "text": "Thông tin",
       "id": "infomation",
-      "link": "#"
+      "link": "#intro"
     },
     {
       "text": "Học viên",
       "id": "student",
-      "link": "#"
+      "link": "course-detail.html"
     },
     {
       "text": "Khóa học",
       "id": "course",
-      "link": "course-detail.html"
+      "link": "#products"
     },
     {
       "text": "Nhóm học tập",
       "id": "group",
-      "link": "#"
+      "link": "#group"
     },
     {
       "text": "Feedback",
       "id": "Feedback",
-      "link": "#"
+      "link": "#feedback"
     }
   ]
 }

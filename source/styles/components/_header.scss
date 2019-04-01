@@ -1,10 +1,12 @@
 .header {
   box-shadow: 0 0 5px 1px #a9a9a9;
-  background: #fff;
+  padding-top: 85px;
 
   &__navbar {
     padding-top: 0;
     padding-bottom: 0;
+    background: rgba(#fff, 0.9);
+    border-bottom: 1px solid #1668b2;
   }
 
   &__logo {
@@ -21,15 +23,16 @@
 
     .nav-item {
       .nav-link {
-        padding: 30px 15px;
+        padding: 33px 15px 27px;
         text-transform: uppercase;
         color: #000000;
         letter-spacing: 1px;
         font-weight: 400;
         font-size: 15px;
+        transition: none;
 
-        &:hover {
-          border-bottom: 4px solid #1668b2;
+        &:hover, &.active {
+          border-bottom: 3px solid #1668b2;
           color: #1668b2;
         }
       }
@@ -127,4 +130,10 @@
       }
     }
   }
+}
+
+.bg-transparent {
+  border: none;
+  background: none;
+  color: #fff;
 }

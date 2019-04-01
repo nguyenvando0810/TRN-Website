@@ -20,3 +20,34 @@ body {
   font-weight: 400;
   color: #2c3e50;
 }
+
+@mixin text-ellipsis($font-size, $line-height, $lines-to-show) {
+  display: block;
+  display: -webkit-box;
+  height: $font-size*$line-height*$lines-to-show;
+  font-size: $font-size;
+  line-height: $line-height;
+  -webkit-line-clamp: $lines-to-show;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+};
+
+.box {
+  padding: 60px 0;
+}
+
+a {
+  text-decoration: none;
+  transition: .3s;
+
+  &:hover {
+    color: #003663;
+    text-decoration: none;
+  }
+}
+
+.bg-light-grey {
+  background-color: #fafafa;
+}
