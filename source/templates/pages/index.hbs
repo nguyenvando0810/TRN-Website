@@ -1,7 +1,97 @@
 {{#> default}}
 {{#*inline "content-body"}}
 <section class="section home">
-    this is home
+
+  <div class="home__masthead js-home-masthead">
+    {{#each contents.masthead}}
+      <a href="{{link.href}}" target="{{link.target}}" class="home__masthead-item" style="background-image: url({{imgUrl}});"></a>
+    {{/each}}
+  </div>
+
+  <div class="home__intro box">
+    <div class="container">
+      <div class="home__heading">
+        {{contents.intro.heading}}
+      </div>
+      <div class="home__subhead">
+        {{{contents.intro.subHead}}}
+      </div>
+      <div class="row home__intro-block">
+        {{#each contents.intro.statistics}}
+          <div class="col-sm-4 home__intro-item">
+            <h3 class="home__intro-number">{{number}}</h3>
+            <p class="home__intro-desc">{{text}}</p>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+
+  <div class="home__products box bg-light-grey">
+    <div class="container">
+      <div class="home__heading">
+        {{contents.products.heading}}
+      </div>
+      <div class="row home__products-block">
+        {{#each contents.products.items}}
+          <div class="col-sm-6 col-md-4 home__products-item">
+            <div class="home__products-img-wrapper" style="background-image: url({{imgUrl}});">
+            </div>
+            <div class="home__products-content">
+              <a href="{{title.href}}" target="{{title.target}}" class="home__products-title">{{title.text}}</a>
+              <p class="home__products-desc">{{desc}}</p>
+            </div>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+
+  <div class="home__group box">
+    <div class="container">
+      <div class="home__heading">
+        {{contents.group.heading}}
+      </div>
+      <div class="row home__group-block">
+        {{#each contents.group.items}}
+          <div class="col-sm-6 col-md-4 home__group-item">
+            <div class="home__group-background" style="background-image: url({{imgUrl}});">
+            </div>
+            <div class="overlay">
+              <h3 class="home__group-title">{{title}}</h3>
+              <p class="home__group-desc">{{desc}}</p>
+              <a href="{{seeMoreBtn.href}}" target="{{seeMoreBtn.target}}" class="home__group-btn-see-more">
+                {{seeMoreBtn.text}}
+                <span class="glyphicon glyphicon-cloud"></span>
+              </a>
+            </div>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+
+  <div class="home__feedback box bg-light-grey">
+    <div class="container">
+      <div class="home__heading">
+        {{contents.feedback.heading}}
+      </div>
+      <div class="row home__feedback-block js-home-feedback">
+        {{#each contents.feedback.items}}
+          <div class="home__feedback-item">
+            <div class="home__feedback-content">
+              <p class="home__feedback-comment">{{comment}}</p>
+              <p class="home__feedback-job">{{job}}</p>
+              <p class="home__feedback-name">{{name}}</p>
+            </div>
+            <div class="home__feedback-avatar" style="background-image: url({{avatar}});">
+            </div>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+
 </section>
 {{/inline}}
 {{/default}}

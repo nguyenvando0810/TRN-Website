@@ -1,3 +1,330 @@
-.contact {
+@mixin text-ellipsis($font-size, $line-height, $lines-to-show) {
+  display: block;
+  display: -webkit-box;
+  height: $font-size*$line-height*$lines-to-show;
+  font-size: $font-size;
+  line-height: $line-height;
+  -webkit-line-clamp: $lines-to-show;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+};
 
+.home {
+  font-family: 'Roboto', sans-serif;
+
+  .box {
+    padding: 70px 0;
+  }
+
+  a {
+    text-decoration: none;
+    transition: .3s;
+
+    &:hover {
+      color: #003663;
+    }
+  }
+
+  .bg-light-grey {
+    background-color: #f6f6f6;
+  }
+
+  &__masthead {
+    width: 100%;
+
+    &-item {
+      display: block;
+      background-repeat: no-repeat;
+      background-position: bottom center;
+      background-size: cover;
+      height: 100vh !important;
+    }
+
+    .slick-arrow {
+      z-index: 1;
+
+      &:before {
+        font-size: 36px;
+      }
+
+      &.slick-prev {
+        left: 20px;
+      }
+
+      &.slick-next {
+        right: 30px;
+      }
+    }
+
+    &.slick-dotted {
+      margin-bottom: 0 !important;
+    }
+
+    .slick-dots {
+      bottom: 22px;
+
+      li {
+        button {
+          &:before {
+            content: '';
+            background-color: #000;
+            width: 22px;
+            height: 2px;
+            opacity: 0.4;
+          }
+        }
+
+        &.slick-active {
+          button {
+            &:before {
+              background-color: #003663;
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__heading {
+    font-size: 38px;
+    text-align: center;
+    color: #003663;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
+  &__subhead {
+    text-align: center;
+    color: #003663;
+    margin-bottom: 50px;
+  }
+
+  &__intro {
+    background: url(../images/bg-earth.png) no-repeat bottom center;
+    background-size: cover;
+
+    .home__heading {
+      margin-bottom: 15px;
+    }
+
+    &-item {
+      text-align: center;
+    }
+
+    &-number {
+      font-size: 82px;
+      font-weight: 700;
+      color: #f05a1a;
+    }
+
+    &-desc {
+      font-size: 20px;
+    }
+  }
+
+  &__products {
+    &-item {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: center;
+    }
+
+    &-img-wrapper {
+      width: 100%;
+      padding-top: 70%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+
+    &-content {
+      padding: 0 15px;
+    }
+
+    &-title {
+      font-size: 20px;
+      margin: 30px 0 15px;
+      display: inline-block;
+      color: #000;
+    }
+
+    &-desc {
+      color: #444;
+      font-weight: 300;
+      @include text-ellipsis(16px, 1.6, 4);
+    }
+  }
+
+  &__group {
+    &-item {
+      height: 280px;
+      padding: 0;
+      overflow: hidden;
+      position: relative;
+      border: 1px solid #fff;
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        background-color: rgba(0,0,0,0.6);
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        opacity: 0;
+        transition: .3s;
+        z-index: 1;
+      }
+
+      &:hover {
+        .home__group-background {
+          transform: scale(1.2,1.2);
+        }
+
+        .overlay {
+          opacity: 1; 
+        }
+      }
+    }
+
+    &-background {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      transition: .3s;
+    }
+
+    &-title {
+      font-weight: 400;
+      font-size: 24px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+
+    &-desc {
+      font-weight: 300;
+      margin-bottom: 1.2rem;
+      @include text-ellipsis(16px, 1.6, 4);
+    }
+
+    &-btn-see-more {
+      display: inline-block;
+      padding: 8px 12px;
+      border: 1px solid #fff;
+      border-radius: 4px;
+      color: #fff;
+      font-size: 14px;
+      position: relative;
+      width: 140px;
+
+      &:after {
+        content: url(../images/arrow-white.png);
+        position: absolute;
+        top: 51%;
+        right: 12px;
+        transform: translateY(-50%);
+        transition: .3s;
+      }
+
+      &:hover {
+        padding-left: 33px;
+        color: #fff !important;
+
+        &:after {
+          right: 115px;
+        }
+      }
+    }
+  }
+
+  &__feedback {
+    &-item {
+      outline: none;
+    }
+
+    &-content {
+      border: 1px solid #dedede;
+      border-radius: 8px;
+      width: 90%;
+      margin: 0 auto 30px;
+      padding: 20px;
+      position: relative;
+      box-shadow: 1px 2px 4px rgba(0,0,0,0.15);
+      background-color: #fff;
+
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: -22px;
+        left: 30%;
+        width: 0;
+        height: 0;
+        border-width: 25px;
+        border-style: solid;
+        border-color: transparent transparent #fff transparent;
+        transform: rotate(45deg);
+        box-shadow: 1px 2px 4px rgba(0,0,0,0.15);
+      }
+    }
+
+    &-comment {
+      height: 130px;
+      font-weight: 300;
+    }
+
+    &-job {
+      text-align: right;
+      font-size: 13px;
+      font-weight: 300;
+      font-style: italic;
+      margin-bottom: 2px;
+    }
+
+    &-name {
+      text-align: right;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+
+    &-avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-repeat: no-repeat;
+      background-position: bottom center;
+      background-size: 200%;
+      margin: auto;
+      border: 1px solid #ccc;
+    }
+
+    .slick-dots {
+      li {
+        button {
+          &:before {
+            content: '';
+            background-color: #000;
+            width: 22px;
+            height: 2px;
+            opacity: 0.4;
+          }
+        }
+
+        &.slick-active {
+          button {
+            &:before {
+              background-color: #003663;
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
 }
