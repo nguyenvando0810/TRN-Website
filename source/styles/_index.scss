@@ -1,35 +1,5 @@
-@mixin text-ellipsis($font-size, $line-height, $lines-to-show) {
-  display: block;
-  display: -webkit-box;
-  height: $font-size*$line-height*$lines-to-show;
-  font-size: $font-size;
-  line-height: $line-height;
-  -webkit-line-clamp: $lines-to-show;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 100%;
-};
-
 .home {
   font-family: 'Roboto', sans-serif;
-
-  .box {
-    padding: 70px 0;
-  }
-
-  a {
-    text-decoration: none;
-    transition: .3s;
-
-    &:hover {
-      color: #003663;
-    }
-  }
-
-  .bg-light-grey {
-    background-color: #f6f6f6;
-  }
 
   &__masthead {
     width: 100%;
@@ -39,22 +9,34 @@
       background-repeat: no-repeat;
       background-position: bottom center;
       background-size: cover;
-      height: 100vh !important;
+      height: calc(100vh - 85px) !important;
     }
 
     .slick-arrow {
       z-index: 1;
 
       &:before {
-        font-size: 36px;
+        font-size: 30px;
+        font-family: none;
+        font-weight: 300;
+        border: 1px solid #fff;
+        padding: 8px
       }
 
       &.slick-prev {
-        left: 20px;
+        left: 0;
+
+        &:before {
+          border-left: none;
+        }
       }
 
       &.slick-next {
-        right: 30px;
+        right: 27px;
+
+        &:before {
+          border-right: none;
+        }
       }
     }
 
@@ -66,20 +48,22 @@
       bottom: 22px;
 
       li {
+        margin: 0 15px;
+
         button {
           &:before {
             content: '';
-            background-color: #000;
-            width: 22px;
+            background-color: #fff;
+            width: 40px;
             height: 2px;
-            opacity: 0.4;
+            opacity: 0.5;
           }
         }
 
         &.slick-active {
           button {
             &:before {
-              background-color: #003663;
+              background-color: #f05a1a;
               opacity: 1;
             }
           }
@@ -93,7 +77,7 @@
     text-align: center;
     color: #003663;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
 
   &__subhead {
@@ -103,7 +87,7 @@
   }
 
   &__intro {
-    background: url(../images/bg-earth.png) no-repeat bottom center;
+    background: url(../images/bg-earth.png) no-repeat fixed bottom center;
     background-size: cover;
 
     .home__heading {
@@ -126,6 +110,10 @@
   }
 
   &__products {
+    &-block {
+      margin-top: -15px;
+    }
+
     &-item {
       padding-top: 15px;
       padding-bottom: 15px;
@@ -140,9 +128,9 @@
       background-position: center;
     }
 
-    &-content {
-      padding: 0 15px;
-    }
+    // &-content {
+    //   padding: 0 15px;
+    // }
 
     &-title {
       font-size: 20px;
@@ -159,8 +147,12 @@
   }
 
   &__group {
+    &-block {
+      margin-left: 0;
+      margin-right: 0;
+    }
     &-item {
-      height: 280px;
+      height: 295px;
       padding: 0;
       overflow: hidden;
       position: relative;
@@ -181,7 +173,7 @@
 
       &:hover {
         .home__group-background {
-          transform: scale(1.2,1.2);
+          transform: scale(1.15,1.15);
         }
 
         .overlay {
@@ -198,12 +190,12 @@
       height: 100%;
       position: absolute;
       top: 0;
-      transition: .3s;
+      transition: .3s ease-out;
     }
 
     &-title {
       font-weight: 400;
-      font-size: 24px;
+      font-size: 22px;
       margin-top: 5px;
       margin-bottom: 15px;
     }
@@ -211,7 +203,7 @@
     &-desc {
       font-weight: 300;
       margin-bottom: 1.2rem;
-      @include text-ellipsis(16px, 1.6, 4);
+      @include text-ellipsis(15px, 1.5, 4);
     }
 
     &-btn-see-more {
@@ -245,43 +237,48 @@
   }
 
   &__feedback {
+    background: url(../images/feedback-wallpaper.jpg) no-repeat fixed center;
+    background-size: cover;
+
+    .home__heading {
+      color: #fff;
+    }
+
     &-item {
       outline: none;
     }
 
     &-content {
-      border: 1px solid #dedede;
-      border-radius: 8px;
-      width: 90%;
+      width: 94%;
       margin: 0 auto 30px;
       padding: 20px;
       position: relative;
-      box-shadow: 1px 2px 4px rgba(0,0,0,0.15);
       background-color: #fff;
 
       &:after {
         content: '';
         position: absolute;
         bottom: -22px;
-        left: 30%;
+        left: 38%;
         width: 0;
         height: 0;
         border-width: 25px;
         border-style: solid;
         border-color: transparent transparent #fff transparent;
         transform: rotate(45deg);
-        box-shadow: 1px 2px 4px rgba(0,0,0,0.15);
       }
     }
 
     &-comment {
-      height: 130px;
+      height: 90px;
       font-weight: 300;
+      overflow-y: auto;
+      text-align: justify;
     }
 
     &-job {
       text-align: right;
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 300;
       font-style: italic;
       margin-bottom: 2px;
@@ -299,27 +296,31 @@
       border-radius: 50%;
       background-repeat: no-repeat;
       background-position: bottom center;
-      background-size: 200%;
+      background-size: cover;
       margin: auto;
-      border: 1px solid #ccc;
+      border: 1px solid #fff;
     }
 
     .slick-dots {
+      bottom: -60px;
+
       li {
+        margin: 0 15px;
+
         button {
           &:before {
             content: '';
-            background-color: #000;
-            width: 22px;
+            background-color: #fff;
+            width: 40px;
             height: 2px;
-            opacity: 0.4;
+            opacity: 0.5;
           }
         }
 
         &.slick-active {
           button {
             &:before {
-              background-color: #003663;
+              background-color: #f05a1a;
               opacity: 1;
             }
           }
