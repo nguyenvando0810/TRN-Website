@@ -54,7 +54,7 @@
           </ul>
         </div>
         <div class="col-lg-3 text-right">
-          <a class="btn btn-register" target="{{contents.time.register.target}}" href="{{contents.time.register.url}}">
+          <a class="btn btn-custom" target="{{contents.time.register.target}}" href="{{contents.time.register.url}}">
             <span>{{contents.time.register.text}}</span>
           </a>
         </div>
@@ -92,7 +92,9 @@
 
           <div class="course-detail__content-item">
             <div class="text-center mb-3">
-              <span class="course-detail__content-icon"><i class="fa fa-book" aria-hidden="true"></i></span>
+              <span class="course-detail__content-icon">
+              {{{this.icon}}}
+              </span>
             </div>
             {{#if this.title}}
             <h4 class="course-detail__content-subtitle">{{this.title}}</h4>

@@ -83,6 +83,7 @@
       "title": "Nội dung khóa học",
       "items": [{
           "title": "Lý thuyết",
+          "icon":"<i class='fa fa-book' aria-hidden='true'></i>",
           "list": [
             "Giới thiệu về Testing, tổng quan về phân tích yêu cầu",
             "Giới thiệu về test case, các kỹ thuật thường dùng để viết Test case"
@@ -90,6 +91,7 @@
         },
         {
           "title": "Thực hành",
+          "icon":"<i class='fa fa-cog' aria-hidden='true'></i>",
           "list": [
             "Thực hành trên dự án mẫu",
             "Thảo luận Case study điển hình",
@@ -98,6 +100,7 @@
         },
         {
           "title": "Follow up sau đào tạo",
+          "icon":"<i class='fa fa-superpowers' aria-hidden='true'></i>",
           "list": [
             "Chia sẻ khó khăn và các bài học kinh nghiệm khi áp dụng"
           ]
