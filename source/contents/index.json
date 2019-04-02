@@ -35,7 +35,7 @@
     ],
     "intro": {
       "heading": "TRN Department",
-      "subHead": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style<br/>and always pay attention to every details, even the minor ones",
+      "subHead": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones",
       "statistics": [{
           "number": "8",
           "text": "Khóa học"
@@ -211,6 +211,14 @@
           "comment": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details"
         }
       ]
+    },
+    "contact": {
+      "desc": "Hãy cùng nhau mở mang đầu óc và kiến tạo sự thay đổi thực chất!",
+      "btnContact": {
+        "text": "Liên hệ",
+        "href": "#",
+        "target": "_blank"
+      }
     }
   }
 }

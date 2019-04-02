@@ -101,3 +101,9 @@ a {
     z-index: 2;
   }
 }
+
+@media screen and (max-width: 575px) {
+  .box {
+    padding: 40px 0;
+  }
+}
