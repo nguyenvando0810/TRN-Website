@@ -1,11 +1,22 @@
 {
   "textContact": "CONTACT US",
-  "subtitleContact": "Training Office",
-  "address": "4th Floor, Sudico Building (HH3), Me Tri Street, Nam Tu Liem District, Hanoi City, Vietnam",
-  "subtitleContact2": "Feedback",
-  "detail": "Mọi thông tin đóng góp ý kiến vui lòng gửi về bộ phận Đào tạo và phát triển qua email: ntq.training@ntq-solution.com.vn !",
   "copyRight": "Copyright © NTQ Solution 2018",
-   "urlLogoFooter":"../../../images/logo-footer.png",
+  "urlLogoFooter": "../../../images/logo-footer.png",
+
+  "footerContact": [{
+      "title": "Training Office",
+      "icon": "<i class='fa fa-map-signs' aria-hidden='true'></i>",
+      "address": "4th Floor, Sudico Building (HH3), Me Tri Street, Nam Tu Liem District, Hanoi City, Vietnam"
+    },
+    {
+      "title": "Feedback",
+      "address": "Mọi thông tin đóng góp ý kiến vui lòng gửi về bộ phận Đào tạo và phát triển qua email: ntq.training@ntq-solution.com.vn !"
+    },
+    {
+      "title": "Hoang Viet Thang",
+      "address": "Email: thang.hoang@ntq-solution.com.vn"
+    }
+  ],
   "menuItems": [{
       "text": "サービス",
       "id": "service",

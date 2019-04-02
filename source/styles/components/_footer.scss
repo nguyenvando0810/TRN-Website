@@ -29,16 +29,20 @@
     &-detail {
       color: #FFFFFF;
       font-size: 14px;
-      margin-left: 25px;
+
+      &.ml-20 {
+        margin-left: 20px;
+      }
 
       i {
-        margin-left: -25px;
+        margin-left: -20px;
       }
     }
   }
 
   &__item {
     padding-left: 75px;
+    margin-top: 15px;
   }
 
   &__copyright {

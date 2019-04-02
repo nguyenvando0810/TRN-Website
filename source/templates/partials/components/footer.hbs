@@ -4,15 +4,14 @@
     <div class="footer__contact">
       <h4 class="footer__contact-title">{{data.footer.textContact}}</h4>
       <div class="row">
-        <div class="col-md-6 footer__item">
-          <h4 class="footer__contact-subtitle">{{data.footer.subtitleContact}}</h4>
-          <p class="footer__contact-detail"><i class="fa fa-map-signs" aria-hidden="true"></i>
-            &nbsp;{{data.footer.address}}</p>
+        {{#each data.footer.footerContact}}
+        <div class="col-md-6">
+          <div class="footer__item">
+            <h4 class="footer__contact-subtitle">{{this.title}}</h4>
+            <p class="footer__contact-detail {{#if this.icon}}ml-20{{/if}}">{{{this.icon}}} {{this.address}}</p>
+          </div>
         </div>
-        <div class="col-md-6 footer__item">
-          <h4 class="footer__contact-subtitle">{{data.footer.subtitleContact2}}</h4>
-          <p class="footer__contact-detail m-0">{{data.footer.detail}}</p>
-        </div>
+        {{/each}}
       </div>
     </div>
     <div class="row footer__bottom">
