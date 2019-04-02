@@ -2,7 +2,7 @@
 {{#*inline "content-body"}}
 <section class="section home js-home">
 
-  <div class="home__masthead js-home-masthead">
+  <div class="home__masthead js-home-masthead" id="banner">
     {{#each contents.masthead}}
     <a href="{{link.href}}" target="{{link.target}}" class="home__masthead-item"
       style="background-image: url({{imgUrl}});"></a>
@@ -40,7 +40,7 @@
           </div>
           <div class="home__products-content">
             <a href="{{title.href}}" target="{{title.target}}" class="home__products-title">{{title.text}}</a>
-            <p class="home__products-desc">{{desc}}</p>
+            <p class="home__products-desc" style="-webkit-box-orient: vertical;">{{desc}}</p>
           </div>
         </div>
         {{/each}}
@@ -66,7 +66,7 @@
           </div>
           <div class="overlay">
             <h3 class="home__group-title">{{title}}</h3>
-            <p class="home__group-desc">{{desc}}</p>
+            <p class="home__group-desc" style="-webkit-box-orient: vertical;">{{desc}}</p>
             <a href="{{seeMoreBtn.href}}" target="{{seeMoreBtn.target}}" class="home__group-btn-see-more">
               {{seeMoreBtn.text}}
               <span class="glyphicon glyphicon-cloud"></span>

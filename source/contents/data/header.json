@@ -6,12 +6,12 @@
   "menuItems": [{
       "text": "Thông tin",
       "id": "infomation",
-      "link": "#intro"
+      "link": "#banner"
     },
     {
       "text": "Học viên",
       "id": "student",
-      "link": "course-detail.html"
+      "link": "#intro"
     },
     {
       "text": "Khóa học",

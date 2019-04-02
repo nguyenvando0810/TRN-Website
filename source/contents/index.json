@@ -69,7 +69,7 @@
             "href": "course-detail.html",
             "target": "_blank"
           },
-          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones."
+          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style"
         },
         {
           "imgUrl": "../../images/item-service-3.png",
@@ -88,6 +88,24 @@
             "target": "_blank"
           },
           "desc": "NTQ has many staffs with experience living and working in Japan"
+        },
+        {
+          "imgUrl": "../../images/item-service-1.png",
+          "title": {
+            "text": "Sản phẩm 5",
+            "href": "course-detail.html",
+            "target": "_blank"
+          },
+          "desc": "NTQ has many staffs with experience living and working in Japan and always pay attention to every details, even the minor ones. and always pay attention to every details, even the minor ones. and always pay attention to every details, even the minor ones."
+        },
+        {
+          "imgUrl": "../../images/item-service-3.png",
+          "title": {
+            "text": "Sản phẩm 6",
+            "href": "course-detail.html",
+            "target": "_blank"
+          },
+          "desc": "NTQ has many staffs with experience living and working in Japan and always pay attention to every details, even the minor ones."
         }
       ],
       "coursesBtn": {
