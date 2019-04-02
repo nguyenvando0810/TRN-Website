@@ -41,21 +41,27 @@ $(document).ready(function(){
     $(this).parent().siblings().find('.js-scroll-trigger').removeClass('active');
   });
 
-  $('.js-counter').each(function() {
-    var $this = $(this);
-    var countTo = $this.attr('data-count');
-    
-    $({ countNum: $this.text()}).animate({
-      countNum: countTo
-    }, {
-      duration: 1000,
-      easing:'linear',
-      step: function() {
-        $this.text(Math.floor(this.countNum));
-      },
-      complete: function() {
-        $this.text(this.countNum);
-      }
-    });  
+  $(document).on('scroll', function () {
+    var posIntro = $('#intro').offset().top;
+    var scrollTop = $(window).scrollTop();
+    if ( posIntro < scrollTop + 400 ) {
+      $('.js-counter').each(function() {
+        var $this = $(this);
+        var countTo = $this.attr('data-count');
+        
+        $({ countNum: $this.text()}).animate({
+          countNum: countTo
+        }, {
+          duration: 1000,
+          easing:'linear',
+          step: function() {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function() {
+            $this.text(this.countNum);
+          }
+        });  
+      });
+    }
   });
 });

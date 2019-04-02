@@ -11,13 +11,13 @@
 
   <div class="home__intro box" id="intro">
     <div class="container">
-      <div class="home__heading">
+      <div class="home__heading" data-aos="fade-up" data-aos-offset="300">
         {{contents.intro.heading}}
       </div>
-      <div class="home__subhead">
+      <div class="home__subhead" data-aos="fade-up" data-aos-offset="300">
         {{{contents.intro.subHead}}}
       </div>
-      <div class="row home__intro-block">
+      <div class="row home__intro-block" data-aos="fade-up" data-aos-offset="300">
         {{#each contents.intro.statistics}}
         <div class="col-sm-4 home__intro-item">
           <h3 class="home__intro-number js-counter" data-count="{{number}}">0</h3>
@@ -28,14 +28,14 @@
     </div>
   </div>
 
-  <div class="home__products box bg-light-grey" id="products">
+  <div class="home__products box bg-light-grey" id="products" data-aos="fade-up" data-aos-offset="300">
     <div class="container">
       <div class="home__heading">
         {{contents.products.heading}}
       </div>
       <div class="row home__products-block">
         {{#each contents.products.items}}
-          <div class="col-sm-6 col-lg-4 home__products-item">
+          <div class="col-sm-6 col-lg-4 home__products-item" data-aos="fade-up" data-aos-offset="300">
             <div class="home__products-img-wrapper" style="background-image: url({{imgUrl}});">
             </div>
             <div class="home__products-content">
@@ -56,12 +56,12 @@
 
   <div class="home__group box" id="group">
     <div class="container">
-      <div class="home__heading">
+      <div class="home__heading" data-aos="fade-up" data-aos-offset="300">
         {{contents.group.heading}}
       </div>
       <div class="row home__group-block">
         {{#each contents.group.items}}
-        <div class="col-sm-6 col-lg-4 home__group-item">
+        <div class="col-sm-6 col-lg-4 home__group-item" data-aos="fade-up" data-aos-offset="300">
           <div class="home__group-background" style="background-image: url({{imgUrl}});">
           </div>
           <div class="overlay">
@@ -78,7 +78,7 @@
     </div>
   </div>
 
-  <div class="home__feedback box" id="feedback">
+  <div class="home__feedback box" id="feedback" data-aos="fade-up" data-aos-offset="300">
     <div class="container">
       <div class="home__heading">
         {{contents.feedback.heading}}
@@ -99,7 +99,7 @@
     </div>
   </div>
 
-  <div class="home__contact box" id="contact">
+  <div class="home__contact box" id="contact" data-aos="fade-up" data-aos-offset="300">
     <div class="container">
       <p class="home__contact-desc">{{contents.contact.desc}}</p>
       <a class="btn btn-custom" target="{{contents.contact.btnContact.target}}" href="{{contents.contact.btnContact.href}}">
