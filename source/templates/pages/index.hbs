@@ -35,14 +35,14 @@
       </div>
       <div class="row home__products-block">
         {{#each contents.products.items}}
-        <div class="col-sm-6 col-md-4 home__products-item">
-          <div class="home__products-img-wrapper" style="background-image: url({{imgUrl}});">
+          <div class="col-sm-6 col-lg-4 home__products-item">
+            <div class="home__products-img-wrapper" style="background-image: url({{imgUrl}});">
+            </div>
+            <div class="home__products-content">
+              <a href="{{title.href}}" target="{{title.target}}" class="home__products-title">{{title.text}}</a>
+              <p class="home__products-desc" style="-webkit-box-orient: vertical;">{{desc}}</p>
+            </div>
           </div>
-          <div class="home__products-content">
-            <a href="{{title.href}}" target="{{title.target}}" class="home__products-title">{{title.text}}</a>
-            <p class="home__products-desc" style="-webkit-box-orient: vertical;">{{desc}}</p>
-          </div>
-        </div>
         {{/each}}
       </div>
       <div class="text-right">
@@ -61,7 +61,7 @@
       </div>
       <div class="row home__group-block">
         {{#each contents.group.items}}
-        <div class="col-sm-6 col-md-4 home__group-item">
+        <div class="col-sm-6 col-lg-4 home__group-item">
           <div class="home__group-background" style="background-image: url({{imgUrl}});">
           </div>
           <div class="overlay">
@@ -96,6 +96,15 @@
         </div>
         {{/each}}
       </div>
+    </div>
+  </div>
+
+  <div class="home__contact box" id="contact">
+    <div class="container">
+      <p class="home__contact-desc">{{contents.contact.desc}}</p>
+      <a class="btn btn-custom" target="{{contents.contact.btnContact.target}}" href="{{contents.contact.btnContact.href}}">
+        <span>{{contents.contact.btnContact.text}}</span>
+      </a>
     </div>
   </div>
 
