@@ -1,0 +1,25 @@
+{{#> default}}
+{{#*inline "content-body"}}
+<section class="section courses">
+   <div class="home__products box bg-light-grey" id="products">
+    <div class="container">
+      <div class="home__heading">
+        {{contents.products.heading}}
+      </div>
+      <div class="row home__products-block">
+        {{#each contents.products.items}}
+          <div class="col-sm-6 col-md-4 home__products-item">
+            <div class="home__products-img-wrapper" style="background-image: url({{imgUrl}});">
+            </div>
+            <div class="home__products-content">
+              <a href="{{title.href}}" target="{{title.target}}" class="home__products-title">{{title.text}}</a>
+              <p class="home__products-desc">{{desc}}</p>
+            </div>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</section>
+{{/inline}}
+{{/default}}

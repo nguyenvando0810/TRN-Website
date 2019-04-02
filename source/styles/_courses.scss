@@ -1,0 +1,38 @@
+.courses {
+  &__products {
+    &-block {
+      margin-top: -15px;
+    }
+
+    &-item {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: center;
+    }
+
+    &-img-wrapper {
+      width: 100%;
+      padding-top: 70%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+
+    // &-content {
+    //   padding: 0 15px;
+    // }
+
+    &-title {
+      font-size: 20px;
+      margin: 30px 0 15px;
+      display: inline-block;
+      color: #000;
+    }
+
+    &-desc {
+      color: #444;
+      font-weight: 300;
+      @include text-ellipsis(16px, 1.6, 4);
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "layout": {
+    "template": "courses.hbs"
+  },
+  "sitemap": {
+    "loc": "/courses.html",
+    "lastModified": "Sat Jan 05 2019 14:50:11 GMT+0700 (Giờ Đông Dương)",
+    "changeFrequency": "daily",
+    "priority": "0.5",
+    "title": "NTQ Training"
+  },
+  "contents": {
+    "products": {
+      "heading": "Các khóa học hiện có",
+      "items": [
+        {
+          "imgUrl": "../../images/item-service-1.png",
+          "title": {
+            "text": "Sản phẩm 1",
+            "href": "course-detail.html",
+            "target": "_blank"
+          },
+          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams, and he always transmit that energy to set and achieve continuous success with NTQ members."
+        },
+        {
+          "imgUrl": "../../images/item-service-2.png",
+          "title": {
+            "text": "Sản phẩm 2",
+            "href": "course-detail.html",
+            "target": "_blank"
+          },
+          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones."
+        },
+        {
+          "imgUrl": "../../images/item-service-3.png",
+          "title": {
+            "text": "Sản phẩm 3",
+            "href": "course-detail.html",
+            "target": "_blank"
+          },
+          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams"
+        },
+        {
+          "imgUrl": "../../images/item-service-2.png",
+          "title": {
+            "text": "Sản phẩm 4",
+            "href": "course-detail.html",
+            "target": "_blank"
+          },
+          "desc": "NTQ has many staffs with experience living and working in Japan"
+        },
+        {
+          "imgUrl": "../../images/item-service-3.png",
+          "title": {
+            "text": "Sản phẩm 3",
+            "href": "course-detail.html",
+            "target": "_blank"
+          },
+          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams"
+        },
+        {
+          "imgUrl": "../../images/item-service-3.png",
+          "title": {
+            "text": "Sản phẩm 3",
+            "href": "course-detail.html",
+            "target": "_blank"
+          },
+          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams"
+        },
+        {
+          "imgUrl": "../../images/item-service-3.png",
+          "title": {
+            "text": "Sản phẩm 3",
+            "href": "course-detail.html",
+            "target": "_blank"
+          },
+          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams"
+        },
+        {
+          "imgUrl": "../../images/item-service-3.png",
+          "title": {
+            "text": "Sản phẩm 3",
+            "href": "course-detail.html",
+            "target": "_blank"
+          },
+          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams"
+        },
+        {
+          "imgUrl": "../../images/item-service-3.png",
+          "title": {
+            "text": "Sản phẩm 3",
+            "href": "course-detail.html",
+            "target": "_blank"
+          },
+          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams"
+        },
+        {
+          "imgUrl": "../../images/item-service-3.png",
+          "title": {
+            "text": "Sản phẩm 3",
+            "href": "course-detail.html",
+            "target": "_blank"
+          },
+          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams"
+        },
+        {
+          "imgUrl": "../../images/item-service-3.png",
+          "title": {
+            "text": "Sản phẩm 3",
+            "href": "course-detail.html",
+            "target": "_blank"
+          },
+          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams"
+        },
+        {
+          "imgUrl": "../../images/item-service-3.png",
+          "title": {
+            "text": "Sản phẩm 3",
+            "href": "course-detail.html",
+            "target": "_blank"
+          },
+          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams"
+        }
+      ]
+    }
+  }
+}
