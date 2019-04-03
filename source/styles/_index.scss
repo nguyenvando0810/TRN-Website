@@ -131,11 +131,30 @@
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
+      position: relative;
     }
 
-    // &-content {
-    //   padding: 0 15px;
-    // }
+    &-status {
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      p {
+        padding: 5px 15px;
+        border-radius: 0 0 0 8px;
+        color: #fff;
+        border-left: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+
+        &.bg-green {
+          background-color: green;
+        }
+
+        &.bg-orange {
+          background-color: #f05a1a;
+        }
+      }
+    }
 
     &-title {
       font-size: 20px;
