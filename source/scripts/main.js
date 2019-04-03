@@ -33,8 +33,14 @@ $(document).ready(function(){
   $('.js-scroll-trigger').on('click', function () {
     var target = $(this.hash);
 
+    if ( $(window).width() < 992 ) {
+      var offsetHeight = 76;
+    } else {
+      var offsetHeight = 85;
+    }
+
     $('html, body').animate({
-      scrollTop: (target.offset().top - 85)
+      scrollTop: (target.offset().top - offsetHeight)
     }, 800);
 
     $(this).addClass('active');
@@ -44,7 +50,7 @@ $(document).ready(function(){
   $(document).on('scroll', function () {
     var posIntro = $('#intro').offset().top;
     var scrollTop = $(window).scrollTop();
-    if ( posIntro < scrollTop + 500 ) {
+    if ( posIntro < scrollTop + 550 ) {
       $('.js-counter').each(function() {
         var $this = $(this);
         var countTo = $this.attr('data-count');
