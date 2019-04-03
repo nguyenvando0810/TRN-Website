@@ -1,0 +1,128 @@
+{
+  "layout": {
+    "template": "course-detail.hbs"
+  },
+  "sitemap": {
+    "loc": "/course-agile-fundamentals.html",
+    "lastModified": "Sat Jan 05 2019 14:50:11 GMT+0700 (Giờ Đông Dương)",
+    "changeFrequency": "daily",
+    "priority": "0.5",
+    "title": "NTQ Training"
+  },
+  "contents": {
+    "status": "done",
+    "join": {
+      "title": "Đối tượng tham gia",
+      "items": [
+        " Các thành viên trong công ty có mong muốn được học hỏi, mở rộng, củng cố kiến thức căn bản về Agile/ Scrum "
+      ]
+    },
+    "target": {
+      "title": "Mục tiêu tổng quát",
+      "items": [{
+        "item": {
+          "detail": "Có kiến thức tổng quan về Agile "
+        }
+      }, {
+        "item": {
+          "detail": "Hiểu và phân biệt được hai phương pháp Scrum và Kanban."
+        }
+      }]
+    },
+    "time": {
+      "title": "Thời lượng",
+      "items": [{
+          "item": {
+            "detail": "Trong chương trình tiêu chuẩn, người học sẽ tham gia 10 buổi học tập trung (mỗi buổi 2 giờ) và thời gian tự học ở nhà (học online, làm bài tập về nhà và tự nghiên cứu thêm)."
+          }
+        },
+        {
+          "item": {
+            "detail": "Mỗi buổi học cách nhau 1 tuần để trống cho thời gian tự học, và áp dụng các nội dung học được từ chương trình đào tạo vào công việc thực tiễn của học viên."
+          }
+        },
+        {
+          "item": {
+            "detail": "Thời gian học:",
+            "subItem": [
+              "Buổi 1: 18h00 – 20h00 thứ 5 ngày 21/02/2019",
+              "Buổi 2: 18h00 – 20h00 thứ 5 ngày 28/02/2019"
+            ]
+          }
+        }
+      ],
+      "register": {
+        "url": "https://docs.google.com/forms/d/1i5QamlPjfid9pj4NCro7VVKhArKRmd3KuVyn57DTUcQ/viewform?edit_requested=true",
+        "target": "_blank",
+        "text": "Đăng kí ngay !"
+      }
+    },
+    "more": [{
+        "urlImg": "../../images/bg-learning.jpg",
+        "title": "Trải nghiệm học tập",
+        "items": [
+          "Nghe giảng tại lớp học ",
+          "Thảo luận nhóm trong lớp học",
+          "Chơi game vận dụng"
+        ]
+      },
+      {
+        "urlImg": "../../images/bg-characteristics.jpg",
+        "title": "Đặc điểm của chương trình",
+        "items": [
+          "Kiến thức bài bản, được hệ thống logic dễ hiểu",
+          "Chương trình kết hợp giữa việc chia sẻ kiến thức và chơi game vận dụng (tăng tính kết nối và thú vị).",
+          "Học viên được cấp chứng chỉ ngay sau khi hoàn thành khóa học"
+        ]
+      },
+      {
+        "urlImg": "../../images/bg-book.jpg",
+        "title": "Đánh giá",
+        "items": [
+          "Bài test trắc nghiệm ngay sau buổi học"
+        ]
+      },
+      {
+        "urlImg": "../../images/bg-language.jpg",
+        "title": "Ngôn ngữ",
+        "items": [
+          "Tiếng Việt"
+        ]
+      }
+    ],
+    "content": {
+      "title": "Nội dung khóa học",
+      "items": [{
+          "title": "Agile mindset",
+          "icon": "<i class='fa fa-book' aria-hidden='true'></i>"
+        },
+        {
+          "title": "Scrum vs Kanban",
+          "icon": "<i class='fa fa-superpowers' aria-hidden='true'></i>"
+        }
+      ]
+    },
+    "speakers": {
+      "title": "Speakers",
+      "items": [{
+          "avatar": "../../images/avatar-speaker.jpg",
+          "alt": "avatar-hang",
+          "name": "Nguyễn Minh Phúc ",
+          "job": "COE"
+        },
+        {
+          "avatar": "../../images/avatar-default.png",
+          "alt": "avatar-me",
+          "name": "You",
+          "job": "Submit your talk"
+        }
+      ]
+    },
+    "document": {
+      "title": "Tài liệu tham khảo",
+      "items": [
+        "Slide bài giảng."
+      ]
+    }
+  }
+}

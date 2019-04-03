@@ -1,0 +1,126 @@
+{
+  "layout": {
+    "template": "course-detail.hbs"
+  },
+  "sitemap": {
+    "loc": "/course-agile-PM-newbie.html",
+    "lastModified": "Sat Jan 05 2019 14:50:11 GMT+0700 (Giờ Đông Dương)",
+    "changeFrequency": "daily",
+    "priority": "0.5",
+    "title": "NTQ Training"
+  },
+  "contents": {
+    "status": "done",
+    "join": {
+      "title": "Đối tượng tham gia",
+      "items": [
+        "Các PM mới, có mong muốn học hỏi thêm kiến thức nền tảng về PM một cách bài bản",
+        "Các thành viên có cơ hội sắp trở thành PM ",
+        "Các thành viên đang làm team lead ",
+        "Lưu ý: Học viên cần cam kết dành được thời gian cho việc học tập và có thể thực hành sau khóa học "
+      ]
+    },
+    "target": {
+      "title": "Mục tiêu tổng quát",
+      "items": [{
+        "item": {
+          "detail": "Có kiến thức chung về PM "
+        }
+      },
+      {
+        "item": {
+          "detail": "Nắm được kỹ năng thực hành để tổ chức và vận hành dự án ở mức căn bản"
+        }
+      }]
+    },
+    "time": {
+      "title": "Thời lượng",
+      "items": [{
+          "item": {
+            "detail": "Trong chương trình tiêu chuẩn, người học sẽ tham gia 5 buổi (mỗi buổi 1,5 giờ) học tập trung + 1 buổi Offline thực hành (4 giờ) và thời gian tự học ở nhà (học elearning trên hệ thống coursara, làm bài tập về nhà, bài Test review, và tự nghiên cứu thêm)."
+          }
+        },
+        {
+          "item": {
+            "detail": "Mỗi buổi học cách nhau 3 ngày để trống cho thời gian tự học, và áp dụng các nội dung học được từ chương trình đào tạo vào công việc thực tiễn của học viên."
+          }
+        }
+      ],
+      "register": {
+        "url": "https://docs.google.com/forms/d/1i5QamlPjfid9pj4NCro7VVKhArKRmd3KuVyn57DTUcQ/viewform?edit_requested=true",
+        "target": "_blank",
+        "text": "Đăng kí ngay !"
+      }
+    },
+    "more": [{
+        "urlImg": "../../images/bg-learning.jpg",
+        "title": "Trải nghiệm học tập",
+        "items": [
+          "Học elearning (video, làm bài tập, làm bài test) tại nhà",
+          "Review bài tập và nghe giảng tại lớp học ",
+          "Thảo luận nhóm trong và ngoài lớp học ",
+          "Làm bài tập thực hành, theo dõi và phản hồi từ giảng viên và Quản lý trực tiếp (nếu có)"
+        ]
+      },
+      {
+        "urlImg": "../../images/bg-characteristics.jpg",
+        "title": "Đặc điểm của chương trình",
+        "items": [
+          "Kiến thức bài bản, được hệ thống logic và dễ dang áp dụng",
+          "Học viên đánh giá cao về tính thực tiễn và hữu ích của khóa học.",
+          "Học trên lớp kết hợp học online ",
+          "Áp dụng kiến thức vào thực tế sau giai đoạn học tập trung"
+        ]
+      },
+      {
+        "urlImg": "../../images/bg-book.jpg",
+        "title": "Đánh giá",
+        "items": [
+          "Assignment: áp dụng nội dung bài học để thực hành. Báo cáo kết quả và cách làm sau mỗi tuần",
+          "Bài test trắc nghiệm Online cho mỗi Topic",
+          "Bài test trắc nghiệm Online cho khóa học (Final Test) "
+        ]
+      },
+      {
+        "urlImg": "../../images/bg-language.jpg",
+        "title": "Ngôn ngữ",
+        "items": [
+          "Học tập trung bằng tiếng Việt, tài liệu học Online có thể là tiếng anh (có vietsub)"
+        ]
+      }
+    ],
+    "content": {
+      "title": "Nội dung khóa học",
+      "items": [{
+          "icon": "<i class='fa fa-book' aria-hidden='true'></i>",
+          "list": [
+            "<img src='../../images/pm-newbie.png' class='img-content' alt=''>"
+          ]
+        }
+      ]
+    },
+    "speakers": {
+      "title": "Speakers",
+      "items": [{
+          "avatar": "../../images/avatar-speaker.jpg",
+          "alt": "avatar-viet",
+          "name": "Lê Đức Việt",
+          "job": "PM NS1"
+        },
+        {
+          "avatar": "../../images/avatar-default.png",
+          "alt": "avatar-me",
+          "name": "You",
+          "job": "Submit your talk"
+        }
+      ]
+    },
+    "document": {
+      "title": "Tài liệu tham khảo",
+      "items": [
+        "Slide bài giảng.",
+        "Khóa học online"
+      ]
+    }
+  }
+}

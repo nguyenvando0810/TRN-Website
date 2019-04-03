@@ -114,6 +114,10 @@
       opacity: .7;
     }
 
+    .img-content {
+      width: 100%;
+    }
+
     &-item {
       background: #FFFFFF;
       border-radius: 5px;
@@ -122,6 +126,7 @@
       position: relative;
       transition: all 0.15s ease-out;
       border-bottom: 5px solid #1668b2;
+      margin-bottom: 20px;
 
       &:hover {
         transform: translateY(-5px);
@@ -232,6 +237,7 @@
     &-job {
       color: #7F7F7F;
       font-size: 16px;
+      text-align: justify;
       font-family: 'Montserrat', sans-serif;
     }
   }
@@ -243,12 +249,6 @@
       }
     }
 
-    &__content {
-      &-item {
-        margin-bottom: 20px;
-      }
-    }
-
     &__more {
       &-content {
         padding: 50px;
@@ -257,11 +257,6 @@
   }
 
   @media (max-width: 767px) {
-    &__content {
-      &-item {
-        margin-bottom: 20px;
-      }
-    }
 
     &__more {
       &-wrapper {

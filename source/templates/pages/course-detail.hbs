@@ -49,10 +49,19 @@
         <div class="col-lg-9">
           <ul class="course-detail__list">
             {{#each contents.time.items}}
-            <li class="course-detail__item">{{this}}</li>
+            <li class="course-detail__item">{{this.item.detail}}
+               <ul>
+                {{#if this.item.subItem}}
+                {{#each this.item.subItem}}
+                <li class="course-detail__target-subitem">{{this}}</li>
+                {{/each}}
+                {{/if}}
+              </ul>
+            </li>
             {{/each}}
           </ul>
         </div>
+
         {{#is contents.status 'coming'}}
         <div class="col-lg-3 text-right">
           <a class="btn btn-custom" target="{{contents.time.register.target}}" href="{{contents.time.register.url}}">
@@ -85,13 +94,11 @@
       <h4 class="course-detail__title-white">{{contents.content.title}}</h4>
       <div class="row justify-content-center">
         {{#each contents.content.items}}
-        <div class="
+        <div class="col-lg-4
         {{#switch ../contents.content.items.length}}
           {{#case '1'}} col-lg-8 {{/case}}
           {{#case '2'}} col-lg-6 {{/case}}
-          {{#case '>3'}} col-lg-4 {{/case}}
          {{/switch}}">
-
           <div class="course-detail__content-item">
             <div class="text-center mb-3">
               <span class="course-detail__content-icon">
@@ -103,7 +110,7 @@
             {{/if}}
             <ul>
               {{#each this.list}}
-              <li>{{this}}</li>
+              <li>{{{this}}}</li>
               {{/each}}
             </ul>
           </div>
@@ -138,7 +145,7 @@
         <div class="col-lg-9">
           <ul class="course-detail__list">
             {{#each contents.document.items}}
-            <li class="course-detail__target-item course-detail__item">{{this}}</li>
+            <li class="course-detail__target-item course-detail__item">{{{this}}}</li>
             {{/each}}
           </ul>
         </div>

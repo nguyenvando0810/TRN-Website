@@ -3,7 +3,7 @@
     "template": "course-detail.hbs"
   },
   "sitemap": {
-    "loc": "/course-detail.html",
+    "loc": "/course-test-for-dev.html",
     "lastModified": "Sat Jan 05 2019 14:50:11 GMT+0700 (Giờ Đông Dương)",
     "changeFrequency": "daily",
     "priority": "0.5",
@@ -11,6 +11,53 @@
   },
   "contents": {
     "status": "doing",
+    "join": {
+      "title": "Đối tượng tham gia",
+      "items": [
+        "Các thành viên là Developer có mong muốn mở rộng thêm kiến thức về mảng Testing để đảm bảo chất lượng công việc.",
+        "Lưu ý: Học viên cần cam kết dành được thời gian cho việc học tập (trên lớp cũng như làm bài tập về nhà)"
+      ]
+    },
+    "target": {
+      "title": "Mục tiêu tổng quát",
+      "items": [{
+        "item": {
+          "detail": "Trang bị các kỹ năng testing cơ bản, dễ thực hiện mà mang lại hiệu quả cao.",
+          "subItem": [
+            "Học viên nắm được các kiến thức cơ bản được truyền tải.",
+            "Có tư tưởng vận dụng vào công việc (tự self test đảm bảo chất lượng output của cá nhân)"
+          ]
+        }
+      }, {
+        "item": {
+          "detail": "Sau khóa học thì học viên có thể tự đảm bảo được cơ bản chất lượng đầu ra của mình, không để phát sinh các lỗi normal."
+        }
+      }]
+    },
+    "time": {
+      "title": "Thời lượng",
+      "items": [{
+          "item": {
+            "detail": "Trong chương trình tiêu chuẩn, người học sẽ tham gia 10 buổi học tập trung (mỗi buổi 2 giờ) và thời gian tự học ở nhà (học online, làm bài tập về nhà và tự nghiên cứu thêm)."
+          }
+        },
+        {
+          "item": {
+            "detail": "Mỗi buổi học cách nhau 1 tuần để trống cho thời gian tự học, và áp dụng các nội dung học được từ chương trình đào tạo vào công việc thực tiễn của học viên."
+          }
+        },
+        {
+          "item": {
+            "detail": "Thời gian học: (lịch dự kiến) 18h30 – 20h30, thứ 3 hàng tuần. Từ 02/04/2019 đến 11/06/2019 (Lịch dự kiến)"
+          }
+        }
+      ],
+      "register": {
+        "url": "https://docs.google.com/forms/d/1i5QamlPjfid9pj4NCro7VVKhArKRmd3KuVyn57DTUcQ/viewform?edit_requested=true",
+        "target": "_blank",
+        "text": "Đăng kí ngay !"
+      }
+    },
     "more": [{
         "urlImg": "../../images/bg-learning.jpg",
         "title": "Trải nghiệm học tập",
@@ -34,52 +81,15 @@
           "Chuyên cần: Tham gia đầy đủ các buổi học.",
           "Assignment: áp dụng nội dung bài học để thực hành. Báo cáo kết quả và cách làm sau mỗi buổi "
         ]
+      },
+      {
+        "urlImg": "../../images/bg-language.jpg",
+        "title": "Ngôn ngữ",
+        "items": [
+          "Tiếng Việt"
+        ]
       }
     ],
-    "document": {
-      "title": "Tài liệu tham khảo",
-      "items": [
-        "Slide bài giảng.",
-        "Khóa học online."
-      ]
-    },
-    "time": {
-      "title": "Thời lượng",
-      "items": [
-        "Trong chương trình tiêu chuẩn, người học sẽ tham gia 10 buổi học tập trung (mỗi buổi 2 giờ) và thời gian tự học ở nhà (học online, làm bài tập về nhà và tự nghiên cứu thêm).",
-        "Mỗi buổi học cách nhau 1 tuần để trống cho thời gian tự học, và áp dụng các nội dung học được từ chương trình đào tạo vào công việc thực tiễn của học viên.",
-        "Thời gian học: 18h30 – 20h30, thứ 3 hàng tuần. Từ 02/04/2019 đến 11/06/2019.",
-        "Địa điểm: Phòng họp Kaizen, tầng 4."
-      ],
-      "register": {
-        "url": "https://docs.google.com/forms/d/1i5QamlPjfid9pj4NCro7VVKhArKRmd3KuVyn57DTUcQ/viewform?edit_requested=true",
-        "target": "_blank",
-        "text": "Đăng kí ngay !"
-      }
-    },
-    "target": {
-      "title": "Mục tiêu tổng quát",
-      "items": [{
-        "item": {
-          "detail": "Trang bị các kỹ năng testing cơ bản, dễ thực hiện mà mang lại hiệu quả cao.",
-          "subItem": [
-            "Học viên nắm được các kiến thức cơ bản được truyền tải.",
-            "Có tư tưởng vận dụng vào công việc (tự self test đảm bảo chất lượng output của cá nhân)"
-          ]
-        }
-      }, {
-        "item": {
-          "detail": "Sau khóa học thì học viên có thể tự đảm bảo được cơ bản chất lượng đầu ra của mình, không để phát sinh các lỗi normal."
-        }
-      }]
-    },
-    "join": {
-      "title": "Đối tượng tham gia",
-      "items": [
-        "Các thành viên là Developer có mong muốn mở rộng thêm kiến thức về mảng Testing để đảm bảo chất lượng công việc.",
-        "Lưu ý: Học viên cần cam kết dành được thời gian cho việc học tập (trên lớp cũng như làm bài tập về nhà)"
-      ]
-    },
     "content": {
       "title": "Nội dung khóa học",
       "items": [{
@@ -122,6 +132,13 @@
           "name": "You",
           "job": "Submit your talk"
         }
+      ]
+    },
+    "document": {
+      "title": "Tài liệu tham khảo",
+      "items": [
+        "Slide bài giảng.",
+        "Khóa học online."
       ]
     }
   }

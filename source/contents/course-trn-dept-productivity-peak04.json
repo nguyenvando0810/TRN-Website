@@ -1,0 +1,139 @@
+{
+  "layout": {
+    "template": "course-detail.hbs"
+  },
+  "sitemap": {
+    "loc": "/course-trn-dept-productivity-peak04.html",
+    "lastModified": "Sat Jan 05 2019 14:50:11 GMT+0700 (Giờ Đông Dương)",
+    "changeFrequency": "daily",
+    "priority": "0.5",
+    "title": "NTQ Training"
+  },
+  "contents": {
+    "status": "doing",
+    "join": {
+      "title": "Đối tượng tham gia",
+      "items": [
+        "Các thành viên trong công ty, có mong muốn phát triển bản thân, nâng cao hiệu suất công việc cá nhân. Đặc biệt nhằm mục đích giúp học viên có môi trường thuận lợi để thảo luận nhóm và thực hành khóa học lần này sẽ ưu tiên cho các thành viên đang làm việc cùng 1 dự án."
+      ]
+    },
+    "target": {
+      "title": "Mục tiêu tổng quát",
+      "items": [{
+          "item": {
+            "detail": "Thay đổi mindset về học tập của học viên"
+          }
+        }, {
+          "item": {
+            "detail": "Biết cách đặt mục tiêu"
+          }
+        },
+        {
+          "item": {
+            "detail": "Biết cách hoàn thành công việc thường ngày "
+          }
+        },
+        {
+          "item": {
+            "detail": " Biết thêm một số phương pháp để nâng cao năng suất cá nhân (kanban, lean coffee...)"
+          }
+        }
+      ]
+    },
+    "time": {
+      "title": "Thời lượng",
+      "items": [{
+          "item": {
+            "detail": "Trong chương trình tiêu chuẩn, người học sẽ tham gia 4 buổi (mỗi buổi 3 giờ) học tập trung  và thời gian tự học ở nhà (học elearning trên hệ thống Agilearn của Học viện Agile, đọc sách trong danh sách khuyến đọc, và tự nghiên cứu thêm)."
+          }
+        },
+        {
+          "item": {
+            "detail": "Mỗi buổi học cách nhau một tuần để trống cho thời gian tự học, và áp dụng các nội dung học được từ chương trình đào tạo vào công việc thực tiễn của học viên. "
+          }
+        },
+        {
+          "item": {
+            "detail": "Thời gian học: 16h30 – 19h30 thứ 3 hàng tuần các ngày 05, 12, 19, 26/03/2019"
+          }
+        }
+      ],
+      "register": {
+        "url": "https://docs.google.com/forms/d/1i5QamlPjfid9pj4NCro7VVKhArKRmd3KuVyn57DTUcQ/viewform?edit_requested=true",
+        "target": "_blank",
+        "text": "Đăng kí ngay !"
+      }
+    },
+    "more": [{
+        "urlImg": "../../images/bg-learning.jpg",
+        "title": "Trải nghiệm học tập",
+        "items": [
+          "Học elearning (video, làm bài tập, làm bài test) tại nhà ",
+          "Xem video (trước và trong lớp học, theo lịch của giảng viên) và nghe giảng tại lớp học ",
+          "Thảo luận nhóm trong và ngoài lớp học",
+          "Làm bài tập thực hành, viết kế hoạch hành động cá nhân, theo dõi và phản hồi từ giảng viên và Quản lý trực tiếp (nếu có)"
+        ]
+      },
+      {
+        "urlImg": "../../images/bg-characteristics.jpg",
+        "title": "Đặc điểm của chương trình",
+        "items": [
+          "Kiến thức mới, đang là xu thế của thế giới, có thể áp dụng ngay, tạo kết quả nhanh chóng. Học viên đánh giá cao về tính thực tiễn và hữu ích của khóa học",
+          "Học trên lớp với các hoạt động giàu trải nghiệm kết hợp học online trên Agilearn – hệ thống học tập trực tuyến của Học viện Agile",
+          "Lớp học trực quan (Sticky Notes, Lean Coffee, Backlog, GladSadMad, User Story Mapping, Pomodoro) và vui vẻ với nhiều tương tác, games, bài tập nhóm",
+          "Chương trình coaching đi kèm để xây dựng kỹ năng làm việc ."
+        ]
+      },
+      {
+        "urlImg": "../../images/bg-book.jpg",
+        "title": "Đánh giá",
+        "items": [
+          "Assignment: áp dụng nội dung bài học để thực hành. Báo cáo kết quả và cách làm sau mỗi tuần "
+        ]
+      },
+      {
+        "urlImg": "../../images/bg-language.jpg",
+        "title": "Ngôn ngữ",
+        "items": [
+          "Tiếng Việt"
+        ]
+      }
+    ],
+    "content": {
+      "title": "Nội dung khóa học",
+      "items": [{
+        "icon": "<i class='fa fa-book' aria-hidden='true'></i>",
+        "list": [
+          "<img src='../../images/productivity-peak04.png' class='img-content' alt=''>"
+        ]
+      }]
+    },
+    "speakers": {
+      "title": "Speakers",
+      "items": [{
+          "avatar": "../../images/avatar-speaker.jpg",
+          "alt": "avatar-son",
+          "name": "Tô Hải Sơn",
+          "job": "COO"
+        },
+        {
+          "avatar": "../../images/avatar-default.png",
+          "alt": "avatar-me",
+          "name": "You",
+          "job": "Submit your talk"
+        }
+      ]
+    },
+    "document": {
+      "title": "Tài liệu tham khảo",
+      "items": [
+        " Tài liệu phát tay do công ty biên soạn ",
+        "Khóa học elearning trên hệ thống Agilearn",
+        " Danh sách đọc thêm :",
+        "&nbsp; + Hoàn thành mọi việc không hề khó, D. Allen ",
+        "&nbsp; + Sức mạnh của thói quen, C. Duhigg ",
+        "&nbsp; + Giải quyết vấn đề theo phương thức Toyota"
+      ]
+    }
+  }
+}

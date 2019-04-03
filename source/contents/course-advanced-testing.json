@@ -1,0 +1,145 @@
+{
+  "layout": {
+    "template": "course-detail.hbs"
+  },
+  "sitemap": {
+    "loc": "/course-advanced-testing.html",
+    "lastModified": "Sat Jan 05 2019 14:50:11 GMT+0700 (Giờ Đông Dương)",
+    "changeFrequency": "daily",
+    "priority": "0.5",
+    "title": "NTQ Training"
+  },
+  "contents": {
+    "status": "coming",
+    "join": {
+      "title": "Đối tượng tham gia",
+      "items": [
+        "Các Tester đã có từ 1,5 năm kinh nghiệm làm việc tại vị trí Tester trở lên có mong muốn nâng cao kiến thức và kỹ năng Test để tìm lỗi hiệu quảu hơn và đảm bảo được chất lượng.",
+        "Lưu ý: Học viên cần cam kết dành được thời gian cho việc học tập (trên lớp cũng như làm bài tập về nhà)"
+      ]
+    },
+    "target": {
+      "title": "Mục tiêu tổng quát",
+      "items": [{
+        "item": {
+          "detail": " Khóa học giúp học viên hoàn thiện toàn bộ quy trình kiến thức về testing, nâng cao các kỹ năng, kỹ thuật phân tích yêu cầu và thực hiện test nâng cao.",
+          "subItem": [
+            "Kỹ năng lập kế hoạch và kiểm soát tiến độ testing ",
+            "Kỹ năng phân tích yêu cầu, đặt câu hỏi hiệu quả và theo dõi yêu cầu thay đổi ",
+            "Kỹ năng lập ma trận theo dõi tiến độ test của cả đội",
+            "Kỹ năng lập chiến lược test ",
+            "Áp dụng các kỹ thuật thiết kế test case thành thạo phù hợp với từng dự án, trong đó có kỹ thuật test matrix mà người Nhật tin dùng",
+            "Kỹ năng phán đoán các vùng tập trung lỗi ",
+            "Kỹ năng phân tích và lập báo cáo test "
+          ]
+        }
+      }]
+    },
+    "time": {
+      "title": "Thời lượng",
+      "items": [{
+          "item": {
+            "detail": "Trong chương trình tiêu chuẩn, người học sẽ tham gia 13 buổi học tập trung (mỗi buổi 2 giờ) và thời gian tự học ở nhà (làm bài tập về nhà và tự nghiên cứu thêm). "
+          }
+        },
+        {
+          "item": {
+            "detail": "Mỗi buổi học cách nhau 2 – 3 ngày để trống cho thời gian tự học, và áp dụng các nội dung học được từ chương trình đào tạo vào công việc thực tiễn của học viên."
+          }
+        },
+        {
+          "item": {
+            "detail": "Thời gian học: (lịch dự kiến) 18h30 – 20h30, thứ 2 và thứ 5 hàng tuần. Từ 04/04/2019 đến 16/05/2019"
+          }
+        }
+      ],
+      "register": {
+        "url": "https://docs.google.com/forms/d/1i5QamlPjfid9pj4NCro7VVKhArKRmd3KuVyn57DTUcQ/viewform?edit_requested=true",
+        "target": "_blank",
+        "text": "Đăng kí ngay !"
+      }
+    },
+    "more": [{
+        "urlImg": "../../images/bg-learning.jpg",
+        "title": "Trải nghiệm học tập",
+        "items": [
+          "Review bài tập và nghe giảng tại lớp học",
+          "Làm bài tập thực hành, theo dõi và phản hồi từ giảng viên và Quản lý trực tiếp (nếu có) "
+        ]
+      },
+      {
+        "urlImg": "../../images/bg-characteristics.jpg",
+        "title": "Đặc điểm của chương trình",
+        "items": [
+          "Kiến thức bài bản, được hệ thống logic ",
+          "Học trên lớp kết hợp tự học, làm bài tập ở nhà ",
+          "Áp dụng kiến thức vào thực tế sau giai đoạn học tập trung "
+        ]
+      },
+      {
+        "urlImg": "../../images/bg-book.jpg",
+        "title": "Đánh giá",
+        "items": [
+          "Chuyên cần: Tham gia đầy đủ các buổi học.",
+          "Assignment: áp dụng nội dung bài học để thực hành. Báo cáo kết quả và cách làm sau mỗi buổi "
+        ]
+      },
+      {
+        "urlImg": "../../images/bg-language.jpg",
+        "title": "Ngôn ngữ",
+        "items": [
+          "Học tập trung bằng tiếng Việt "
+        ]
+      }
+    ],
+    "content": {
+      "title": "Nội dung khóa học",
+      "items": [{
+        "title": "Lý thuyết",
+        "icon": "<i class='fa fa-book' aria-hidden='true'></i>",
+        "list": [
+          "Tổng quan các khái niệm, kiến thức về kiểm thử phần mềm ",
+          "Các kỹ thuật thiết kế test case ",
+          "Phân tích yêu cầu và đặt Q&A",
+          "Xây dựng test case dạng Decision table (Test matrix) ",
+          "Maintenance testing và Regression test ",
+          "Lập kế hoạch test và theo dõi kế hoạch test",
+          "Phân tích chỉ số và lập báo cáo test"
+        ]
+      }]
+    },
+    "speakers": {
+      "title": "Speakers",
+      "items": [{
+          "avatar": "../../images/avatar-speaker.jpg",
+          "alt": "avatar-hue",
+          "name": " Nguyễn Thi Huế",
+          "job": "Test leader của Nash Tech, 14 năm kinh nghiệm test và quản lý, nhiều kinh nghiệm về mảng test chuyên sau và automation test"
+        },
+        {
+          "avatar": "../../images/avatar-speaker.jpg",
+          "alt": "avatar-hue",
+          "name": "Cao Thị Hà Ninh",
+          "job": " Đã trải qua nhiều vị trí tester, test leader, test manager, hiện đang là PM và BrSE cho dự án Nhật, kinh nghiệm chuyên sâu với thị trường Nhật Bản"
+        },
+        {
+          "avatar": "../../images/avatar-speaker.jpg",
+          "alt": "avatar-hue",
+          "name": "Tạ Thị Thinh",
+          "job": "Kinh nghiệm đào tạo thi ISTQB và chuyên về mảng Process quality assurance trong nhiều năm."
+        }, {
+          "avatar": "../../images/avatar-default.png",
+          "alt": "avatar-me",
+          "name": "You",
+          "job": "Submit your talk"
+        }
+      ]
+    },
+    "document": {
+      "title": "Tài liệu tham khảo",
+      "items": [
+        "Slide bài giảng."
+      ]
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "layout": {
+    "template": "course-detail.hbs"
+  },
+  "sitemap": {
+    "loc": "/course-trn-it-basic.html",
+    "lastModified": "Sat Jan 05 2019 14:50:11 GMT+0700 (Giờ Đông Dương)",
+    "changeFrequency": "daily",
+    "priority": "0.5",
+    "title": "NTQ Training"
+  },
+  "contents": {
+    "status": "doing",
+    "join": {
+      "title": "Đối tượng tham gia",
+      "items": [
+        "Các thành viên không có background CNTT, có mong muốn tìm hiểu một cách tổng quan về IT  phần mềm. (VD: Sales, Comtor, HR, Kế toán, TRN, Admin...) "
+      ]
+    },
+    "target": {
+      "title": "Mục tiêu tổng quát",
+      "items": [{
+        "item": {
+          "detail": "Giúp học viên nắm được tổng quan về IT phần mềm,  các xu hướng IT phần mềm hiện này "
+        }
+      },
+      {
+        "item": {
+          "detail": "Có năng lực lập trình cơ bản bằng ngôn ngữ Python "
+        }
+      }]
+    },
+    "time": {
+      "title": "Thời lượng",
+      "items": [{
+          "item": {
+            "detail": "Trong chương trình tiêu chuẩn, người học sẽ tham gia 10 buổi (mỗi buổi 1 giờ) học tập trung  và thời gian tự học ở nhà (làm bài tập, tự nghiên cứu thêm)"
+          }
+        },
+        {
+          "item": {
+            "detail": "Mỗi buổi học cách nhau 3 ngày để trống cho thời gian tự học, và nghiên cứu thêm của học viên."
+          }
+        },
+        {
+          "item": {
+            "detail": "Thời gian học: 18h00 – 19h00 thứ 2 & thứ 5 hàng tuần các từ 04/03 đến 04/04/2019 "
+          }
+        }
+      ],
+      "register": {
+        "url": "https://docs.google.com/forms/d/1i5QamlPjfid9pj4NCro7VVKhArKRmd3KuVyn57DTUcQ/viewform?edit_requested=true",
+        "target": "_blank",
+        "text": "Đăng kí ngay !"
+      }
+    },
+    "more": [{
+        "urlImg": "../../images/bg-learning.jpg",
+        "title": "Trải nghiệm học tập",
+        "items": [
+          "Nghe giảng trên lớp",
+          "Thảo luận nhóm trong và ngoài lớp học",
+          "Làm bài tập thực hành"
+        ]
+      },
+      {
+        "urlImg": "../../images/bg-characteristics.jpg",
+        "title": "Đặc điểm của chương trình",
+        "items": [
+          "Kiến thức tổng quan, đơn giản, dễ tiếp thu ",
+          "Kết hợp giữa lý thuyết và thực hành một cách bài bản, giúp học viên dễ dàng nắm bắt kiến thức"
+        ]
+      },
+      {
+        "urlImg": "../../images/bg-book.jpg",
+        "title": "Đánh giá",
+        "items": [
+          "Assignment: Project/ cuộc thi về lập trình"
+        ]
+      },
+      {
+        "urlImg": "../../images/bg-language.jpg",
+        "title": "Ngôn ngữ",
+        "items": [
+          "Tiếng Việt"
+        ]
+      }
+    ],
+    "content": {
+      "title": "Nội dung khóa học",
+      "items": [{
+          "icon": "<i class='fa fa-book' aria-hidden='true'></i>",
+          "list": [
+            "<img src='../../images/it-basic.png' class='img-content' alt=''>"
+          ]
+        }
+      ]
+    },
+    "speakers": {
+      "title": "Speakers",
+      "items": [{
+          "avatar": "../../images/avatar-speaker.jpg",
+          "alt": "avatar-tung",
+          "name": "Dương Thanh Tùng",
+          "job": "NSx"
+        },
+        {
+          "avatar": "../../images/avatar-default.png",
+          "alt": "avatar-me",
+          "name": "You",
+          "job": "Submit your talk"
+        }
+      ]
+    },
+    "document": {
+      "title": "Tài liệu tham khảo",
+      "items": [
+        "Slide bài giảng."
+      ]
+    }
+  }
+}
