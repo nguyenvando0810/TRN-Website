@@ -44,7 +44,7 @@ $(document).ready(function(){
   $(document).on('scroll', function () {
     var posIntro = $('#intro').offset().top;
     var scrollTop = $(window).scrollTop();
-    if ( posIntro < scrollTop + 400 ) {
+    if ( posIntro < scrollTop + 500 ) {
       $('.js-counter').each(function() {
         var $this = $(this);
         var countTo = $this.attr('data-count');
