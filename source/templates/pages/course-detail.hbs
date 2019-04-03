@@ -7,7 +7,7 @@
     <div class="container">
       <h4 class="course-detail__title-blue">{{contents.join.title}}</h4>
       <div class="row justify-content-center">
-        <div class="col-lg-8">
+        <div class="col-lg-9">
           <ul class="course-detail__list">
             {{#each contents.join.items}}
             <li class="course-detail__item">{{this}}</li>
@@ -23,7 +23,7 @@
     <div class="container">
       <h4 class="course-detail__title-white">{{contents.target.title}}</h4>
       <div class="row justify-content-center">
-        <div class="col-lg-8">
+        <div class="col-lg-9">
           <ul class="course-detail__list">
             {{#each contents.target.items}}
             <li class="course-detail__target-item course-detail__item">{{this.item.detail}}
@@ -45,7 +45,7 @@
   <div class="course-detail__time bg-light-grey box" data-aos="fade-up" data-aos-offset="200">
     <div class="container">
       <h4 class="course-detail__title-blue">{{contents.time.title}}</h4>
-      <div class="row align-items-center">
+      <div class="row align-items-center justify-content-center">
         <div class="col-lg-9">
           <ul class="course-detail__list">
             {{#each contents.time.items}}
@@ -53,11 +53,13 @@
             {{/each}}
           </ul>
         </div>
+        {{#is contents.status 'coming'}}
         <div class="col-lg-3 text-right">
           <a class="btn btn-custom" target="{{contents.time.register.target}}" href="{{contents.time.register.url}}">
             <span>{{contents.time.register.text}}</span>
           </a>
         </div>
+        {{/is}}
       </div>
     </div>
   </div>
@@ -93,7 +95,7 @@
           <div class="course-detail__content-item">
             <div class="text-center mb-3">
               <span class="course-detail__content-icon">
-              {{{this.icon}}}
+                {{{this.icon}}}
               </span>
             </div>
             {{#if this.title}}
@@ -133,7 +135,7 @@
     <div class="container">
       <h4 class="course-detail__title-white">{{contents.document.title}}</h4>
       <div class="row justify-content-center">
-        <div class="col-lg-8">
+        <div class="col-lg-9">
           <ul class="course-detail__list">
             {{#each contents.document.items}}
             <li class="course-detail__target-item course-detail__item">{{this}}</li>
