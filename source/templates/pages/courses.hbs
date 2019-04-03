@@ -1,14 +1,14 @@
 {{#> default}}
 {{#*inline "content-body"}}
 <section class="section courses">
-   <div class="home__products box bg-light-grey" id="products">
+   <div class="home__products box bg-light-grey">
     <div class="container">
       <div class="home__heading">
         {{contents.products.heading}}
       </div>
       <div class="row home__products-block">
         {{#each contents.products.items}}
-          <div class="col-sm-6 col-md-4 home__products-item">
+          <div class="col-sm-6 col-md-4 home__products-item" data-aos="fade-up" data-aos-offset="200">
             <div class="home__products-img-wrapper" style="background-image: url({{imgUrl}});">
             </div>
             <div class="home__products-content">

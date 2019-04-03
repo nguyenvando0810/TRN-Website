@@ -48,7 +48,7 @@ $(document).ready(function(){
       $('.js-counter').each(function() {
         var $this = $(this);
         var countTo = $this.attr('data-count');
-        
+
         $({ countNum: $this.text()}).animate({
           countNum: countTo
         }, {
@@ -60,7 +60,7 @@ $(document).ready(function(){
           complete: function() {
             $this.text(this.countNum);
           }
-        });  
+        });
       });
     }
   });

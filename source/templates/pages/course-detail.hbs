@@ -3,7 +3,7 @@
 <section class="section course-detail">
   <div class="course-detail__banner"></div>
 
-  <div class="course-detail__join box">
+  <div class="course-detail__join box" data-aos="fade-up" data-aos-offset="200">
     <div class="container">
       <h4 class="course-detail__title-blue">{{contents.join.title}}</h4>
       <div class="row justify-content-center">
@@ -19,7 +19,7 @@
     </div>
   </div>
 
-  <div class="course-detail__target box bg-blue">
+  <div class="course-detail__target box bg-blue" data-aos="fade-up" data-aos-offset="200">
     <div class="container">
       <h4 class="course-detail__title-white">{{contents.target.title}}</h4>
       <div class="row justify-content-center">
@@ -42,7 +42,7 @@
     </div>
   </div>
 
-  <div class="course-detail__time box">
+  <div class="course-detail__time bg-light-grey box" data-aos="fade-up" data-aos-offset="200">
     <div class="container">
       <h4 class="course-detail__title-blue">{{contents.time.title}}</h4>
       <div class="row align-items-center">
@@ -62,9 +62,9 @@
     </div>
   </div>
 
-  <div class="container-fluid p-0 course-detail__more">
+  <div class="container-fluid p-0 course-detail__more" data-aos="fade-up" data-aos-offset="200">
     {{#each contents.more}}
-    <div class="row no-spacing course-detail__more-wrapper">
+    <div class="row no-spacing course-detail__more-wrapper" data-aos="fade-up" data-aos-offset="200">
       <div class="col-lg-6 order-lg-2 course-detail__more-img" style="background-image:url('{{this.urlImg}}')"></div>
       <div class="col-lg-6 order-lg-1 my-auto course-detail__more-content">
         <h4 class="course-detail__more-title">{{this.title}}</h4>
@@ -78,7 +78,7 @@
     {{/each}}
   </div>
 
-  <div class="course-detail__content box">
+  <div class="course-detail__content box" data-aos="fade-up" data-aos-offset="200">
     <div class="container z-height">
       <h4 class="course-detail__title-white">{{contents.content.title}}</h4>
       <div class="row justify-content-center">
@@ -111,10 +111,10 @@
     </div>
   </div>
 
-  <div class="course-detail__speakers box">
+  <div class="course-detail__speakers box" data-aos="fade-up" data-aos-offset="200">
     <div class="container">
       <h4 class="course-detail__title-blue">{{contents.speakers.title}}</h4>
-      <div class="row">
+      <div class="row justify-content-center">
         {{#each contents.speakers.items}}
         <div class="col-lg-4 col-md-6 mb-3">
           <div class="course-detail__speakers-avatar">
@@ -129,7 +129,7 @@
     </div>
   </div>
 
-  <div class="course-detail__document box bg-blue">
+  <div class="course-detail__document box bg-blue" data-aos="fade-up" data-aos-offset="200">
     <div class="container">
       <h4 class="course-detail__title-white">{{contents.document.title}}</h4>
       <div class="row justify-content-center">

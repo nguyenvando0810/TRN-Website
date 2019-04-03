@@ -168,52 +168,6 @@
     }
   }
 
-  &__time {
-    background-color: #F6F6F6;
-
-    .btn-register {
-      text-transform: uppercase;
-      background-color: transparent;
-      color: #1668b2;
-      position: relative;
-      z-index: 0;
-      border-color: #1668b2;
-      font-size: 16px;
-      font-weight: 400;
-      padding: 10px 30px;
-      border-radius: 3px;
-      overflow: hidden;
-
-      &:before {
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 5%;
-        padding-top: 5%;
-        transform: translate(-50%, -50%) scale(0);
-        opacity: 0;
-        background: #1668b2;
-        border-radius: 50%;
-        transition: transform 0.3s ease-out 0s, opacity 0.3s ease-out 0s;
-      }
-
-      &:hover {
-        color: #FFFFFF;
-
-        &:before {
-          opacity: 1;
-          transform: translate(-50%, -50%) scale(32);
-        }
-      }
-
-      span {
-        position: relative;
-        z-index: 2;
-      }
-    }
-  }
-
   &__more {
     & .no-spacing {
       margin-left: 0;
