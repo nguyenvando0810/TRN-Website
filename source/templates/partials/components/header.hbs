@@ -17,7 +17,8 @@
         <ul class="navbar-nav ml-auto header__menu">
           {{#each data.header.menuItems as |item indexItem|}}
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/{{item.link}}">{{item.text}}</a>
+            <a class="nav-link js-scroll-trigger absolute" href="/{{item.link}}">{{item.text}}</a>
+            <a class="nav-link js-scroll-trigger comparative" href="{{item.link}}">{{item.text}}</a>
           </li>
           {{/each}}
         </ul>

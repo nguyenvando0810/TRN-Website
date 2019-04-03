@@ -10,6 +10,10 @@
         {{#each contents.products.items}}
           <div class="col-sm-6 col-md-4 home__products-item" data-aos="fade-up" data-aos-offset="200">
             <div class="home__products-img-wrapper" style="background-image: url({{imgUrl}});">
+              <div class="home__products-status">
+                {{#eq status 'coming'}}<p class="bg-green">Sắp diễn ra</p>{{/eq}}
+                {{#eq status 'doing'}}<p class="bg-orange">Đang diễn ra</p>{{/eq}}
+              </div>
             </div>
             <div class="home__products-content">
               <a href="{{title.href}}" target="{{title.target}}" class="home__products-title">{{title.text}}</a>
