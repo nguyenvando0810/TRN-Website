@@ -10,6 +10,7 @@
     "title": "NTQ Training"
   },
   "contents": {
+    "status": "doing",
     "more": [{
         "urlImg": "../../images/bg-learning.jpg",
         "title": "Trải nghiệm học tập",
@@ -47,8 +48,8 @@
       "items": [
         "Trong chương trình tiêu chuẩn, người học sẽ tham gia 10 buổi học tập trung (mỗi buổi 2 giờ) và thời gian tự học ở nhà (học online, làm bài tập về nhà và tự nghiên cứu thêm).",
         "Mỗi buổi học cách nhau 1 tuần để trống cho thời gian tự học, và áp dụng các nội dung học được từ chương trình đào tạo vào công việc thực tiễn của học viên.",
-        "Thời gian học: (Dự kiến) 18h30 – 20h30, thứ 3 hàng tuần. Từ 02/04/2019 đến 11/06/2019.",
-        " Địa điểm:(Dự kiến) Phòng họp Kaizen, tầng 4."
+        "Thời gian học: 18h30 – 20h30, thứ 3 hàng tuần. Từ 02/04/2019 đến 11/06/2019.",
+        "Địa điểm: Phòng họp Kaizen, tầng 4."
       ],
       "register": {
         "url": "https://docs.google.com/forms/d/1i5QamlPjfid9pj4NCro7VVKhArKRmd3KuVyn57DTUcQ/viewform?edit_requested=true",
@@ -83,7 +84,7 @@
       "title": "Nội dung khóa học",
       "items": [{
           "title": "Lý thuyết",
-          "icon":"<i class='fa fa-book' aria-hidden='true'></i>",
+          "icon": "<i class='fa fa-book' aria-hidden='true'></i>",
           "list": [
             "Giới thiệu về Testing, tổng quan về phân tích yêu cầu",
             "Giới thiệu về test case, các kỹ thuật thường dùng để viết Test case"
@@ -91,7 +92,7 @@
         },
         {
           "title": "Thực hành",
-          "icon":"<i class='fa fa-cog' aria-hidden='true'></i>",
+          "icon": "<i class='fa fa-cog' aria-hidden='true'></i>",
           "list": [
             "Thực hành trên dự án mẫu",
             "Thảo luận Case study điển hình",
@@ -100,7 +101,7 @@
         },
         {
           "title": "Follow up sau đào tạo",
-          "icon":"<i class='fa fa-superpowers' aria-hidden='true'></i>",
+          "icon": "<i class='fa fa-superpowers' aria-hidden='true'></i>",
           "list": [
             "Chia sẻ khó khăn và các bài học kinh nghiệm khi áp dụng"
           ]
