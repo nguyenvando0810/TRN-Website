@@ -59,7 +59,7 @@
         .nav-link {
           padding: 15px;
 
-          &:hover {
+          &:hover, &.active {
             border-bottom: none;
           }
         }
