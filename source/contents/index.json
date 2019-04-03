@@ -51,67 +51,61 @@
       ]
     },
     "products": {
-      "heading": "Sản phẩm/Khách hàng đã có",
+      "heading": "Khóa học",
       "items": [
         {
           "imgUrl": "../../images/item-service-1.png",
-          "status": "doing",
+          "status": "done",
           "title": {
-            "text": "Sản phẩm 1",
             "href": "course-test-for-dev.html",
+            "text": "Agile Fundamentals",
             "target": "_blank"
-          },
-          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams, and he always transmit that energy to set and achieve continuous success with NTQ members."
+          }
         },
         {
           "imgUrl": "../../images/item-service-2.png",
           "status": "done",
           "title": {
-            "text": "Sản phẩm 2",
             "href": "course-test-for-dev.html",
+            "text": "Agile PM Newbie",
             "target": "_blank"
-          },
-          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style"
+          }
         },
         {
           "imgUrl": "../../images/item-service-3.png",
-          "status": "coming",
+          "status": "done",
           "title": {
-            "text": "Sản phẩm 3",
             "href": "course-test-for-dev.html",
+            "text": "BA Newbie",
             "target": "_blank"
-          },
-          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams"
+          }
         },
         {
           "imgUrl": "../../images/item-service-2.png",
           "status": "coming",
           "title": {
-            "text": "Sản phẩm 4",
             "href": "course-test-for-dev.html",
+            "text": "Nâng cao kỹ năng testing",
             "target": "_blank"
-          },
-          "desc": "NTQ has many staffs with experience living and working in Japan"
+          }
         },
         {
           "imgUrl": "../../images/item-service-1.png",
           "status": "done",
           "title": {
-            "text": "Sản phẩm 5",
             "href": "course-test-for-dev.html",
+            "text": "PM Newbie",
             "target": "_blank"
-          },
-          "desc": "NTQ has many staffs with experience living and working in Japan and always pay attention to every details, even the minor ones. and always pay attention to every details, even the minor ones. and always pay attention to every details, even the minor ones."
+          }
         },
         {
           "imgUrl": "../../images/item-service-3.png",
           "status": "doing",
           "title": {
-            "text": "Sản phẩm 6",
             "href": "course-test-for-dev.html",
+            "text": "Test for Dev",
             "target": "_blank"
-          },
-          "desc": "NTQ has many staffs with experience living and working in Japan and always pay attention to every details, even the minor ones."
+          }
         }
       ],
       "coursesBtn": {
@@ -121,7 +115,7 @@
       }
     },
     "group": {
-      "heading": "Các nhóm học tập",
+      "heading": "Nhóm học tập",
       "items": [{
           "imgUrl": "../../images/crazy-team1.png",
           "title": "Nhóm Test for Dev",
