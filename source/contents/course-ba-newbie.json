@@ -123,7 +123,7 @@
         },
         {
           "title": "Session 4: Requirement Analysis",
-          "icon": "<i class='fa fa-cog' aria-hidden='true'></i>",
+          "icon": "<i class='fa fa-book' aria-hidden='true'></i>",
           "list": [
             "Understand knowledge in requirement elicitation",
             "Techniques for requirement elicitation",
@@ -141,7 +141,7 @@
         },
         {
           "title": "Session 6: Requirement Validations and Negotiation",
-          "icon": "<i class='fa fa-cog' aria-hidden='true'></i>",
+          "icon": "<i class='fa fa-superpowers' aria-hidden='true'></i>",
           "list": [
             "Knowledge in requirement validation",
             "Techniques for requirement validation"
@@ -149,7 +149,7 @@
         },
         {
           "title": "Session 7: Requirement Management",
-          "icon": "<i class='fa fa-cog' aria-hidden='true'></i>",
+          "icon": "<i class='fa fa-book' aria-hidden='true'></i>",
           "list": [
             "Knowledge in requirement management",
             "Techniques for requirement management",
