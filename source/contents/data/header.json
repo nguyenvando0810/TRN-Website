@@ -9,11 +9,6 @@
       "link": "#banner"
     },
     {
-      "text": "Học viên",
-      "id": "student",
-      "link": "#intro"
-    },
-    {
       "text": "Khóa học",
       "id": "course",
       "link": "#products"

@@ -1,15 +1,13 @@
 .home {
-  font-family: 'Roboto', sans-serif;
-
   &__masthead {
     width: 100%;
 
     &-item {
       display: block;
       background-repeat: no-repeat;
-      background-position: bottom center;
+      background-position: center;
       background-size: cover;
-      height: calc(100vh - 85px) !important;
+      height: calc(60vh - 85px) !important;
     }
 
     .slick-arrow {
@@ -18,7 +16,6 @@
       &:before {
         font-size: 30px;
         font-family: none;
-        font-weight: 300;
         border: 1px solid #fff;
         padding: 8px
       }
@@ -78,12 +75,7 @@
     color: #003663;
     text-transform: uppercase;
     margin-bottom: 60px;
-  }
-
-  &__subhead {
-    text-align: center;
-    color: #003663;
-    margin-bottom: 50px;
+    font-weight: 600;
   }
 
   &__intro {
@@ -91,12 +83,7 @@
     background-size: cover;
 
     .home__heading {
-      margin-bottom: 15px;
-    }
-
-    .home__subhead {
-      max-width: 70%;
-      margin: 0 auto 50px;
+      margin-bottom: 30px;
     }
 
     &-item {
@@ -123,6 +110,12 @@
       padding-top: 15px;
       padding-bottom: 15px;
       text-align: center;
+
+      &:hover {
+        .home__products-img-wrapper {
+          opacity: 0.6;
+        }
+      }
     }
 
     &-img-wrapper {
@@ -132,12 +125,13 @@
       background-size: contain;
       background-position: center;
       position: relative;
+      transition: .3s;
     }
 
     &-status {
       position: absolute;
       top: -15px;
-      right: 0;
+      right: -15px;
 
       p {
         padding: 5px 20px;
@@ -157,7 +151,7 @@
 
     &-title {
       font-size: 18px;
-      margin: 30px 0 15px;
+      margin: 20px 0;
       display: inline-block;
       color: #000;
     }
@@ -219,8 +213,8 @@
     }
 
     &-desc {
-      font-weight: 300;
       margin-bottom: 1.2rem;
+      text-align: justify;
       @include text-ellipsis(15px, 1.5, 4);
     }
 
@@ -244,11 +238,11 @@
       }
 
       &:hover {
-        padding-left: 33px;
+        padding-left: 30px;
         color: #fff !important;
 
         &:after {
-          right: 115px;
+          right: 120px;
         }
       }
     }
@@ -289,7 +283,6 @@
 
     &-comment {
       height: 88px;
-      font-weight: 300;
       overflow-y: auto;
       text-align: justify;
     }
@@ -297,14 +290,13 @@
     &-job {
       text-align: right;
       font-size: 12px;
-      font-weight: 300;
       font-style: italic;
       margin-bottom: 2px;
     }
 
     &-name {
       text-align: right;
-      font-weight: 500;
+      font-weight: 600;
       margin-bottom: 0;
     }
 

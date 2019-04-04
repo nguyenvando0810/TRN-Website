@@ -28,11 +28,5 @@
       display: inline-block;
       color: #000;
     }
-
-    &-desc {
-      color: #444;
-      font-weight: 300;
-      @include text-ellipsis(16px, 1.6, 4);
-    }
   }
 }
