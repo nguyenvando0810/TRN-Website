@@ -181,6 +181,7 @@
       padding-bottom: 30px;
       display: inline-block;
       color: #000;
+      width: 100%;
 
       &:hover {
         transform: scale(1.2,1.2);
@@ -190,11 +191,11 @@
     &-link {
       display: block;
       position: absolute;
-      top: -51px;
+      top: -57px;
       width: 100%;
       background-color: #1668b2;
       color: #fff;
-      padding: 12px;
+      padding: 15px;
       transform: scaleY(0);
       transform-origin: 50% 100% 0;
       font-size: 18px;
