@@ -7,44 +7,43 @@
     "lastModified": "Sat Jan 05 2019 14:50:11 GMT+0700 (Giờ Đông Dương)",
     "changeFrequency": "daily",
     "priority": "0.5",
-    "title": "Training - NTQ Solution"
+    "title": "TRN Department - NTQ Solution"
   },
   "contents": {
     "masthead": [
       {
         "imgUrl": "../../images/banner-content.jpg",
         "link": {
-          "target": "_blank",
+          "target": "_self",
           "href": "#"
         }
       },
       {
         "imgUrl": "../../images/feedback-wallpaper.jpg",
         "link": {
-          "target": "_blank",
+          "target": "_self",
           "href": "#"
         }
       },
       {
-        "imgUrl": "../../images/recruitment-baner.jpg",
+        "imgUrl": "../../images/banner-course.png",
         "link": {
-          "target": "_blank",
+          "target": "_self",
           "href": "#"
         }
       }
     ],
     "intro": {
-      "heading": "TRN Department",
       "statistics": [{
-          "number": "8",
+          "number": "12",
           "text": "Khóa học"
         },
         {
-          "number": "69",
+          "number": "210",
           "text": "Học viên"
         },
         {
-          "number": "123",
+          "number": "852",
           "text": "Giờ học"
         }
       ]
@@ -55,65 +54,87 @@
         {
           "imgUrl": "../../images/item-service-2.png",
           "status": "coming",
-          "title": "Nâng cao kỹ năng testing",
-          "href": "course-advanced-testing.html",
-          "target": "_blank"
+          "customer": "Tester",
+          "title": {
+            "text": "Nâng cao kỹ năng testing",
+            "href": "course-advanced-testing.html",
+            "target": "_blank"
+          },
+          "btnRegister": {
+            "text": "Đăng ký",
+            "href": "https://docs.google.com/a/ntq-solution.com.vn/forms/d/1AIPFjNK3ULd5IPP4Pf7O-rqSexJbfIzHXVgNsl2NRLw/closedform",
+            "target": "_blank"
+          }
         },
         {
           "imgUrl": "../../images/item-service-3.png",
           "status": "doing",
-          "title": "Test for Dev",
-          "href": "course-test-for-dev.html",
-          "target": "_blank"
+          "customer": "Developer",
+          "title": {
+            "text": "Test for Dev",
+            "href": "course-test-for-dev.html",
+            "target": "_blank"
+          }
         },
         {
           "imgUrl": "../../images/item-service-3.png",
           "status": "doing",
-          "title": "TRN DEPT-ProductivityPeak 05",
-          "href": "course-trn-dept-productivity-peak05.html",
-          "target": "_blank"
-        },
-        {
-          "imgUrl": "../../images/item-service-3.png",
-          "status": "doing",
-          "title": "TRN DEPT-IT cơ bản",
-          "href": "course-trn-it-basic.html",
-          "target": "_blank"
+          "customer": "Khác",
+          "title": {
+            "text": "TRN DEPT-IT cơ bản",
+            "href": "course-trn-it-basic.html",
+            "target": "_blank"
+          }
         },
         {
           "imgUrl": "../../images/item-service-1.png",
           "status": "done",
-          "title": "Agile Fundamentals",
-          "href": "course-agile-fundamentals.html",
-          "target": "_blank"
+          "customer": "Khác",
+          "title": {
+            "text": "Agile Fundamentals",
+            "href": "course-agile-fundamentals.html",
+            "target": "_blank"
+          }
         },
         {
           "imgUrl": "../../images/item-service-2.png",
           "status": "done",
-          "title": "Agile PM Newbie",
-          "href": "course-agile-PM-newbie.html",
-          "target": "_blank"
+          "customer": "PM",
+          "title": {
+            "text": "Agile PM Newbie",
+            "href": "course-agile-PM-newbie.html",
+            "target": "_blank"
+          }
         },
         {
           "imgUrl": "../../images/item-service-3.png",
           "status": "done",
-          "title": "BA Newbie",
-          "href": "course-ba-newbie.html",
-          "target": "_blank"
+          "customer": "BA/Tester",
+          "title": {
+            "text": "BA Newbie",
+            "href": "course-ba-newbie.html",
+            "target": "_blank"
+          }
         },
         {
           "imgUrl": "../../images/item-service-1.png",
           "status": "done",
-          "title": "PM Newbie",
-          "href": "course-PM-newbie.html",
-          "target": "_blank"
+          "customer": "PM",
+          "title": {
+            "text": "PM Newbie",
+            "href": "course-PM-newbie.html",
+            "target": "_blank"
+          }
         },
         {
           "imgUrl": "../../images/item-service-3.png",
           "status": "done",
-          "title": "TRN DEPT-ProductivityPeak 04",
-          "href": "course-trn-dept-productivity-peak04.html",
-          "target": "_blank"
+          "customer": "Khác",
+          "title": {
+            "text": "TRN DEPT - Productivity Peak",
+            "href": "course-trn-dept-productivity-peak04.html",
+            "target": "_blank"
+          }
         }
       ],
       "coursesBtn": {

@@ -7,7 +7,7 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-      height: calc(60vh - 85px) !important;
+      height: calc(100vh - 85px - 256px) !important;
     }
 
     .slick-arrow {
@@ -98,6 +98,7 @@
 
     &-desc {
       font-size: 20px;
+      margin-bottom: 0;
     }
   }
 
@@ -110,12 +111,7 @@
       padding-top: 15px;
       padding-bottom: 15px;
       text-align: center;
-
-      &:hover {
-        .home__products-img-wrapper {
-          opacity: 0.6;
-        }
-      }
+      position: relative;
     }
 
     &-img-wrapper {
@@ -124,7 +120,6 @@
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
-      position: relative;
       transition: .3s;
     }
 
@@ -132,6 +127,7 @@
       position: absolute;
       top: -15px;
       right: -15px;
+      z-index: 1;
 
       p {
         padding: 5px 20px;
@@ -139,28 +135,81 @@
         color: #fff;
         border: 2px solid #fff;
 
-        &.bg-green {
-          background-color: green;
+        &.bg-red {
+          background-color: #dc3545;
         }
 
         &.bg-orange {
-          background-color: #f05a1a;
+          background-color: #fd7e14;
+        }
+
+        &.bg-yellow {
+          background-color: #ffc107;
+        }
+
+        &.bg-green {
+          background-color: #28a745;
+        }
+
+        &.bg-blue {
+          background-color: #007bff;
+        }
+
+        &.bg-indigo {
+          background-color: #6610f2;
+        }
+
+        &.bg-purple {
+          background-color: #6f42c1;
+        }
+      }
+    }
+
+    &-content {
+      position: relative;
+
+      &:hover {
+        .home__products-link {
+          transform: scaleY(1);
         }
       }
     }
 
     &-title {
       font-size: 18px;
-      margin: 20px 0;
+      padding-top: 20px;
+      padding-bottom: 30px;
       display: inline-block;
       color: #000;
+
+      &:hover {
+        transform: scale(1.2,1.2);
+      }
+    }
+
+    &-link {
+      display: block;
+      position: absolute;
+      top: -51px;
+      width: 100%;
+      background-color: #1668b2;
+      color: #fff;
+      padding: 12px;
+      transform: scaleY(0);
+      transform-origin: 50% 100% 0;
+      font-size: 18px;
+
+      &:hover {
+        background-color: #003663;
+        color: #fff;
+      }
     }
   }
 
   &__group {
     &-block {
-      margin-left: 0;
-      margin-right: 0;
+      margin-left: -5px;
+      margin-right: -5px;
     }
 
     &-item {
@@ -168,7 +217,7 @@
       padding: 0;
       overflow: hidden;
       position: relative;
-      border: 1px solid #fff;
+      border: 5px solid transparent;
 
       .overlay {
         position: absolute;
@@ -238,7 +287,7 @@
       }
 
       &:hover {
-        padding-left: 30px;
+        padding-left: 28px;
         color: #fff !important;
 
         &:after {

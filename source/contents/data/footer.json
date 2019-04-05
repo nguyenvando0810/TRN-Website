@@ -1,52 +1,16 @@
 {
-  "textContact": "CONTACT US",
+  "textContact": "Hãy liên hệ chúng tôi",
   "copyRight": "Copyright © NTQ Solution 2018",
   "urlLogoFooter": "../../../images/logo-footer.png",
-
   "footerContact": [{
-      "title": "Training Office",
-      "icon": "<i class='fa fa-map-signs' aria-hidden='true'></i>",
-      "address": "4th Floor, Sudico Building (HH3), Me Tri Street, Nam Tu Liem District, Hanoi City, Vietnam"
+      "title": "Bộ phận Training",
+      "representative": "Hoàng Việt Thắng (Trưởng phòng)",
+      "phone": "(+84) 243 200 8754",
+      "address": "Tầng 4, toà nhà Sudico, Mễ Trì, Nam Từ Liêm, Hà Nội, Việt Nam"
     },
     {
       "title": "Feedback",
       "address": "Mọi thông tin đóng góp ý kiến vui lòng gửi về bộ phận Đào tạo và phát triển qua email: ntq.training@ntq-solution.com.vn !"
-    }
-  ],
-  "menuItems": [{
-      "text": "サービス",
-      "id": "service",
-      "link": "service.html"
-    },
-    {
-      "text": "開発事例",
-      "id": "project",
-      "link": "project.html"
-    },
-    {
-      "text": "R&D",
-      "id": "R-D",
-      "link": "research-development.html"
-    },
-    {
-      "text": "ニュース",
-      "id": "news",
-      "link": "news.html"
-    },
-    {
-      "text": "recruitment",
-      "id": "recruitment",
-      "link": "recruitment.html"
-    },
-    {
-      "text": "会社概要",
-      "id": "about-us",
-      "link": "about-us.html"
-    },
-    {
-      "text": "お問い合わせ",
-      "id": "contact",
-      "link": "contact.html"
     }
   ]
 }

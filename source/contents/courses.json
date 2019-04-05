@@ -16,65 +16,87 @@
         {
           "imgUrl": "../../images/item-service-2.png",
           "status": "coming",
-          "title": "Nâng cao kỹ năng testing",
-          "href": "course-advanced-testing.html",
-          "target": "_blank"
+          "customer": "Tester",
+          "title": {
+            "text": "Nâng cao kỹ năng testing",
+            "href": "course-advanced-testing.html",
+            "target": "_blank"
+          },
+          "btnRegister": {
+            "text": "Đăng ký",
+            "href": "https://docs.google.com/a/ntq-solution.com.vn/forms/d/1AIPFjNK3ULd5IPP4Pf7O-rqSexJbfIzHXVgNsl2NRLw/closedform",
+            "target": "_blank"
+          }
         },
         {
           "imgUrl": "../../images/item-service-3.png",
           "status": "doing",
-          "title": "Test for Dev",
-          "href": "course-test-for-dev.html",
-          "target": "_blank"
+          "customer": "Developer",
+          "title": {
+            "text": "Test for Dev",
+            "href": "course-test-for-dev.html",
+            "target": "_blank"
+          }
         },
         {
           "imgUrl": "../../images/item-service-3.png",
           "status": "doing",
-          "title": "TRN DEPT-ProductivityPeak 05",
-          "href": "course-trn-dept-productivity-peak05.html",
-          "target": "_blank"
-        },
-        {
-          "imgUrl": "../../images/item-service-3.png",
-          "status": "doing",
-          "title": "TRN DEPT-IT cơ bản",
-          "href": "course-trn-it-basic.html",
-          "target": "_blank"
+          "customer": "Khác",
+          "title": {
+            "text": "TRN DEPT-IT cơ bản",
+            "href": "course-trn-it-basic.html",
+            "target": "_blank"
+          }
         },
         {
           "imgUrl": "../../images/item-service-1.png",
           "status": "done",
-          "title": "Agile Fundamentals",
-          "href": "course-agile-fundamentals.html",
-          "target": "_blank"
+          "customer": "Khác",
+          "title": {
+            "text": "Agile Fundamentals",
+            "href": "course-agile-fundamentals.html",
+            "target": "_blank"
+          }
         },
         {
           "imgUrl": "../../images/item-service-2.png",
           "status": "done",
-          "title": "Agile PM Newbie",
-          "href": "course-agile-PM-newbie.html",
-          "target": "_blank"
+          "customer": "PM",
+          "title": {
+            "text": "Agile PM Newbie",
+            "href": "course-agile-PM-newbie.html",
+            "target": "_blank"
+          }
         },
         {
           "imgUrl": "../../images/item-service-3.png",
           "status": "done",
-          "title": "BA Newbie",
-          "href": "course-ba-newbie.html",
-          "target": "_blank"
+          "customer": "BA/Tester",
+          "title": {
+            "text": "BA Newbie",
+            "href": "course-ba-newbie.html",
+            "target": "_blank"
+          }
         },
         {
           "imgUrl": "../../images/item-service-1.png",
           "status": "done",
-          "title": "PM Newbie",
-          "href": "course-PM-newbie.html",
-          "target": "_blank"
+          "customer": "PM",
+          "title": {
+            "text": "PM Newbie",
+            "href": "course-PM-newbie.html",
+            "target": "_blank"
+          }
         },
         {
           "imgUrl": "../../images/item-service-3.png",
           "status": "done",
-          "title": "TRN DEPT-ProductivityPeak 04",
-          "href": "course-trn-dept-productivity-peak04.html",
-          "target": "_blank"
+          "customer": "Khác",
+          "title": {
+            "text": "TRN DEPT - Productivity Peak",
+            "href": "course-trn-dept-productivity-peak04.html",
+            "target": "_blank"
+          }
         }
       ]
     }

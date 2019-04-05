@@ -27,16 +27,9 @@
     }
 
     &-detail {
-      color: #FFFFFF;
+      color: #fff;
       font-size: 14px;
-
-      &.ml-20 {
-        margin-left: 20px;
-      }
-
-      i {
-        margin-left: -20px;
-      }
+      margin: 20px 0 15px 20px;
     }
   }
 
