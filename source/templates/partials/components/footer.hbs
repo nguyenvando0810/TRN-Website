@@ -7,10 +7,10 @@
         {{#each data.footer.footerContact}}
           <div class="col-md-6">
             <div class="footer__item">
-              <h4 class="footer__contact-subtitle">{{this.title}}</h4>
-              <p class="footer__contact-detail">{{this.representative}}</p>
-              <p class="footer__contact-detail">{{this.phone}}</p>
-              <p class="footer__contact-detail">{{this.address}}</p>
+              <h4 class="footer__contact-subtitle">{{title}}</h4>
+              {{#each items}}
+                <p class="footer__contact-detail">{{{icon}}}{{text}}</p>
+              {{/each}}
             </div>
           </div>
         {{/each}}
@@ -18,7 +18,7 @@
     </div>
     <div class="row footer__bottom">
       <div class="col-md-8">
-        <img src="{{data.footer.urlLogoFooter}}" alt="">
+        <img src="{{data.footer.urlLogoFooter}}" alt="NTQ Solution">
         <span class="footer__copyright">{{data.footer.copyRight}}</span>
       </div>
       <div class="col-md-4 footer__icon">

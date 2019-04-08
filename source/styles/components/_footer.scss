@@ -30,11 +30,15 @@
       color: #fff;
       font-size: 14px;
       margin: 20px 0 15px;
+
+      i {
+        width: 20px;
+      }
     }
   }
 
   &__item {
-    padding-left: 75px;
+    padding-left: 60px;
     margin-top: 15px;
   }
 
@@ -51,14 +55,18 @@
     justify-content: flex-end;
 
     i {
-      color: #FFFFFF;
+      color: #fff;
       font-size: 35px;
       margin-left: 40px;
+      transition: .3s;
+
+      &:hover {
+        opacity: 0.6;
+      }
     }
   }
 
   @media (max-width: 767px) {
-
     &__item {
       padding-left: 15px;
     }

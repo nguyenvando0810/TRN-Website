@@ -4,13 +4,28 @@
   "urlLogoFooter": "../../../images/logo-footer.png",
   "footerContact": [{
       "title": "Bộ phận Training",
-      "representative": "Hoàng Việt Thắng (Trưởng phòng)",
-      "phone": "(+84) 243 200 8754",
-      "address": "Tầng 4, toà nhà Sudico, Mễ Trì, Nam Từ Liêm, Hà Nội, Việt Nam"
+      "items": [
+        {
+          "icon": "<i class='fa fa-user'></i>",
+          "text": "Hoàng Việt Thắng (Trưởng phòng)"
+        },
+        {
+          "icon": "<i class='fa fa-phone'></i>",
+          "text": "(+84) 243 200 8754"
+        },
+        {
+          "icon": "<i class='fa fa-map-marker'></i>",
+          "text": "Tầng 4, toà nhà Sudico, Mễ Trì, Nam Từ Liêm, Hà Nội, Việt Nam"
+        }
+      ]
     },
     {
       "title": "Feedback",
-      "address": "Mọi thông tin đóng góp ý kiến vui lòng gửi về bộ phận Đào tạo và phát triển qua email: ntq.training@ntq-solution.com.vn !"
+      "items": [
+        {
+          "text": "Mọi thông tin đóng góp ý kiến vui lòng gửi về bộ phận Đào tạo và phát triển qua email: ntq.training@ntq-solution.com.vn !"
+        }
+      ]
     }
   ]
 }
