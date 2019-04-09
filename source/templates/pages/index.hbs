@@ -47,7 +47,7 @@
         {{/each}}
       </div>
       <div class="text-right">
-        <a class="btn btn-custom" target="{{contents.products.coursesBtn.target}}" href="{{contents.products.coursesBtn.href}}" data-aos="fade-up">
+        <a class="btn btn-custom " target="{{contents.products.coursesBtn.target}}" href="{{contents.products.coursesBtn.href}}" data-aos="fade-up">
           <span>{{contents.products.coursesBtn.text}}</span>
         </a>
       </div>
@@ -61,7 +61,7 @@
       </div>
       <div class="row home__group-block">
         {{#each contents.group.items}}
-        <div class="col-sm-6 col-lg-4 home__group-item" data-aos="fade-up">
+        <div class="col-sm-6 col-lg-4 home__group-item js-group-item" data-aos="fade-up" {{#gt @index 5}}style="display: none;"{{/gt}}>
           <div class="home__group-background" style="background-image: url({{imgUrl}});">
           </div>
           <div class="overlay">
@@ -74,6 +74,12 @@
           </div>
         </div>
         {{/each}}
+      </div>
+      <div class="text-right">
+        <a class="btn btn-custom js-group-showall" target="{{contents.group.groupBtn.target}}" href="{{contents.group.groupBtn.href}}" data-aos="fade-up">
+          <span class="js-text-all all" style="display: none;">{{contents.group.groupBtn.textAll}}</span>
+          <span class="js-text-short" style="display: none;">{{contents.group.groupBtn.textShort}}</span>
+        </a>
       </div>
     </div>
   </div>

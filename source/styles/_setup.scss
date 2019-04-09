@@ -95,10 +95,18 @@ a {
     }
   }
 
+  &:focus {
+    box-shadow: none;
+  }
+
   span {
     position: relative;
     z-index: 2;
   }
+}
+
+.all {
+  display: block !important;
 }
 
 @media screen and (max-width: 575px) {

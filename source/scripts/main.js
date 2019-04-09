@@ -69,4 +69,8 @@ $(document).ready(function(){
   var navitemFromHome = $('.js-home').parent().prev().find('.nav-item');
   navitemFromHome.find('.comparative').show();
   navitemFromHome.find('.absolute').hide();
+
+  $('.js-group-showall').on('click', function () {
+    $('.js-group-item, .js-text-all, .js-text-short').toggleClass('all');
+  });
 });

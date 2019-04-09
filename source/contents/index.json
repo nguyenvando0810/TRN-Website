@@ -204,8 +204,33 @@
             "href": "course-test-for-dev.html",
             "target": "_blank"
           }
+        },
+        {
+          "imgUrl": "../../images/item-rnd-1.png",
+          "title": "Nhóm Begin for Developing",
+          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams, and he always transmit that energy to set and achieve continuous success with NTQ members.",
+          "seeMoreBtn": {
+            "text": "Xem chi tiết",
+            "href": "course-test-for-dev.html",
+            "target": "_blank"
+          }
+        },
+        {
+          "imgUrl": "../../images/item-rnd-1.png",
+          "title": "Nhóm Begin for Developing",
+          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams, and he always transmit that energy to set and achieve continuous success with NTQ members.",
+          "seeMoreBtn": {
+            "text": "Xem chi tiết",
+            "href": "course-test-for-dev.html",
+            "target": "_blank"
+          }
         }
-      ]
+      ],
+      "groupBtn": {
+        "textAll": "Tất cả nhóm học tập",
+        "textShort": "Rút gọn",
+        "href": "javascript:void(0)"
+      }
     },
     "feedback": {
       "heading": "Feedback",
