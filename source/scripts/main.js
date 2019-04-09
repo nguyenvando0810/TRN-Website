@@ -47,16 +47,6 @@ $(document).ready(function(){
     $(this).parent().siblings().find('.js-scroll-trigger').removeClass('active');
   });
 
-  // if ( $('.js-home').length > 0 ) {
-  //   $(document).on('scroll', function () {
-  //     var posIntro = $('#intro').offset().top;
-  //     var scrollTop = $(window).scrollTop();
-  //     if ( posIntro < scrollTop + 550 ) {
-        
-  //     }
-  //   });
-  // }
-
   $('.js-counter').each(function() {
     var $this = $(this);
     var countTo = $this.attr('data-count');

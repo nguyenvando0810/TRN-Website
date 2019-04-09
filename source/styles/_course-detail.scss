@@ -1,13 +1,11 @@
 .course-detail {
-
-  // padding: 5px 0;
   &__title-blue {
     color: #1668b2;
     margin-bottom: 0;
     font-size: 35px;
     text-align: center;
     font-weight: 700;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     text-transform: uppercase;
     position: relative;
 
@@ -24,22 +22,22 @@
   }
 
   &__title-white {
-    color: #FFFFFF;
+    color: #fff;
     margin-bottom: 0;
     font-size: 35px;
     text-align: center;
     font-weight: 700;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     text-transform: uppercase;
     position: relative;
 
     &:before {
+      content: '';
       position: absolute;
       bottom: 30px;
       height: 2px;
       width: 60px;
-      content: "";
-      background: #FFFFFF;
+      background: #fff;
       left: 50%;
       transform: translateX(-50%);
     }
@@ -88,7 +86,7 @@
     margin: 0;
     padding: 200px 0 60px;
     color: #fff;
-    font-size: 52px;
+    font-size: 56px;
     text-align: center;
     text-transform: uppercase;
     position: relative;
@@ -99,7 +97,7 @@
 
   &__target {
     &-item {
-      color: #FFFFFF;
+      color: #fff;
     }
 
     &-subitem {
@@ -129,7 +127,7 @@
       height: 100%;
       width: 100%;
       background-color: #1f1f1f;
-      opacity: .7;
+      opacity: 0.7;
     }
 
     .img-content {
@@ -137,14 +135,13 @@
     }
 
     &-item {
-      background: #FFFFFF;
+      background: #fff;
       border-radius: 5px;
       padding: 20px 40px;
       position: relative;
       transition: all 0.15s ease-out;
       border-bottom: 5px solid #1668b2;
       margin-bottom: 20px;
-      text-align: justify;
       height: 100%;
 
       &:hover {
@@ -180,7 +177,7 @@
 
       i {
         margin-top: 15px;
-        color: #FFFFFF;
+        color: #fff;
         font-size: 20px;
       }
     }
@@ -212,17 +209,17 @@
       font-size: 30px;
       text-align: left;
       font-weight: 700;
-      padding-bottom: 30px;
+      padding-bottom: 50px;
       text-transform: uppercase;
       font-family: 'Montserrat', sans-serif;
       position: relative;
 
-      &::before {
+      &:before {
+        content: '';
         position: absolute;
-        bottom: 15px;
+        bottom: 25px;
         height: 2px;
         width: 60px;
-        content: "";
         background: #1668b2;
       }
     }
@@ -254,7 +251,7 @@
     }
 
     &-job {
-      color: #7F7F7F;
+      color: #7f7f7f;
       font-size: 16px;
       text-align: justify;
       font-family: 'Montserrat', sans-serif;
@@ -276,6 +273,18 @@
   }
 
   @media (max-width: 767px) {
+    &__heading {
+      padding: 100px 0 30px;
+      font-size: 40px;
+      word-spacing: 2px;
+      letter-spacing: 1.5px;
+    }
+
+    &__title {
+      &-blue, &-white {
+        font-size: 24px;
+      }
+    }
 
     &__more {
       &-wrapper {
@@ -288,6 +297,10 @@
 
       &-content {
         padding: 50px 30px;
+      }
+
+      &-img {
+        min-height: 250px;
       }
     }
   }

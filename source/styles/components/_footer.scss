@@ -3,7 +3,6 @@
   background: #252525;
   font-size: 16px;
   font-weight: 400;
-  // position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -15,7 +14,7 @@
 
     &-title {
       font-size: 30px;
-      color: #FFFFFF;
+      color: #fff;
       text-transform: uppercase;
       margin-bottom: 20px;
     }
@@ -44,7 +43,7 @@
 
   &__copyright {
     display: block;
-    color: #FFFFFF;
+    color: #fff;
     font-size: 12px;
     margin-top: 5px;
   }
@@ -66,9 +65,15 @@
     }
   }
 
+  @media (min-width: 768px) and (max-width: 991px) {
+    &__item {
+      padding-left: 30px;
+    }
+  }
+
   @media (max-width: 767px) {
     &__item {
-      padding-left: 15px;
+      padding-left: 0;
     }
 
     &__bottom {

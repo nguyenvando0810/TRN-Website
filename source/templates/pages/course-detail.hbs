@@ -19,7 +19,6 @@
             {{/each}}
           </ul>
         </div>
-
       </div>
     </div>
   </div>
@@ -31,15 +30,15 @@
         <div class="col-lg-9">
           <ul class="course-detail__list">
             {{#each contents.target.items}}
-            <li class="course-detail__target-item course-detail__item">{{this.item.detail}}
-              <ul>
-                {{#if this.item.subItem}}
-                {{#each this.item.subItem}}
-                <li class="course-detail__target-subitem">{{this}}</li>
-                {{/each}}
-                {{/if}}
-              </ul>
-            </li>
+              <li class="course-detail__target-item course-detail__item">{{this.item.detail}}
+                <ul>
+                  {{#if this.item.subItem}}
+                    {{#each this.item.subItem}}
+                      <li class="course-detail__target-subitem">{{this}}</li>
+                    {{/each}}
+                  {{/if}}
+                </ul>
+              </li>
             {{/each}}
           </ul>
         </div>
@@ -54,25 +53,25 @@
         <div class="col-lg-9">
           <ul class="course-detail__list">
             {{#each contents.time.items}}
-            <li class="course-detail__item">{{this.item.detail}}
-               <ul>
-                {{#if this.item.subItem}}
-                {{#each this.item.subItem}}
-                <li class="course-detail__target-subitem">{{this}}</li>
-                {{/each}}
-                {{/if}}
-              </ul>
-            </li>
+              <li class="course-detail__item">{{this.item.detail}}
+                <ul>
+                  {{#if this.item.subItem}}
+                    {{#each this.item.subItem}}
+                      <li class="course-detail__target-subitem">{{this}}</li>
+                    {{/each}}
+                  {{/if}}
+                </ul>
+              </li>
             {{/each}}
           </ul>
         </div>
 
         {{#is contents.status 'coming'}}
-        <div class="col-lg-3 text-right">
-          <a class="btn btn-custom" target="{{contents.time.register.target}}" href="{{contents.time.register.url}}">
-            <span>{{contents.time.register.text}}</span>
-          </a>
-        </div>
+          <div class="col-lg-3 text-right">
+            <a class="btn btn-custom" target="{{contents.time.register.target}}" href="{{contents.time.register.url}}">
+              <span>{{contents.time.register.text}}</span>
+            </a>
+          </div>
         {{/is}}
       </div>
     </div>
@@ -80,17 +79,17 @@
 
   <div class="container-fluid p-0 course-detail__more" data-aos="fade-up">
     {{#each contents.more}}
-    <div class="row no-spacing course-detail__more-wrapper" data-aos="fade-up">
-      <div class="col-lg-6 order-lg-2 course-detail__more-img" style="background-image:url('{{this.urlImg}}')"></div>
-      <div class="col-lg-6 order-lg-1 my-auto course-detail__more-content">
-        <h4 class="course-detail__more-title">{{this.title}}</h4>
-        <ul class="course-detail__list">
-          {{#each this.items}}
-          <li class="course-detail__item">{{this}}</li>
-          {{/each}}
-        </ul>
+      <div class="row no-spacing course-detail__more-wrapper" data-aos="fade-up">
+        <div class="col-lg-6 order-lg-2 course-detail__more-img" style="background-image:url('{{this.urlImg}}')"></div>
+        <div class="col-lg-6 order-lg-1 my-auto course-detail__more-content">
+          <h4 class="course-detail__more-title">{{this.title}}</h4>
+          <ul class="course-detail__list">
+            {{#each this.items}}
+              <li class="course-detail__item">{{this}}</li>
+            {{/each}}
+          </ul>
+        </div>
       </div>
-    </div>
     {{/each}}
   </div>
 
@@ -99,27 +98,27 @@
       <h4 class="course-detail__title-white">{{contents.content.title}}</h4>
       <div class="row justify-content-center">
         {{#each contents.content.items}}
-        <div class="mb-3 col-lg-4
-        {{#switch ../contents.content.items.length}}
-          {{#case '1'}} col-lg-8 {{/case}}
-          {{#case '2'}} col-lg-6 {{/case}}
-         {{/switch}}">
-          <div class="course-detail__content-item">
-            <div class="text-center mb-3">
-              <span class="course-detail__content-icon">
-                {{{this.icon}}}
-              </span>
+          <div class="mb-3 col-lg-4
+            {{#switch ../contents.content.items.length}}
+              {{#case '1'}} col-lg-8 {{/case}}
+              {{#case '2'}} col-lg-6 {{/case}}
+            {{/switch}}">
+            <div class="course-detail__content-item">
+              <div class="text-center mb-3">
+                <span class="course-detail__content-icon">
+                  {{{this.icon}}}
+                </span>
+              </div>
+              {{#if this.title}}
+                <h4 class="course-detail__content-subtitle">{{this.title}}</h4>
+              {{/if}}
+              <ul>
+                {{#each this.list}}
+                  <li>{{{this}}}</li>
+                {{/each}}
+              </ul>
             </div>
-            {{#if this.title}}
-            <h4 class="course-detail__content-subtitle">{{this.title}}</h4>
-            {{/if}}
-            <ul>
-              {{#each this.list}}
-              <li>{{{this}}}</li>
-              {{/each}}
-            </ul>
           </div>
-        </div>
         {{/each}}
       </div>
     </div>
@@ -130,16 +129,15 @@
       <h4 class="course-detail__title-blue">{{contents.speakers.title}}</h4>
       <div class="row justify-content-center">
         {{#each contents.speakers.items}}
-        <div class="col-lg-4 col-md-6 mb-3">
-          <div class="course-detail__speakers-avatar">
-            <img src="{{this.avatar}}" alt="{{this.alt}}">
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="course-detail__speakers-avatar">
+              <img src="{{this.avatar}}" alt="{{this.alt}}">
+            </div>
+            <h5 class="course-detail__speakers-name">{{this.name}}</h5>
+            <div class="course-detail__speakers-job">{{this.job}}</div>
           </div>
-          <h5 class="course-detail__speakers-name">{{this.name}}</h5>
-          <div class="course-detail__speakers-job">{{this.job}}</div>
-        </div>
         {{/each}}
       </div>
-
     </div>
   </div>
 
@@ -150,7 +148,7 @@
         <div class="col-lg-9">
           <ul class="course-detail__list">
             {{#each contents.document.items}}
-            <li class="course-detail__target-item course-detail__item">{{{this}}}</li>
+              <li class="course-detail__target-item course-detail__item">{{{this}}}</li>
             {{/each}}
           </ul>
         </div>
