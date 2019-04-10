@@ -449,16 +449,24 @@
       &-item {
         height: 275px;
       }
+
+      &-desc {
+        text-align: left;
+      }
     }
 
     &__feedback {
       &-content {
-        width: 90%;
+        width: 94%;
 
         &:after {
-          left: 24%;
+          left: 35%;
           bottom: -18px;
         }
+      }
+
+      &-comment {
+        text-align: left;
       }
     }
   }
@@ -500,6 +508,10 @@
       &-item {
         height: 275px;
       }
+
+      &-desc {
+        text-align: left;
+      }
     }
 
     &__feedback {
@@ -510,6 +522,11 @@
           bottom: -18px;
           left: 28%;
         }
+      }
+
+
+      &-comment {
+        text-align: left;
       }
     }
   }
