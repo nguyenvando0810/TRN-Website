@@ -2,16 +2,13 @@
   "textContact": "Hãy liên hệ chúng tôi",
   "copyRight": "Copyright © NTQ Solution 2018",
   "urlLogoFooter": "../../../images/logo-footer.png",
-  "footerContact": [{
+  "footerContact": [
+    {
       "title": "Bộ phận Training",
       "items": [
         {
-          "icon": "<i class='fa fa-user'></i>",
-          "text": "Hoàng Việt Thắng (Trưởng phòng)"
-        },
-        {
-          "icon": "<i class='fa fa-phone'></i>",
-          "text": "(+84) 243 200 8754"
+          "icon": "<i class='fa fa-envelope-square'></i>",
+          "text": "ntq.training@ntq-solution.com.vn"
         },
         {
           "icon": "<i class='fa fa-map-marker'></i>",
@@ -20,10 +17,54 @@
       ]
     },
     {
-      "title": "Feedback",
+      "title": "Hoàng Việt Thắng",
       "items": [
         {
-          "text": "Mọi thông tin đóng góp ý kiến vui lòng gửi về bộ phận Đào tạo và phát triển qua email: ntq.training@ntq-solution.com.vn !"
+          "icon": "<i class='fa fa-user-secret'></i>",
+          "text": "TRN Manager"
+        },
+        {
+          "icon": "<i class='fa fa-envelope-square'></i>",
+          "text": "thang.hoang@ntq-solution.com.vn"
+        }
+      ]
+    },
+    {
+      "title": "Nguyễn Thị Minh Hoà",
+      "items": [
+        {
+          "icon": "<i class='fa fa-user-secret'></i>",
+          "text": "TRN Staff"
+        },
+        {
+          "icon": "<i class='fa fa-envelope-square'></i>",
+          "text": "hoa.nguyen@ntq-solution.com.vn"
+        }
+      ]
+    },
+    {
+      "title": "Lưu Thị Diệu Ánh",
+      "items": [
+        {
+          "icon": "<i class='fa fa-user-secret'></i>",
+          "text": "TRN Staff"
+        },
+        {
+          "icon": "<i class='fa fa-envelope-square'></i>",
+          "text": "anh.luu@ntq-solution.com.vn"
+        }
+      ]
+    },
+    {
+      "title": "Hồ Thị Phương",
+      "items": [
+        {
+          "icon": "<i class='fa fa-user-secret'></i>",
+          "text": "TRN Intern"
+        },
+        {
+          "icon": "<i class='fa fa-envelope-square'></i>",
+          "text": "phuong.ho.intern@ntq-solution.com.vn"
         }
       ]
     }

@@ -11,7 +11,7 @@
   },
   "contents": {
     "heading": "Agile PM Newbie",
-    "avatar": "../../images/banner-content.jpg",
+    "avatar": "../../images/item-agile-pm-1.png",
     "status": "done",
     "join": {
       "title": "Đối tượng tham gia",
@@ -102,16 +102,10 @@
     "speakers": {
       "title": "Speakers",
       "items": [{
-          "avatar": "../../images/avatar-speaker.jpg",
-          "alt": "avatar-hang",
-          "name": "Nguyễn Minh Phúc ",
-          "job": "Scrum Master - COE"
-        },
-        {
-          "avatar": "../../images/avatar-default.png",
-          "alt": "avatar-me",
-          "name": "You",
-          "job": "Submit your talk"
+          "avatar": "../../images/avatar-nguyen-minh-phuc.jpg",
+          "alt": "Nguyễn Minh Phúc",
+          "name": "Nguyễn Minh Phúc",
+          "job": "COE"
         }
       ]
     },

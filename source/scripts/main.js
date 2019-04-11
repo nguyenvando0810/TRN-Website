@@ -55,7 +55,7 @@ $(document).ready(function(){
       countNum: countTo
     }, {
       duration: 1000,
-      easing:'linear',
+      easing: 'linear',
       step: function() {
         $this.text(Math.floor(this.countNum));
       },

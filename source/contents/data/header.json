@@ -5,22 +5,18 @@
   "alt": "NTQ-Solution",
   "menuItems": [{
       "text": "Thông tin",
-      "id": "infomation",
       "link": "#banner"
     },
     {
       "text": "Khóa học",
-      "id": "course",
       "link": "#products"
     },
     {
       "text": "Nhóm học tập",
-      "id": "group",
       "link": "#group"
     },
     {
-      "text": "Feedback",
-      "id": "Feedback",
+      "text": "Phản hồi",
       "link": "#feedback"
     }
   ]

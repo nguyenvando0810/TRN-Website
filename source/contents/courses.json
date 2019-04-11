@@ -15,16 +15,11 @@
       "items": [
         {
           "imgUrl": "../../images/item-service-2.png",
-          "status": "coming",
+          "status": "doing",
           "customer": "Tester",
           "title": {
             "text": "Nâng cao kỹ năng testing",
             "href": "course-advanced-testing.html",
-            "target": "_blank"
-          },
-          "btnRegister": {
-            "text": "Đăng ký",
-            "href": "https://docs.google.com/a/ntq-solution.com.vn/forms/d/1AIPFjNK3ULd5IPP4Pf7O-rqSexJbfIzHXVgNsl2NRLw/closedform",
             "target": "_blank"
           }
         },
@@ -40,7 +35,7 @@
         },
         {
           "imgUrl": "../../images/item-service-3.png",
-          "status": "doing",
+          "status": "done",
           "customer": "Khác",
           "title": {
             "text": "TRN DEPT - IT cơ bản",
@@ -49,7 +44,7 @@
           }
         },
         {
-          "imgUrl": "../../images/item-service-1.png",
+          "imgUrl": "../../images/item-agile-3.png",
           "status": "done",
           "customer": "Khác",
           "title": {
@@ -59,7 +54,7 @@
           }
         },
         {
-          "imgUrl": "../../images/item-service-2.png",
+          "imgUrl": "../../images/item-agile-pm-3.png",
           "status": "done",
           "customer": "PM",
           "title": {
@@ -69,7 +64,7 @@
           }
         },
         {
-          "imgUrl": "../../images/item-service-3.png",
+          "imgUrl": "../../images/item-ba.jpg",
           "status": "done",
           "customer": "BA/Tester",
           "title": {
@@ -79,7 +74,7 @@
           }
         },
         {
-          "imgUrl": "../../images/item-service-1.png",
+          "imgUrl": "../../images/item-pm-newbie-4.jpg",
           "status": "done",
           "customer": "PM",
           "title": {

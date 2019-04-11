@@ -12,10 +12,10 @@
     <div class="container">
       <div class="row home__intro-block" data-aos="fade-up">
         {{#each contents.intro.statistics}}
-        <div class="col-sm-4 home__intro-item">
-          <h3 class="home__intro-number js-counter" data-count="{{number}}">0</h3>
-          <p class="home__intro-desc">{{text}}</p>
-        </div>
+          <div class="col-sm-4 home__intro-item">
+            <h3 class="home__intro-number js-counter" data-count="{{number}}">0</h3>
+            <p class="home__intro-desc">{{text}}</p>
+          </div>
         {{/each}}
       </div>
     </div>
@@ -40,14 +40,16 @@
             <div class="home__products-content">
               <a class="home__products-title" href="{{title.href}}" target="{{title.target}}">{{title.text}}</a>
               {{#if btnRegister}}
-                <a class="home__products-link" href="{{btnRegister.href}}" target="{{btnRegister.target}}">{{btnRegister.text}}</a>
+                {{#is status 'coming'}}
+                  <a class="home__products-link" href="{{btnRegister.href}}" target="{{btnRegister.target}}">{{btnRegister.text}}</a>
+                {{/is}}
               {{/if}}
             </div>
           </div>
         {{/each}}
       </div>
       <div class="text-right">
-        <a class="btn btn-custom " target="{{contents.products.coursesBtn.target}}" href="{{contents.products.coursesBtn.href}}" data-aos="fade-up">
+        <a class="btn btn-custom" target="{{contents.products.coursesBtn.target}}" href="{{contents.products.coursesBtn.href}}" data-aos="fade-up">
           <span>{{contents.products.coursesBtn.text}}</span>
         </a>
       </div>
@@ -61,18 +63,23 @@
       </div>
       <div class="row home__group-block">
         {{#each contents.group.items}}
-        <div class="col-sm-6 col-lg-4 home__group-item js-group-item" data-aos="fade-up" {{#gt @index 5}}style="display: none;"{{/gt}}>
-          <div class="home__group-background" style="background-image: url({{imgUrl}});">
+          <div class="col-sm-6 col-lg-4 home__group-item js-group-item" data-aos="fade-up" {{#gt @index 5}}style="display: none;"{{/gt}}>
+            <div class="home__group-background" style="background-image: url({{imgUrl}});">
+            </div>
+            <div class="overlay">
+              <h3 class="home__group-title">{{title}}</h3>
+              <ul class="home__group-info">
+                {{#if info.trainer}}<li><i class="fa fa-address-card"></i>{{info.trainer}}</li>{{/if}}
+                {{#if info.scope}}<li><i class="fa fa-users"></i>{{info.scope}}</li>{{/if}}
+                {{#if info.time}}<li><i class="fa fa-calendar"></i>{{info.time}}</li>{{/if}}
+                {{#if info.place}}<li><i class="fa fa-university"></i>{{info.place}}</li>{{/if}}
+              </ul>
+              <a href="{{seeMoreBtn.href}}" target="{{seeMoreBtn.target}}" class="home__group-btn-see-more">
+                {{seeMoreBtn.text}}
+                <span class="glyphicon glyphicon-cloud"></span>
+              </a>
+            </div>
           </div>
-          <div class="overlay">
-            <h3 class="home__group-title">{{title}}</h3>
-            <p class="home__group-desc" style="-webkit-box-orient: vertical;">{{desc}}</p>
-            <a href="{{seeMoreBtn.href}}" target="{{seeMoreBtn.target}}" class="home__group-btn-see-more">
-              {{seeMoreBtn.text}}
-              <span class="glyphicon glyphicon-cloud"></span>
-            </a>
-          </div>
-        </div>
         {{/each}}
       </div>
       <div class="text-right">
@@ -91,15 +98,15 @@
       </div>
       <div class="row home__feedback-block js-home-feedback" data-aos="fade-up">
         {{#each contents.feedback.items}}
-        <div class="home__feedback-item">
-          <div class="home__feedback-content">
-            <p class="home__feedback-comment">{{comment}}</p>
-            <p class="home__feedback-job">{{job}}</p>
-            <p class="home__feedback-name">{{name}}</p>
+          <div class="home__feedback-item">
+            <div class="home__feedback-content">
+              <p class="home__feedback-comment">{{{comment}}}</p>
+              <p class="home__feedback-job">{{job}}</p>
+              <p class="home__feedback-name">{{name}}</p>
+            </div>
+            <div class="home__feedback-avatar" style="background-image: url({{avatar}});">
+            </div>
           </div>
-          <div class="home__feedback-avatar" style="background-image: url({{avatar}});">
-          </div>
-        </div>
         {{/each}}
       </div>
     </div>

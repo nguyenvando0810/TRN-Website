@@ -11,22 +11,22 @@
   },
   "contents": {
     "heading": "PM Newbie",
-    "avatar": "../../images/banner-content.jpg",
+    "avatar": "../../images/item-pm-newbie-1.jpg",
     "status": "done",
     "join": {
       "title": "Đối tượng tham gia",
       "items": [
         "Các PM mới, có mong muốn học hỏi thêm kiến thức nền tảng về PM một cách bài bản",
-        "Các thành viên có cơ hội sắp trở thành PM ",
-        "Các thành viên đang làm team lead ",
-        "Lưu ý: Học viên cần cam kết dành được thời gian cho việc học tập và có thể thực hành sau khóa học "
+        "Các thành viên có cơ hội sắp trở thành PM",
+        "Các thành viên đang làm team lead",
+        "Lưu ý: Học viên cần cam kết dành được thời gian cho việc học tập và có thể thực hành sau khóa học"
       ]
     },
     "target": {
       "title": "Mục tiêu tổng quát",
       "items": [{
         "item": {
-          "detail": "Có kiến thức chung về PM "
+          "detail": "Có kiến thức chung về PM"
         }
       },
       {
@@ -108,12 +108,6 @@
           "alt": "avatar-viet",
           "name": "Lê Đức Việt",
           "job": "PM NS1"
-        },
-        {
-          "avatar": "../../images/avatar-default.png",
-          "alt": "avatar-me",
-          "name": "You",
-          "job": "Submit your talk"
         }
       ]
     },

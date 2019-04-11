@@ -12,7 +12,7 @@
   "contents": {
     "heading": "Nâng cao kỹ năng testing",
     "avatar": "../../images/banner-content.jpg",
-    "status": "coming",
+    "status": "doing",
     "join": {
       "title": "Đối tượng tham gia",
       "items": [
@@ -129,11 +129,6 @@
           "alt": "avatar-hue",
           "name": "Tạ Thị Thinh",
           "job": "Kinh nghiệm đào tạo thi ISTQB và chuyên về mảng Process quality assurance trong nhiều năm."
-        }, {
-          "avatar": "../../images/avatar-default.png",
-          "alt": "avatar-me",
-          "name": "You",
-          "job": "Submit your talk"
         }
       ]
     },

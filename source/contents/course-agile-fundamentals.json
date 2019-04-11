@@ -11,7 +11,7 @@
   },
   "contents": {
     "heading": "Agile Fundamentals",
-    "avatar": "../../images/banner-content.jpg",
+    "avatar": "../../images/item-agile-2.png",
     "status": "done",
     "join": {
       "title": "Đối tượng tham gia",
@@ -41,15 +41,6 @@
         {
           "item": {
             "detail": "Mỗi buổi học cách nhau 1 tuần để trống cho thời gian tự học, và áp dụng các nội dung học được từ chương trình đào tạo vào công việc thực tiễn của học viên."
-          }
-        },
-        {
-          "item": {
-            "detail": "Thời gian học:",
-            "subItem": [
-              "Buổi 1: 18h00 – 20h00 thứ 5 ngày 21/02/2019",
-              "Buổi 2: 18h00 – 20h00 thứ 5 ngày 28/02/2019"
-            ]
           }
         }
       ],
@@ -107,16 +98,10 @@
     "speakers": {
       "title": "Speakers",
       "items": [{
-          "avatar": "../../images/avatar-speaker.jpg",
-          "alt": "avatar-hang",
-          "name": "Nguyễn Minh Phúc ",
+          "avatar": "../../images/avatar-nguyen-minh-phuc.jpg",
+          "alt": "Nguyễn Minh Phúc",
+          "name": "Nguyễn Minh Phúc",
           "job": "COE"
-        },
-        {
-          "avatar": "../../images/avatar-default.png",
-          "alt": "avatar-me",
-          "name": "You",
-          "job": "Submit your talk"
         }
       ]
     },

@@ -12,7 +12,7 @@
   "contents": {
     "heading": "TRN DEPT - Productivity Peak",
     "avatar": "../../images/banner-content.jpg",
-    "status": "doing",
+    "status": "done",
     "join": {
       "title": "Đối tượng tham gia",
       "items": [
@@ -52,11 +52,6 @@
         {
           "item": {
             "detail": "Mỗi buổi học cách nhau một tuần để trống cho thời gian tự học, và áp dụng các nội dung học được từ chương trình đào tạo vào công việc thực tiễn của học viên. "
-          }
-        },
-        {
-          "item": {
-            "detail": "Thời gian học: 16h30 – 19h30 thứ 3 hàng tuần các ngày 05, 12, 19, 26/03/2019"
           }
         }
       ],
@@ -117,12 +112,6 @@
           "alt": "avatar-son",
           "name": "Tô Hải Sơn",
           "job": "COO"
-        },
-        {
-          "avatar": "../../images/avatar-default.png",
-          "alt": "avatar-me",
-          "name": "You",
-          "job": "Submit your talk"
         }
       ]
     },

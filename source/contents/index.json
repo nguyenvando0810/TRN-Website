@@ -53,16 +53,11 @@
       "items": [
         {
           "imgUrl": "../../images/item-service-2.png",
-          "status": "coming",
+          "status": "doing",
           "customer": "Tester",
           "title": {
             "text": "Nâng cao kỹ năng testing",
             "href": "course-advanced-testing.html",
-            "target": "_blank"
-          },
-          "btnRegister": {
-            "text": "Đăng ký",
-            "href": "https://docs.google.com/a/ntq-solution.com.vn/forms/d/1AIPFjNK3ULd5IPP4Pf7O-rqSexJbfIzHXVgNsl2NRLw/closedform",
             "target": "_blank"
           }
         },
@@ -78,7 +73,7 @@
         },
         {
           "imgUrl": "../../images/item-service-3.png",
-          "status": "doing",
+          "status": "done",
           "customer": "Khác",
           "title": {
             "text": "TRN DEPT - IT cơ bản",
@@ -87,7 +82,7 @@
           }
         },
         {
-          "imgUrl": "../../images/item-service-1.png",
+          "imgUrl": "../../images/item-agile-3.png",
           "status": "done",
           "customer": "Khác",
           "title": {
@@ -97,7 +92,7 @@
           }
         },
         {
-          "imgUrl": "../../images/item-service-2.png",
+          "imgUrl": "../../images/item-agile-pm-3.png",
           "status": "done",
           "customer": "PM",
           "title": {
@@ -107,7 +102,7 @@
           }
         },
         {
-          "imgUrl": "../../images/item-service-3.png",
+          "imgUrl": "../../images/item-ba.jpg",
           "status": "done",
           "customer": "BA/Tester",
           "title": {
@@ -117,7 +112,7 @@
           }
         },
         {
-          "imgUrl": "../../images/item-service-1.png",
+          "imgUrl": "../../images/item-pm-newbie-4.jpg",
           "status": "done",
           "customer": "PM",
           "title": {
@@ -147,81 +142,166 @@
       "heading": "Nhóm học tập",
       "items": [{
           "imgUrl": "../../images/crazy-team1.png",
-          "title": "Nhóm Test for Dev",
-          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams, and he always",
+          "title": "C# Club",
+          "info": {
+            "trainer": "Nguyễn Sơn Lâm",
+            "scope": "Toàn công ty",
+            "time": "11h - 12h, thứ 4 hàng tuần",
+            "place": "Phòng Fuji"
+          },
           "seeMoreBtn": {
             "text": "Xem chi tiết",
-            "href": "course-test-for-dev.html",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLScuZAS3652DbNLvfhfkGl1dQcrQNfPCcKrLPtrayrzaBUo-UQ/viewform",
             "target": "_blank"
           }
         },
         {
           "imgUrl": "../../images/crazy-team2.png",
-          "title": "Nhóm Advanced Testing",
-          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details",
+          "title": "Java Team",
+          "info": {
+            "trainer": "Đỗ Quang Hưng",
+            "scope": "Toàn công ty",
+            "time": "13h30 - 14h30, thứ 5 hàng tuần",
+            "place": "Phòng Seci"
+          },
           "seeMoreBtn": {
             "text": "Xem chi tiết",
-            "href": "course-test-for-dev.html",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLScuZAS3652DbNLvfhfkGl1dQcrQNfPCcKrLPtrayrzaBUo-UQ/viewform",
             "target": "_blank"
           }
         },
         {
           "imgUrl": "../../images/crazy-team3.png",
-          "title": "Nhóm Scrum Master",
-          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every",
+          "title": "Scrum",
+          "info": {
+            "trainer": "Nguyễn Minh Phúc",
+            "scope": "Toàn công ty",
+            "time": "11h - 12h, thứ 6 hàng tuần",
+            "place": "Phòng Seci"
+          },
           "seeMoreBtn": {
             "text": "Xem chi tiết",
-            "href": "course-test-for-dev.html",
-            "target": "_blank"
-          }
-        },
-        {
-          "imgUrl": "../../images/vv-building.jpg",
-          "title": "Nhóm ReactJS",
-          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details",
-          "seeMoreBtn": {
-            "text": "Xem chi tiết",
-            "href": "course-test-for-dev.html",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLScuZAS3652DbNLvfhfkGl1dQcrQNfPCcKrLPtrayrzaBUo-UQ/viewform",
             "target": "_blank"
           }
         },
         {
           "imgUrl": "../../images/item-news.png",
-          "title": "Nhóm Training",
-          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones",
+          "title": "JS Team",
+          "info": {
+            "trainer": "Tạ Quốc Vương",
+            "scope": "Toàn công ty",
+            "time": "13h30 - 14h30, thứ 5 hàng tuần",
+            "place": "Phòng Skype 1"
+          },
           "seeMoreBtn": {
             "text": "Xem chi tiết",
-            "href": "course-test-for-dev.html",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLScuZAS3652DbNLvfhfkGl1dQcrQNfPCcKrLPtrayrzaBUo-UQ/viewform",
+            "target": "_blank"
+          }
+        },
+        {
+          "imgUrl": "../../images/vv-building.jpg",
+          "title": "English Club",
+          "info": {
+            "trainer": "Walid Barakat",
+            "scope": "Toàn công ty",
+            "time": "17h30, thứ 2, thứ 5 hàng tuần",
+            "place": "Phòng Seci"
+          },
+          "seeMoreBtn": {
+            "text": "Xem chi tiết",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLScuZAS3652DbNLvfhfkGl1dQcrQNfPCcKrLPtrayrzaBUo-UQ/viewform",
+            "target": "_blank"
+          }
+        },
+        {
+          "imgUrl": "../../images/feedback-wallpaper.jpg",
+          "title": "Junior C#",
+          "info": {
+            "trainer": "Lê Tiến Thành, Trần Sơn Chiến",
+            "scope": "NS3",
+            "time": "11h - 12h, thứ 5 hàng tuần",
+            "place": "Phòng Glas"
+          },
+          "seeMoreBtn": {
+            "text": "Xem chi tiết",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLScuZAS3652DbNLvfhfkGl1dQcrQNfPCcKrLPtrayrzaBUo-UQ/viewform",
+            "target": "_blank"
+          }
+        },
+        {
+          "imgUrl": "../../images/bg-learning.jpg",
+          "title": "iOS",
+          "info": {
+            "trainer": "Lê Xuân Tuyên",
+            "scope": "NS1",
+            "time": "16h - 17h, thứ 4 hàng tuần",
+            "place": "Phòng Seci"
+          },
+          "seeMoreBtn": {
+            "text": "Xem chi tiết",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLScuZAS3652DbNLvfhfkGl1dQcrQNfPCcKrLPtrayrzaBUo-UQ/viewform",
             "target": "_blank"
           }
         },
         {
           "imgUrl": "../../images/item-rnd-1.png",
-          "title": "Nhóm Begin for Developing",
-          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams, and he always transmit that energy to set and achieve continuous success with NTQ members.",
+          "title": "Team Test NS1",
+          "info": {
+            "trainer": "Vũ Thị Thu Hằng",
+            "scope": "NS1",
+            "time": "16h30 - 17h30, thứ 6 hàng tuần",
+            "place": "Phòng Semi VIP"
+          },
           "seeMoreBtn": {
             "text": "Xem chi tiết",
-            "href": "course-test-for-dev.html",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLScuZAS3652DbNLvfhfkGl1dQcrQNfPCcKrLPtrayrzaBUo-UQ/viewform",
             "target": "_blank"
           }
         },
         {
-          "imgUrl": "../../images/item-rnd-1.png",
-          "title": "Nhóm Begin for Developing",
-          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams, and he always transmit that energy to set and achieve continuous success with NTQ members.",
+          "imgUrl": "../../images/bg-language.jpg",
+          "title": "Comtor Team",
+          "info": {
+            "trainer": "Bùi Thị Yến",
+            "scope": "NS1",
+            "time": "14h - 15h, thứ 5 hàng tuần",
+            "place": "Phòng Fuji"
+          },
           "seeMoreBtn": {
             "text": "Xem chi tiết",
-            "href": "course-test-for-dev.html",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLScuZAS3652DbNLvfhfkGl1dQcrQNfPCcKrLPtrayrzaBUo-UQ/viewform",
             "target": "_blank"
           }
         },
         {
-          "imgUrl": "../../images/item-rnd-1.png",
-          "title": "Nhóm Begin for Developing",
-          "desc": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams, and he always transmit that energy to set and achieve continuous success with NTQ members.",
+          "imgUrl": "../../images/banner-content.jpg",
+          "title": "HR Internal Training",
+          "info": {
+            "trainer": "Nguyễn Thị Bích Huệ",
+            "scope": "HR",
+            "time": "15h30 - 16h30, thứ 4 hàng tuần",
+            "place": "Phòng Fuji"
+          },
           "seeMoreBtn": {
             "text": "Xem chi tiết",
-            "href": "course-test-for-dev.html",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLScuZAS3652DbNLvfhfkGl1dQcrQNfPCcKrLPtrayrzaBUo-UQ/viewform",
+            "target": "_blank"
+          }
+        },
+        {
+          "imgUrl": "../../images/bg-book.jpg",
+          "title": "Japanese Club",
+          "info": {
+            "trainer": "Đội Comtor",
+            "scope": "NS3",
+            "time": "17h45, thứ 4 hàng tuần",
+            "place": "Phòng Canbus"
+          },
+          "seeMoreBtn": {
+            "text": "Xem chi tiết",
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLScuZAS3652DbNLvfhfkGl1dQcrQNfPCcKrLPtrayrzaBUo-UQ/viewform",
             "target": "_blank"
           }
         }
@@ -233,36 +313,36 @@
       }
     },
     "feedback": {
-      "heading": "Feedback",
+      "heading": "Phản hồi",
       "items": [{
           "avatar": "../../images/avt-anh.jpg",
-          "name": "Lưu Thị Diệu Ánh",
-          "job": "Nhân viên TRN",
-          "comment": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams, and he always"
+          "name": "Chị Bùi Thị Thanh Thuỷ",
+          "job": "Tester",
+          "comment": "Giảng viên giảng dạy kết hợp game áp dụng bài học làm cho lớp học không nhàm chán. Có phân chia nhóm giúp tăng tình đoàn kết giữa các thành viên. Và đặc biệt nhất là có đồ ăn ^_^"
         },
         {
           "avatar": "../../images/avt-binh-minh.jpg",
-          "name": "Từ Bình Minh",
-          "job": "Lập trình viên",
-          "comment": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones"
+          "name": "Anh Trần Hồ Phương",
+          "job": "Phó Giám đốc - NTQ Solution",
+          "comment": "Định kỳ gửi các chương trình học sắp tới cho các members, managers."
         },
         {
-          "avatar": "../../images/avt-quyen.jpg",
-          "name": "Đỗ Thị Quyên",
-          "job": "Tester",
-          "comment": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details, even the minor ones. Mr. Son – the CEO holds big dreams, and he always, Mr. Son – the CEO holds big dreams, and he always"
+          "avatar": "../../images/avt-nguyen-ngoc-hung.jpg",
+          "name": "Anh Nguyễn Ngọc Hùng",
+          "job": "Developer",
+          "comment": "Cung cấp tài liệu bản cứng đầy đủ hơn + training kỹ năng làm việc tốt hơn cho Freshers."
         },
         {
-          "avatar": "../../images/avt-tung.jpg",
-          "name": "Trần Duy Tùng",
-          "job": "Kỹ sư",
-          "comment": "NTQ has many staffs with experience living and working in Japan"
+          "avatar": "../../images/avt-nguyen-minh-phuc.jpg",
+          "name": "Anh Nguyễn Minh Phúc",
+          "job": "COE",
+          "comment": "Chuẩn bị trang thiết bị, phòng họp và việc thông tin truyền thông đầy đủ, chính xác hơn.<br/>Báo trước lịch đào tạo và xác nhận sớm để tránh việc trùng lịch.<br/>Các lịch đào tạo cần bố trí hợp lý hơn, tránh việc 2 khóa cùng 1 thời điểm."
         },
         {
           "avatar": "../../images/avt-huy.jpg",
-          "name": "Trần Quốc Huy",
-          "job": "Kế toán",
-          "comment": "NTQ has many staffs with experience living and working in Japan, they have adopted the Japanese working style and always pay attention to every details"
+          "name": "Anh Nguyễn Quang Huy",
+          "job": "Developer",
+          "comment": "Giảng viên truyền cảm, diễn đạt thoát ý, thú vị, dễ hiểu. Chuẩn bị về cơ sở vật chất đầy đủ, chuyên nghiệp. Có nhiều hoạt động, trò chơi thú vị."
         }
       ]
     },

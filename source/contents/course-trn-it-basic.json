@@ -12,7 +12,7 @@
   "contents": {
     "heading": "TRN DEPT - IT cơ bản",
     "avatar": "../../images/banner-content.jpg",
-    "status": "doing",
+    "status": "done",
     "join": {
       "title": "Đối tượng tham gia",
       "items": [
@@ -42,11 +42,6 @@
         {
           "item": {
             "detail": "Mỗi buổi học cách nhau 3 ngày để trống cho thời gian tự học, và nghiên cứu thêm của học viên."
-          }
-        },
-        {
-          "item": {
-            "detail": "Thời gian học: 18h00 – 19h00 thứ 2 & thứ 5 hàng tuần các từ 04/03 đến 04/04/2019 "
           }
         }
       ],
@@ -105,12 +100,6 @@
           "alt": "avatar-tung",
           "name": "Dương Thanh Tùng",
           "job": "NSx"
-        },
-        {
-          "avatar": "../../images/avatar-default.png",
-          "alt": "avatar-me",
-          "name": "You",
-          "job": "Submit your talk"
         }
       ]
     },

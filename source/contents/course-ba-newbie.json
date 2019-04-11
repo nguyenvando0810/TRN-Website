@@ -11,8 +11,8 @@
   },
   "contents": {
     "heading": "BA Newbie",
-    "avatar": "../../images/banner-content.jpg",
-    "status": "doing",
+    "avatar": "../../images/item-ba-1.png",
+    "status": "done",
     "join": {
       "title": "Đối tượng tham gia",
       "items": [
@@ -165,14 +165,8 @@
       "items": [{
           "avatar": "../../images/avatar-speaker.jpg",
           "alt": "avatar-hang",
-          "name": "Nguyễn Thị Nga ",
+          "name": "Nguyễn Thị Nga",
           "job": "Thạc sĩ (Giảng viên thuê ngoài)"
-        },
-        {
-          "avatar": "../../images/avatar-default.png",
-          "alt": "avatar-me",
-          "name": "You",
-          "job": "Submit your talk"
         }
       ]
     },
