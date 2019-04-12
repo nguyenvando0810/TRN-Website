@@ -9,15 +9,6 @@
       <div class="row home__products-block">
         {{#each contents.products.items}}
           <div class="col-sm-6 col-lg-4 home__products-item" data-aos="fade-up">
-            <div class="home__products-status">
-              {{#is customer 'Developer'}}<p class="bg-red">{{customer}}</p>{{/is}}
-              {{#is customer 'PM'}}<p class="bg-orange">{{customer}}</p>{{/is}}
-              {{#is customer 'BA/Tester'}}<p class="bg-yellow">{{customer}}</p>{{/is}}
-              {{#is customer 'Tester'}}<p class="bg-green">{{customer}}</p>{{/is}}
-              {{#is customer 'Comtor'}}<p class="bg-blue">{{customer}}</p>{{/is}}
-              {{#is customer 'Leadership Manager'}}<p class="bg-indigo">{{customer}}</p>{{/is}}
-              {{#is customer 'Khác'}}<p class="bg-purple">{{customer}}</p>{{/is}}
-            </div>
             <div class="home__products-img-wrapper" style="background-image: url({{imgUrl}});">
             </div>
             <div class="home__products-content">

@@ -201,7 +201,7 @@
           }
         },
         {
-          "imgUrl": "../../images/vv-building.jpg",
+          "imgUrl": "../../images/english-club.jpg",
           "title": "English Club",
           "info": {
             "trainer": "Walid Barakat",
@@ -216,7 +216,7 @@
           }
         },
         {
-          "imgUrl": "../../images/feedback-wallpaper.jpg",
+          "imgUrl": "../../images/junior-dotnet.jpg",
           "title": "Junior C#",
           "info": {
             "trainer": "Lê Tiến Thành, Trần Sơn Chiến",
@@ -231,7 +231,7 @@
           }
         },
         {
-          "imgUrl": "../../images/bg-learning.jpg",
+          "imgUrl": "../../images/ios.jpg",
           "title": "iOS",
           "info": {
             "trainer": "Lê Xuân Tuyên",
@@ -246,7 +246,7 @@
           }
         },
         {
-          "imgUrl": "../../images/item-rnd-1.png",
+          "imgUrl": "../../images/team-test-ns1.jpg",
           "title": "Team Test NS1",
           "info": {
             "trainer": "Vũ Thị Thu Hằng",
@@ -261,7 +261,7 @@
           }
         },
         {
-          "imgUrl": "../../images/bg-language.jpg",
+          "imgUrl": "../../images/comtor-team.jpg",
           "title": "Comtor Team",
           "info": {
             "trainer": "Bùi Thị Yến",
@@ -276,7 +276,7 @@
           }
         },
         {
-          "imgUrl": "../../images/banner-content.jpg",
+          "imgUrl": "../../images/hr-internal-training.JPG",
           "title": "HR Internal Training",
           "info": {
             "trainer": "Nguyễn Thị Bích Huệ",
@@ -291,7 +291,7 @@
           }
         },
         {
-          "imgUrl": "../../images/bg-book.jpg",
+          "imgUrl": "../../images/japanese-club.JPG",
           "title": "Japanese Club",
           "info": {
             "trainer": "Đội Comtor",
@@ -329,7 +329,7 @@
         {
           "avatar": "../../images/avt-nguyen-ngoc-hung.jpg",
           "name": "Anh Nguyễn Ngọc Hùng",
-          "job": "Developer",
+          "job": "PM",
           "comment": "Cung cấp tài liệu bản cứng đầy đủ hơn + training kỹ năng làm việc tốt hơn cho Freshers."
         },
         {
