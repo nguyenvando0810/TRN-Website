@@ -96,7 +96,7 @@
     "speakers": {
       "title": "Speakers",
       "items": [{
-          "avatar": "../../images/avatar-speaker.jpg",
+          "avatar": "../../images/avt-default.png",
           "alt": "avatar-tung",
           "name": "Dương Thanh Tùng",
           "job": "NSx"

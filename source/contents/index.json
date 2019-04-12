@@ -141,7 +141,7 @@
     "group": {
       "heading": "Nhóm học tập",
       "items": [{
-          "imgUrl": "../../images/crazy-team1.png",
+          "imgUrl": "../../images/csharp-club.jpg",
           "title": "C# Club",
           "info": {
             "trainer": "Nguyễn Sơn Lâm",
@@ -156,7 +156,7 @@
           }
         },
         {
-          "imgUrl": "../../images/crazy-team2.png",
+          "imgUrl": "../../images/java-team.jpg",
           "title": "Java Team",
           "info": {
             "trainer": "Đỗ Quang Hưng",
@@ -171,7 +171,7 @@
           }
         },
         {
-          "imgUrl": "../../images/crazy-team3.png",
+          "imgUrl": "../../images/scrum.jpg",
           "title": "Scrum",
           "info": {
             "trainer": "Nguyễn Minh Phúc",
@@ -186,7 +186,7 @@
           }
         },
         {
-          "imgUrl": "../../images/item-news.png",
+          "imgUrl": "../../images/js-team.JPG",
           "title": "JS Team",
           "info": {
             "trainer": "Tạ Quốc Vương",
@@ -315,13 +315,13 @@
     "feedback": {
       "heading": "Phản hồi",
       "items": [{
-          "avatar": "../../images/avt-anh.jpg",
+          "avatar": "../../images/avt-bui-thi-thanh-thuy.png",
           "name": "Chị Bùi Thị Thanh Thuỷ",
           "job": "Tester",
           "comment": "Giảng viên giảng dạy kết hợp game áp dụng bài học làm cho lớp học không nhàm chán. Có phân chia nhóm giúp tăng tình đoàn kết giữa các thành viên. Và đặc biệt nhất là có đồ ăn ^_^"
         },
         {
-          "avatar": "../../images/avt-binh-minh.jpg",
+          "avatar": "../../images/avt-tran-ho-phuong.jpg",
           "name": "Anh Trần Hồ Phương",
           "job": "Phó Giám đốc - NTQ Solution",
           "comment": "Định kỳ gửi các chương trình học sắp tới cho các members, managers."
@@ -339,7 +339,7 @@
           "comment": "Chuẩn bị trang thiết bị, phòng họp và việc thông tin truyền thông đầy đủ, chính xác hơn.<br/>Báo trước lịch đào tạo và xác nhận sớm để tránh việc trùng lịch.<br/>Các lịch đào tạo cần bố trí hợp lý hơn, tránh việc 2 khóa cùng 1 thời điểm."
         },
         {
-          "avatar": "../../images/avt-huy.jpg",
+          "avatar": "../../images/avt-nguyen-quang-huy.jpg",
           "name": "Anh Nguyễn Quang Huy",
           "job": "Developer",
           "comment": "Giảng viên truyền cảm, diễn đạt thoát ý, thú vị, dễ hiểu. Chuẩn bị về cơ sở vật chất đầy đủ, chuyên nghiệp. Có nhiều hoạt động, trò chơi thú vị."

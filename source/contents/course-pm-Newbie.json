@@ -104,7 +104,7 @@
     "speakers": {
       "title": "Speakers",
       "items": [{
-          "avatar": "../../images/avatar-speaker.jpg",
+          "avatar": "../../images/avt-default.png",
           "alt": "avatar-viet",
           "name": "Lê Đức Việt",
           "job": "PM NS1"

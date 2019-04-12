@@ -113,19 +113,19 @@
     "speakers": {
       "title": "Speakers",
       "items": [{
-          "avatar": "../../images/avatar-speaker.jpg",
+          "avatar": "../../images/avt-default.png",
           "alt": "avatar-hue",
           "name": " Nguyễn Thi Huế",
           "job": "Test leader của Nash Tech, 14 năm kinh nghiệm test và quản lý, nhiều kinh nghiệm về mảng test chuyên sau và automation test"
         },
         {
-          "avatar": "../../images/avatar-speaker.jpg",
+          "avatar": "../../images/avt-default.png",
           "alt": "avatar-hue",
           "name": "Cao Thị Hà Ninh",
           "job": " Đã trải qua nhiều vị trí tester, test leader, test manager, hiện đang là PM và BrSE cho dự án Nhật, kinh nghiệm chuyên sâu với thị trường Nhật Bản"
         },
         {
-          "avatar": "../../images/avatar-speaker.jpg",
+          "avatar": "../../images/avt-default.png",
           "alt": "avatar-hue",
           "name": "Tạ Thị Thinh",
           "job": "Kinh nghiệm đào tạo thi ISTQB và chuyên về mảng Process quality assurance trong nhiều năm."

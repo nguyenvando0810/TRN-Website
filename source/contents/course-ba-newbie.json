@@ -163,7 +163,7 @@
     "speakers": {
       "title": "Speakers",
       "items": [{
-          "avatar": "../../images/avatar-speaker.jpg",
+          "avatar": "../../images/avt-default.png",
           "alt": "avatar-hang",
           "name": "Nguyễn Thị Nga",
           "job": "Thạc sĩ (Giảng viên thuê ngoài)"
