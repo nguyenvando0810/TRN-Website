@@ -1,5 +1,39 @@
 .courses {
+  padding: 60px 0 40px;
+
   &__products {
+    &-role-list {
+      display: flex;
+      list-style: none;
+      margin-bottom: 60px;
+      border-bottom: 1px solid #bbb;
+
+      li {
+        cursor: pointer;
+        display: inline-block;
+        padding: 10px 15px;
+
+        &.active {
+          border: 1px solid #bbb;
+          border-bottom: 1px solid #fafafa;
+          border-radius: 6px 6px 0 0;
+          position: relative;
+          top: 1px;
+          margin-top: -1px;
+          font-weight: 600;
+        }
+
+        &:first-child.active { color: #dc3545 };
+        &:nth-child(2).active { color: #fd7e14 };
+        &:nth-child(3).active { color: #ffc107 };
+        &:nth-child(4).active { color: #28a745 };
+        &:nth-child(5).active { color: #20c997 };
+        &:nth-child(6).active { color: #007bff };
+        &:nth-child(7).active { color: #6610f2 };
+        &:last-child.active { color: #6f42c1 };
+      }
+    }
+
     &-block {
       margin-top: -15px;
     }
@@ -24,5 +58,12 @@
       display: inline-block;
       color: #000;
     }
+  }
+
+  &__notice {
+    text-align: center;
+    font-size: 54px;
+    color: #bbb;
+    padding: 120px 0;
   }
 }

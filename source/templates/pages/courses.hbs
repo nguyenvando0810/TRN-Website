@@ -1,14 +1,26 @@
 {{#> default}}
 {{#*inline "content-body"}}
-<section class="section courses">
-   <div class="home__products box bg-light-grey">
+<section class="section courses bg-light-grey">
+   <div class="home__products">
     <div class="container">
       <div class="home__heading">
         {{contents.products.heading}}
       </div>
-      <div class="row home__products-block">
+
+      <ul class="courses__products-role-list js-role-list">
+        <li class="nav-item js-role-item active" data-role-item="all">Tất cả</li>
+        <li class="nav-item js-role-item" data-role-item="developer">Developer</li>
+        <li class="nav-item js-role-item" data-role-item="tester">Tester</li>
+        <li class="nav-item js-role-item" data-role-item="ba-tester">BA/Tester</li>
+        <li class="nav-item js-role-item" data-role-item="pm">PM</li>
+        <li class="nav-item js-role-item" data-role-item="leadership-manager">Leadership manager</li>
+        <li class="nav-item js-role-item" data-role-item="comtor">Comtor</li>
+        <li class="nav-item js-role-item" data-role-item="others">Khác</li>
+      </ul>
+
+      <div class="row home__products-block js-courses-block">
         {{#each contents.products.items}}
-          <div class="col-sm-6 col-lg-4 home__products-item" data-aos="fade-up">
+          <div class="col-sm-6 col-lg-4 home__products-item js-product-item" data-role-product="{{customer.id}}">
             <div class="home__products-img-wrapper" style="background-image: url({{imgUrl}});">
             </div>
             <div class="home__products-content">
@@ -16,6 +28,10 @@
             </div>
           </div>
         {{/each}}
+
+        <div class="container courses__notice js-course-notice">
+          <span>Hiện chưa có khoá học nào!</span>
+        </div>
       </div>
     </div>
   </div>

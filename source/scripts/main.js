@@ -73,4 +73,36 @@ $(document).ready(function(){
   $('.js-group-showall').on('click', function () {
     $('.js-group-item, .js-text-all, .js-text-short').toggleClass('all');
   });
+
+  $('.js-course-notice').slideUp();
+
+  $('.js-role-item').on('click', function () {
+    var roleItem = $(this).data('role-item');
+    var itemNo;
+
+    $('.js-role-item').removeClass('active');
+    $(this).addClass('active');
+
+    $('.js-product-item').slideUp();
+
+    $('.js-product-item').each(function() {
+      var roleProduct = $(this).data('role-product');
+
+      if (roleItem == roleProduct) {
+        $(this).slideDown();
+        itemNo = 1;
+      } else if (roleItem == 'all') {
+        $('.js-product-item').slideDown();
+        itemNo = 1;
+      }
+    });
+
+    console.log(itemNo);
+
+    if (!itemNo) {
+      $('.js-course-notice').slideDown();
+    } else {
+      $('.js-course-notice').slideUp();
+    }
+  });
 });
