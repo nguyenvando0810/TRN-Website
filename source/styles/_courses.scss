@@ -67,4 +67,63 @@
     height: 352px;
     line-height: 352px;
   }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    &__products {
+      &-role-list {
+        padding-left: 20px;
+
+        li {
+          padding: 10px;
+        }
+      }
+    }
+
+    &__notice {
+      font-size: 42px;
+      height: 338px;
+      line-height: 338px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    padding: 50px 0 25px;
+
+    &__products {
+      &-role-list {
+        padding-left: 0;
+        margin-bottom: 40px;
+        border-bottom: none;
+        overflow-x: auto;
+
+        li {
+          padding: 12px 15px;
+          white-space: nowrap;
+
+          &.active {
+            border: none;
+            background-color: #eee;
+            border-radius: 6px;
+            color: #fff !important;
+          }
+
+          &:first-child.active { background-color: #dc3545 };
+          &:nth-child(2).active { background-color: #fd7e14 };
+          &:nth-child(3).active { background-color: #ffc107 };
+          &:nth-child(4).active { background-color: #28a745 };
+          &:nth-child(5).active { background-color: #20c997 };
+          &:nth-child(6).active { background-color: #007bff };
+          &:nth-child(7).active { background-color: #6610f2 };
+          &:last-child.active { background-color: #6f42c1 };
+        }
+      }
+    }
+
+    &__notice {
+      font-size: 36px;
+      height: auto;
+      line-height: initial;
+      padding: 111px 15px;
+    }
+  }
 }

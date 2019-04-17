@@ -54,7 +54,10 @@
         {
           "imgUrl": "../../images/item-service-2.png",
           "status": "doing",
-          "customer": "Tester",
+          "customer": {
+            "id": "tester",
+            "text": "Tester"
+          },
           "title": {
             "text": "Nâng cao kỹ năng testing",
             "href": "course-advanced-testing.html",
@@ -64,7 +67,10 @@
         {
           "imgUrl": "../../images/item-service-3.png",
           "status": "doing",
-          "customer": "Developer",
+          "customer": {
+            "id": "developer",
+            "text": "Developer"
+          },
           "title": {
             "text": "Test for Dev",
             "href": "course-test-for-dev.html",
@@ -74,7 +80,10 @@
         {
           "imgUrl": "../../images/item-service-3.png",
           "status": "done",
-          "customer": "Khác",
+          "customer": {
+            "id": "others",
+            "text": "Khác"
+          },
           "title": {
             "text": "TRN DEPT - IT cơ bản",
             "href": "course-trn-it-basic.html",
@@ -84,7 +93,10 @@
         {
           "imgUrl": "../../images/item-agile-3.png",
           "status": "done",
-          "customer": "Khác",
+          "customer": {
+            "id": "others",
+            "text": "Khác"
+          },
           "title": {
             "text": "Agile Fundamentals",
             "href": "course-agile-fundamentals.html",
@@ -94,7 +106,10 @@
         {
           "imgUrl": "../../images/item-agile-pm-3.png",
           "status": "done",
-          "customer": "PM",
+          "customer": {
+            "id": "pm",
+            "text": "PM"
+          },
           "title": {
             "text": "Agile PM Newbie",
             "href": "course-agile-PM-newbie.html",
@@ -104,7 +119,10 @@
         {
           "imgUrl": "../../images/item-ba.jpg",
           "status": "done",
-          "customer": "BA/Tester",
+          "customer": {
+            "id": "ba-tester",
+            "text": "BA/Tester"
+          },
           "title": {
             "text": "BA Newbie",
             "href": "course-ba-newbie.html",
@@ -114,7 +132,10 @@
         {
           "imgUrl": "../../images/item-pm-newbie-4.jpg",
           "status": "done",
-          "customer": "PM",
+          "customer": {
+            "id": "pm",
+            "text": "PM"
+          },
           "title": {
             "text": "PM Newbie",
             "href": "course-PM-newbie.html",
@@ -124,7 +145,10 @@
         {
           "imgUrl": "../../images/item-service-3.png",
           "status": "done",
-          "customer": "Khác",
+          "customer": {
+            "id": "others",
+            "text": "Khác"
+          },
           "title": {
             "text": "TRN DEPT - Productivity Peak",
             "href": "course-trn-dept-productivity-peak.html",

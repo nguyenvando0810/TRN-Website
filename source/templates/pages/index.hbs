@@ -63,7 +63,9 @@
       </div>
       <div class="row home__group-block">
         {{#each contents.group.items}}
-          <div class="home__group-item js-group-item" data-aos="fade-up" style="background-image: url({{imgUrl}});{{#gt @index 5}}display: none;{{/gt}}">
+          <div class="col-sm-6 col-lg-4 home__group-item js-group-item" data-aos="fade-up" {{#gt @index 5}}style="display: none;"{{/gt}}>
+            <div class="home__group-background" style="background-image: url({{imgUrl}});">
+            </div>
             <div class="overlay">
               <h3 class="home__group-title">{{title}}</h3>
               <ul class="home__group-info">
