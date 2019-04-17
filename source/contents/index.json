@@ -314,6 +314,12 @@
     },
     "feedback": {
       "heading": "Phản hồi",
+      "desc": "Hãy cùng nhau mở mang đầu óc và kiến tạo sự thay đổi thực chất!",
+      "btnContact": {
+        "text": "Liên hệ",
+        "href": "#",
+        "target": "_blank"
+      },
       "items": [{
           "avatar": "../../images/avt-bui-thi-thanh-thuy.png",
           "name": "Chị Bùi Thị Thanh Thuỷ",
@@ -345,14 +351,6 @@
           "comment": "Giảng viên truyền cảm, diễn đạt thoát ý, thú vị, dễ hiểu. Chuẩn bị về cơ sở vật chất đầy đủ, chuyên nghiệp. Có nhiều hoạt động, trò chơi thú vị."
         }
       ]
-    },
-    "contact": {
-      "desc": "Hãy cùng nhau mở mang đầu óc và kiến tạo sự thay đổi thực chất!",
-      "btnContact": {
-        "text": "Liên hệ",
-        "href": "#",
-        "target": "_blank"
-      }
     }
   }
 }

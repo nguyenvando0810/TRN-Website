@@ -96,6 +96,9 @@
       <div class="home__heading" data-aos="fade-up">
         {{contents.feedback.heading}}
       </div>
+      <div class="home__feedback-desc" data-aos="fade-up">
+        {{contents.feedback.desc}}
+      </div>
       <div class="row home__feedback-block js-home-feedback" data-aos="fade-up">
         {{#each contents.feedback.items}}
           <div class="home__feedback-item">
@@ -109,15 +112,11 @@
           </div>
         {{/each}}
       </div>
-    </div>
-  </div>
-
-  <div class="home__contact box" id="contact" data-aos="fade-up">
-    <div class="container">
-      <p class="home__contact-desc">{{contents.contact.desc}}</p>
-      <a class="btn btn-custom" target="{{contents.contact.btnContact.target}}" href="{{contents.contact.btnContact.href}}">
-        <span>{{contents.contact.btnContact.text}}</span>
-      </a>
+      <div class="text-center">
+        <a class="home__feedback-contact btn btn-custom" target="{{contents.feedback.btnContact.target}}" href="{{contents.feedback.btnContact.href}}">
+          <span>{{contents.feedback.btnContact.text}}</span>
+        </a>
+      </div>
     </div>
   </div>
 

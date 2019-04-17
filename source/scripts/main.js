@@ -74,7 +74,7 @@ $(document).ready(function(){
     $('.js-group-item, .js-text-all, .js-text-short').toggleClass('all');
   });
 
-  $('.js-course-notice').slideUp();
+  $('.js-course-notice').hide();
 
   $('.js-role-item').on('click', function () {
     var roleItem = $(this).data('role-item');
@@ -83,16 +83,16 @@ $(document).ready(function(){
     $('.js-role-item').removeClass('active');
     $(this).addClass('active');
 
-    $('.js-product-item').slideUp();
+    $('.js-product-item').hide();
 
     $('.js-product-item').each(function() {
       var roleProduct = $(this).data('role-product');
 
       if (roleItem == roleProduct) {
-        $(this).slideDown();
+        $(this).show();
         itemNo = 1;
       } else if (roleItem == 'all') {
-        $('.js-product-item').slideDown();
+        $('.js-product-item').show();
         itemNo = 1;
       }
     });
@@ -100,9 +100,9 @@ $(document).ready(function(){
     console.log(itemNo);
 
     if (!itemNo) {
-      $('.js-course-notice').slideDown();
+      $('.js-course-notice').show();
     } else {
-      $('.js-course-notice').slideUp();
+      $('.js-course-notice').hide();
     }
   });
 });

@@ -214,6 +214,10 @@
       }
 
       &:hover {
+        .home__group-background {
+          transform: scale(1.2,1.2);
+        }
+
         .overlay {
           opacity: 1;
         }
@@ -291,6 +295,14 @@
 
     .home__heading {
       color: #fff;
+      margin-bottom: 5px;
+    }
+
+    &-desc {
+      color: #fff;
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 60px;
     }
 
     &-item {
@@ -374,17 +386,20 @@
         }
       }
     }
-  }
 
-  &__contact {
-    background: url(../images/bg-earth.png) no-repeat fixed bottom center;
-    background-size: cover;
-    text-align: center;
+    .btn-custom {
+      display: inline-block;
+      color: #fff;
+      border-color: #fff;
+      margin-top: 70px;
 
-    &-desc {
-      color: #003663;
-      font-size: 24px;
-      margin-bottom: 25px;
+      &:before {
+        background: #fff;
+      }
+
+      &:hover {
+        color: #1668b2;
+      }
     }
   }
 
