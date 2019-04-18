@@ -118,7 +118,7 @@
       width: 100%;
       padding-top: 70%;
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
       background-position: center;
       transition: .3s;
     }
@@ -445,7 +445,11 @@
 
     &__group {
       &-item {
-        height: 275px;
+        height: 290px;
+
+        .overlay {
+          opacity: 1;
+        }
       }
     }
 
@@ -501,6 +505,10 @@
     &__group {
       &-item {
         height: 290px;
+
+        .overlay {
+          opacity: 1;
+        }
       }
     }
 
