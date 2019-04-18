@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  // masthead slider
   $('.js-home-masthead').slick({
     infinite: true,
     slidesToShow: 1,
@@ -8,6 +9,7 @@ $(document).ready(function(){
     autoplaySpeed: 8000
   });
 
+  // feedback slider
   $('.js-home-feedback').slick({
     infinite: true,
     slidesToShow: 2,
@@ -26,10 +28,12 @@ $(document).ready(function(){
     ]
   });
 
+  // mobile toggle nvbar button
   $('.header__hamburger').on('click', function () {
     $('.header__hamburger-icon').toggleClass('open');
   });
 
+  // scrollpy & animation
   $('.js-scroll-trigger').on('click', function () {
     var target = $(this.hash);
 
@@ -47,6 +51,7 @@ $(document).ready(function(){
     $(this).parent().siblings().find('.js-scroll-trigger').removeClass('active');
   });
 
+  // info counter
   $('.js-counter').each(function() {
     var $this = $(this);
     var countTo = $this.attr('data-count');
@@ -65,17 +70,19 @@ $(document).ready(function(){
     });
   });
 
+  // clarify navbar between homepage & others
   $('.nav-item').find('.comparative').hide();
   var navitemFromHome = $('.js-home').parent().prev().find('.nav-item');
   navitemFromHome.find('.comparative').show();
   navitemFromHome.find('.absolute').hide();
 
+  // button show more/show less - group section
   $('.js-group-showall').on('click', function () {
     $('.js-group-item, .js-text-all, .js-text-short').toggleClass('all');
   });
 
+  // courses tab
   $('.js-course-notice').hide();
-
   $('.js-role-item').on('click', function () {
     var roleItem = $(this).data('role-item');
     var itemNo;
@@ -96,8 +103,6 @@ $(document).ready(function(){
         itemNo = 1;
       }
     });
-
-    console.log(itemNo);
 
     if (!itemNo) {
       $('.js-course-notice').show();

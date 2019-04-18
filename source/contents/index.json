@@ -62,6 +62,11 @@
             "text": "Nâng cao kỹ năng testing",
             "href": "course-advanced-testing.html",
             "target": "_blank"
+          },
+          "btnRegister": {
+            "text": "Đăng ký",
+            "href": "#",
+            "target": "_blank"
           }
         },
         {
@@ -74,6 +79,11 @@
           "title": {
             "text": "Test for Dev",
             "href": "course-test-for-dev.html",
+            "target": "_blank"
+          },
+          "btnRegister": {
+            "text": "Đăng ký",
+            "href": "#",
             "target": "_blank"
           }
         },
@@ -88,6 +98,11 @@
             "text": "TRN DEPT - IT cơ bản",
             "href": "course-trn-it-basic.html",
             "target": "_blank"
+          },
+          "btnRegister": {
+            "text": "Đăng ký",
+            "href": "#",
+            "target": "_blank"
           }
         },
         {
@@ -100,6 +115,11 @@
           "title": {
             "text": "Agile Fundamentals",
             "href": "course-agile-fundamentals.html",
+            "target": "_blank"
+          },
+          "btnRegister": {
+            "text": "Đăng ký",
+            "href": "#",
             "target": "_blank"
           }
         },
@@ -114,6 +134,11 @@
             "text": "Agile PM Newbie",
             "href": "course-agile-PM-newbie.html",
             "target": "_blank"
+          },
+          "btnRegister": {
+            "text": "Đăng ký",
+            "href": "#",
+            "target": "_blank"
           }
         },
         {
@@ -126,6 +151,11 @@
           "title": {
             "text": "BA Newbie",
             "href": "course-ba-newbie.html",
+            "target": "_blank"
+          },
+          "btnRegister": {
+            "text": "Đăng ký",
+            "href": "#",
             "target": "_blank"
           }
         },
@@ -140,6 +170,11 @@
             "text": "PM Newbie",
             "href": "course-PM-newbie.html",
             "target": "_blank"
+          },
+          "btnRegister": {
+            "text": "Đăng ký",
+            "href": "#",
+            "target": "_blank"
           }
         },
         {
@@ -152,6 +187,11 @@
           "title": {
             "text": "TRN DEPT - Productivity Peak",
             "href": "course-trn-dept-productivity-peak.html",
+            "target": "_blank"
+          },
+          "btnRegister": {
+            "text": "Đăng ký",
+            "href": "#",
             "target": "_blank"
           }
         }
